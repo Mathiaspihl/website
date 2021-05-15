@@ -2,6 +2,16 @@ body {
   background-color: rgb(241, 245, 247);
 }
 
+fieldset {
+    border: 1px black solid;
+}
+
+legend {
+    border: 1px black solid;
+    margin-left: 1em; 
+    padding: 0.2em 0.8em;
+}
+
 html,body{
     margin:0;
     padding:0;
