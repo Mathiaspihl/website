@@ -29,9 +29,9 @@ table {
 
 .rowheader {
     width: 100%;
-    /* border-width:thin; */
-    /* border-style:dotted; */
-    /* border-color: lightgray; */
+    /* border-width:thin;
+    border-style:solid;
+    border-color: lightgray; */
     height: 10%;
 }
 
@@ -46,14 +46,14 @@ table {
 
 .rowfooter {
     width: 100%;
-    /* border-width:thin; */
-    /* border-style:dotted; */
-    /* border-color: lightgray; */
+    border-width:thin;
+    border-style:dotted;
+    border-color: rgb(73, 71, 71);
     height: 10%;
-    background-color: #ade2ad;
+    /* background-color: #ade2ad; */
     /* color: white; */
     /* text-shadow: 2px 2px darkgreen; */
-    size: 7px;
+    font-size: small;
     
 }
 
@@ -98,7 +98,7 @@ table {
   
   .tooltip .tooltiptext {
     visibility: hidden;
-    width: 120px;
+    width: 200px;
     background-color: black;
     color: #fff;
     text-align: center;
