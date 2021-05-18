@@ -121,6 +121,7 @@ table {
 
   .endpara{
     text-align: right;
+    font-size: smaller;
   }
 
   .timestamp {
