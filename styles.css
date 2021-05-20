@@ -39,6 +39,7 @@ table {
     border-style:solid;
     border-color: lightgray; */
     height: 10%;
+    background-image: url(./images/Coffee-plain\ white.png); background-size: contain; background-repeat: no-repeat;text-indent: 50px;
 }
 
 .rowmiddle {
