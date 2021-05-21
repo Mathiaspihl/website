@@ -111,6 +111,13 @@ table {
     color: #4CAF50;
   }
 
+  .timestamp {
+
+    /* background-color: white; */
+    font-size: 10px;
+
+  }
+
   /* ##### TOOLTIP ##### */
   .tooltip {
     position: relative;
@@ -135,12 +142,28 @@ table {
   .tooltip:hover .tooltiptext {
     visibility: visible;
   }
-/* #### END TOOLTIP ### */
+/* #### TOOLTIP for IMAGES ### */
+.tooltipimg {
+  position: relative;
+  display: inline-block;
+  border-bottom: 1px dotted black;
+}
 
+.tooltipimg .tooltiptextimg {
+  visibility: hidden;
+  width: 400px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
 
-  .timestamp {
+  /* Position the tooltip */
+  position:absolute;
+  z-index: 1;
+}
 
-    /* background-color: white; */
-    font-size: 10px;
-
-  }
+.tooltipimg:hover .tooltiptextimg {
+  visibility: visible;
+}
+/* #### END ### */
