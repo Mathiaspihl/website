@@ -21,7 +21,7 @@ html,body{
     /* border:none */
     font-family: "poppins";
     background-color: rgb(239, 250, 227);
-    background-image: url("https://mathiaspihl.netlify.com/images/coffee_bg.png");
+    background-image: url(https://mathiaspihl.netlify.com/images/coffee_bg.png);
     /* background-position:left; */
     background-repeat: no-repeat;
     background-size: cover;
@@ -41,7 +41,7 @@ table {
     border-style:solid;
     border-color: lightgray; */
     height: 10%;
-    background-image: url(./images/Coffee-plain\ white.png); background-size: contain; background-repeat: no-repeat;text-indent: 50px;
+    background-image: url(https://mathiaspihl.netlify.com/images/Coffee-plain\ white.png); background-size: contain; background-repeat: no-repeat;text-indent: 50px;
 }
 
 .rowmiddle {
