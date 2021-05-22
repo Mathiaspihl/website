@@ -1,0 +1,169 @@
+
+fieldset {
+    border: 1px black solid;
+    width: 80%;
+    background-color: rgba(255, 255, 255, 0.3); /* Black w/opacity/see-through */
+}
+
+legend {
+    border: 1px black solid;
+    margin-left: 1em; 
+    padding: 0.2em 0.8em;
+    font-family: "Poppins";
+    background-color: rgba(255, 255, 255, 0.3); /* Black w/opacity/see-through */
+}
+
+
+html,body{
+    margin:0;
+    padding:0;
+    height:100%;
+    /* border:none */
+    font-family: "poppins";
+    background-color: rgb(239, 250, 227);
+    background-image: url(https://mathiaspihl.netlify.com/images/coffee_bg-50.png);
+    /* background-position:left; */
+    background-repeat: no-repeat;
+    background-size: 100% ;
+ }
+
+table {
+    width: 100%;
+    height: 100%;
+    /* border-width:thin;
+    border-style:solid;
+    border-color: rgb(14, 13, 13); */
+}
+
+.rowheader {
+    width: 100%;
+    /* border-width:thin;
+    border-style:solid;
+    border-color: lightgray; */
+    height: 10%;
+    background-image: url(https://mathiaspihl.netlify.com/images/Coffee-plain\ white.png); background-size: contain; background-repeat: no-repeat;text-indent: 50px;
+}
+
+.rowmiddle {
+    height: 90%;
+    width: 100%;
+    /* border-width:thin; */
+    /* border-style:dotted; */
+    /* border-color: rgb(209, 4, 4); */
+    vertical-align: top;
+    
+}
+
+.rowfooter {
+    width: 100%;
+    border-width:thin;
+    border-style:dotted;
+    border-color: rgb(73, 71, 71);
+    height: 10%;
+    /* background-color: #ade2ad; */
+    /* color: white; */
+    /* text-shadow: 2px 2px darkgreen; */
+    font-size: small;
+    
+}
+
+.border {
+    border: 1px solid gray;
+    padding: 8px;
+    width: 80%;
+  }
+ 
+.borderfooter {
+    border: 1px solid gray;
+    padding: 8px;
+    width: 100%;
+  } 
+  h1 {
+    text-align: left;
+    text-transform: capitalize;
+    color: #4CAF50;
+    /* text-decoration: underline; */
+    text-shadow: 2px 2px darkgreen;
+  }
+  
+  p.main {
+    /* text-indent: 25px; */
+    text-align: justify;
+    letter-spacing: 2px;
+    font-family: "poppins";
+    /* font-family: Verdana, Geneva, Tahoma, sans-serif; */
+    /* font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; */
+    margin-bottom: 30px; 
+    margin-top: 2px;
+    margin-right: 10px;
+    margin-left: 10px;
+    /* background-color: lightgray; */
+  }
+  
+  P.endpara{
+    font-family: "poppins";
+    text-align: right;
+    font-size: smaller;
+  }
+
+  a {
+    text-decoration: none;
+    color: #4CAF50;
+  }
+
+  .timestamp {
+
+    /* background-color: white; */
+    font-size: 10px;
+
+  }
+
+  /* ##### TOOLTIP ##### */
+  .tooltip {
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px dotted black;
+  }
+  
+  .tooltip .tooltiptext {
+    visibility: hidden;
+    width: 200px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+  
+    /* Position the tooltip */
+    position:absolute;
+    z-index: 1;
+  }
+  
+  .tooltip:hover .tooltiptext {
+    visibility: visible;
+  }
+/* #### TOOLTIP for IMAGES ### */
+.tooltipimg {
+  position: relative;
+  display: inline-block;
+  border-bottom: 1px dotted black;
+}
+
+.tooltipimg .tooltiptextimg {
+  visibility: hidden;
+  width: 400px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+
+  /* Position the tooltip */
+  position:absolute;
+  z-index: 1;
+}
+
+.tooltipimg:hover .tooltiptextimg {
+  visibility: visible;
+}
+/* #### END ### */
