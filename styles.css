@@ -107,6 +107,18 @@ table {
     /* font-size: smaller; */
   }
 
+  p.bookmark {
+    /* text-indent: 25px; */
+    text-align: justify;
+    letter-spacing: 2px;
+    font-family: "poppins";
+    margin-bottom: 5px; 
+    margin-top: 2px;
+    margin-right: 10px;
+    margin-left: 10px;
+    /* background-color: lightgray; */
+  }
+
   a {
     /* font-family: "Poppins"; */
     text-decoration: none;
@@ -177,6 +189,7 @@ table {
   /* font-size: 14px; */
   font-family: "Poppins";
   border: none;
+  min-width: 160px;
 }
 .dropup {
   position: relative;
