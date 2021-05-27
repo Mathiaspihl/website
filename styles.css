@@ -3,6 +3,14 @@ fieldset {
     border: 1px black solid;
     width: 80%;
     background-color: rgba(255, 255, 255, 0.3); /* Black w/opacity/see-through */
+    margin-bottom: 5px;
+}
+
+.fieldsetnested {
+  border: 1px black dotted;
+  width: 95%;
+  background-color: rgba(255, 255, 255, 0.3); /* Black w/opacity/see-through */
+  margin-bottom: 5px;
 }
 
 legend {
@@ -118,6 +126,7 @@ table {
     margin-left: 10px;
     /* background-color: lightgray; */
   }
+
 
   a {
     /* font-family: "Poppins"; */
