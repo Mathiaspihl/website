@@ -30,7 +30,7 @@ html,body{
     font-family: "poppins";
     font-size: 14px;
     background-color: rgb(239, 250, 227);
-    background-image: url(https://www.mathiaspihl.com/images/coffee_bg-50-mini.png);
+    background-image: url(https://mathiaspihl.com/images/coffee_bg-50-mini.png);
     /* background-position:left; */
     background-repeat: no-repeat;
     background-size: 100% ;
@@ -50,7 +50,7 @@ table {
     border-style:solid;
     border-color: lightgray; */
     height: 10%;
-    background-image: url(https://www.mathiaspihl.com/images/Coffee-mug.png); background-size: contain; background-repeat: no-repeat;text-indent: 50px;
+    background-image: url(https://mathiaspihl.com/images/Coffee-mug.png); background-size: contain; background-repeat: no-repeat;text-indent: 50px;
 }
 
 .rowmiddle {
