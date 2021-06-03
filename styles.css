@@ -209,9 +209,11 @@ table {
   display: none;
   position: absolute;
   background-color: rgb(207, 233, 180);
-  min-width: 160px;
+  min-width: 170px;
   bottom: 40px;
   z-index: 1;
+  max-height: 300px;
+  overflow-y: scroll;
 }
 
 .dropup-content a {
