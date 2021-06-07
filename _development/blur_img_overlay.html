@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+.container {
+  position: relative;
+  width: 100%;
+  max-width: 50px;
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .3s ease;
+  
+}
+
+.container:hover .overlay {
+  opacity: 0.7;
+}
+
+.blur {
+  filter: blur(5px);
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+
+</style>
+</head>
+<body>
+
+<h2>Fade in Overlay Blur</h2>
+<p>Hover over the image to see the effect.</p>
+
+<div class="container">
+  <img src="../images/Coffee-mug.png" alt="Avatar" class="image">
+  <div class="overlay">
+  <a href="#" class="blur" title="Blury face...">
+    <img src="../images/Coffee-mug.png" alt="Avatar" class="blur">
+  </a>
+  </div>
+</div>
+
+</body>
+</html>
+
