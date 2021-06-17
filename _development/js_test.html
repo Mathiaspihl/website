@@ -5,14 +5,37 @@
 <h2>json Test</h2>
 
 
+<div id="myData"></div>
+
 <script>
 
-fetch('https://api.openweathermap.org/data/2.5/onecall?lat=51.2912&units=metric&lang=se&lon=4.49182&exclude=minutly&appid=51db22e68e6c12150d8ca91ff10ed428')
-  .then(response => response.json())
-  .then(data => console.log(data));  
+    function appendData(data) {
+      var mainContainer = document.getElementById("myData");
+      for (var i = 0; i < data.length; i++) {
+        var div = document.createElement("div");
+        div.innerHTML = 'Name: ' + data[i].firstName + ' ' + data[i].lastName;
+        mainContainer.appendChild(div);
+      }
+    }
+
+
+
+    fetch('https://api.openweathermap.org/data/2.5/onecall?lat=51.2912&units=metric&lang=se&lon=4.49182&exclude=minutly&appid=51db22e68e6c12150d8ca91ff10ed428')
+      .then(function (response) {
+        return response.json();
+      })
+      .then(function (data) {
+        appendData(data);
+      })
+      .catch(function (err) {
+        console.log(err);
+      });
   
-}
+    
 </script>
+
+
+
 
 </body>
 </html>
