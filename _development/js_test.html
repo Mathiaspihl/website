@@ -9,23 +9,6 @@
 
 <script>
 
-
-
-    function appendData(data) {
-    
-    document.write("appendData function...<br>");
-    document.write("length of data:" + data.length);
-    
-      var mainContainer = document.getElementById("myData");
-      for (var i = 0; i < data.length; i++) {
-        var div = document.createElement("div");
-        div.innerHTML = 'temp: ' + data[i].temp + ' - ' + data[i].timezone;
-        mainContainer.appendChild(div);
-      }
-    }
-
-
-
     fetch('https://api.openweathermap.org/data/2.5/onecall?lat=51.2912&units=metric&lang=se&lon=4.49182&exclude=minutly&appid=51db22e68e6c12150d8ca91ff10ed428')
       .then(function (response) {
         return response.json();
@@ -38,6 +21,18 @@
       });
   
     
+    function appendData(data) {
+    
+    document.write("appendData function...<br>");
+    document.write("length of data:" + data.length);
+    
+      var mainContainer = document.getElementById("myData");
+      for (var i = 0; i < data.length; i++) {
+        var div = document.createElement("div");
+        div.innerHTML = 'temp: ' + data[i].temp + ' - ' + data[i].timezone;
+        mainContainer.appendChild(div);
+      }
+    }
 </script>
 
 
