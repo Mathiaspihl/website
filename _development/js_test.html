@@ -9,9 +9,11 @@
 
 <script>
 
-var data = 'https://api.openweathermap.org/data/2.5/onecall?lat=51.2912&units=metric&lang=se&lon=4.49182&exclude=minutly&appid=51db22e68e6c12150d8ca91ff10ed428';
+
 
     function appendData(data) {
+    
+    document.write("appendData function...);
       var mainContainer = document.getElementById("myData");
       for (var i = 0; i < data.length; i++) {
         var div = document.createElement("div");
@@ -22,7 +24,7 @@ var data = 'https://api.openweathermap.org/data/2.5/onecall?lat=51.2912&units=me
 
 
 
-    fetch(data)
+    fetch('https://api.openweathermap.org/data/2.5/onecall?lat=51.2912&units=metric&lang=se&lon=4.49182&exclude=minutly&appid=51db22e68e6c12150d8ca91ff10ed428')
       .then(function (response) {
         return response.json();
       })
