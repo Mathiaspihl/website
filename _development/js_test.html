@@ -7,7 +7,8 @@
     <title>JSON Test</title>
 </head>
 <body>
-    <div id="myData"></div>
+    <div id="myData">my div...</div>
+    
     <script>
 /*      fetch('https://api.openweathermap.org/data/2.5/onecall?lat=51.2912&units=metric&lang=se&lon=4.49182&exclude=minutly&appid=51db22e68e6c12150d8ca91ff10ed428')    */
         fetch('json_test.json')
@@ -23,6 +24,8 @@
         function appendData(data) {
             document.write("appendData...<br>");
             var mainContainer = document.getElementById("myData");
+            
+            document.write("data has the length of " + data.length);
 
             for (var i = 0; i < data.length; i++) {
                 var div = document.createElement("div");
