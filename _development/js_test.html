@@ -13,7 +13,9 @@
 
     function appendData(data) {
     
-    document.write("appendData function...");
+    document.write("appendData function...<br>");
+    document.write("length of data:" + data.length);
+    
       var mainContainer = document.getElementById("myData");
       for (var i = 0; i < data.length; i++) {
         var div = document.createElement("div");
