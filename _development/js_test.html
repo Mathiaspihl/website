@@ -9,7 +9,8 @@
 <body>
     <div id="myData"></div>
     <script>
-        fetch('https://api.openweathermap.org/data/2.5/onecall?lat=51.2912&units=metric&lang=se&lon=4.49182&exclude=minutly&appid=51db22e68e6c12150d8ca91ff10ed428')
+/*      fetch('https://api.openweathermap.org/data/2.5/onecall?lat=51.2912&units=metric&lang=se&lon=4.49182&exclude=minutly&appid=51db22e68e6c12150d8ca91ff10ed428')    */
+        fetch('json_test.json')
             .then(function (response) {
                 return response.json();
             })
