@@ -10,14 +10,11 @@
 <p id="demo"></p>
 
 <script>
-function myFunction() {
-  var txt;
-  if (confirm("Press a button!")) {
-    txt = "You pressed OK!";
-  } else {
-    txt = "You pressed Cancel!";
-  }
-  document.getElementById("demo").innerHTML = txt;
+
+fetch('https://api.openweathermap.org/data/2.5/onecall?lat=51.2912&units=metric&lang=se&lon=4.49182&exclude=minutly&appid=51db22e68e6c12150d8ca91ff10ed428')
+  .then(response => response.json())
+  .then(data => console.log(data));  
+  
 }
 </script>
 
