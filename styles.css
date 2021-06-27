@@ -182,12 +182,13 @@ table {
 .tooltipimg .tooltiptextimg {
   visibility: hidden;
   width: 400px;
+  height: auto;
   background-color: black;
   color: #fff;
-  text-align: left;
+  text-align:left;
   border-radius: 6px;
-  padding: 5px 0;
-
+  padding: 5px 5px;
+  
   /* Position the tooltip */
   position:absolute;
   z-index: 1;
