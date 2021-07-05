@@ -203,20 +203,23 @@ table {
 }
 /* #### END ### */
 
-/* ##### TOOLTIP 2 ######### */
-.tooltip2 {
+/* ##### tooltip2 ######### */
+/* 
+http://www.menucool.com/tooltip/css-tooltip
+ */
+ .tooltip2 {
   display:inline-block;
   position:relative;
   border-bottom:1px dotted #666;
   text-align:left;
 }
 
-.tooltip2 .top {
+.tooltip2 .bottom {
   min-width:200px; 
   max-width:400px;
-  top:-20px;
+  top:20px;
   left:50%;
-  transform:translate(-50%, -100%);
+  transform:translate(-50%, 0);
   padding:10px 20px;
   color:#444444;
   background-color:#EEEEEE;
@@ -230,13 +233,13 @@ table {
   display:none;
 }
 
-.tooltip2:hover .top {
+.tooltip2:hover .bottom {
   display:block;
 }
 
-.tooltip2 .top i {
+.tooltip2 .bottom i {
   position:absolute;
-  top:100%;
+  bottom:100%;
   left:50%;
   margin-left:-12px;
   width:24px;
@@ -244,17 +247,16 @@ table {
   overflow:hidden;
 }
 
-.tooltip2 .top i::after {
+.tooltip2 .bottom i::after {
   content:'';
   position:absolute;
   width:12px;
   height:12px;
   left:50%;
-  transform:translate(-50%,-50%) rotate(45deg);
+  transform:translate(-50%,50%) rotate(45deg);
   background-color:#EEEEEE;
   box-shadow:0 1px 8px rgba(0,0,0,0.5);
 }
-
 /* ###################### */
 
 
