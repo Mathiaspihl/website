@@ -157,12 +157,20 @@ table {
   
   .tooltip .tooltiptext {
     visibility: hidden;
-    width: 200px;
+    /* display: none; */
+    /* width: 200px; */
+    min-width: 100px;
+    max-width: 400px;
+    font-size: 13px;
     background-color: black;
     color: #fff;
     text-align: center;
-    border-radius: 6px;
-    padding: 5px 0;
+    border-radius: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    box-shadow:0 1px 8px rgba(139, 139, 139, 0.9);
   
     /* Position the tooltip */
     position:absolute;
@@ -171,6 +179,7 @@ table {
   
   .tooltip:hover .tooltiptext {
     visibility: visible;
+    /* display:block; */
   }
 /* #### TOOLTIP for IMAGES ### */
 .tooltipimg {
@@ -181,17 +190,19 @@ table {
 
 .tooltipimg .tooltiptextimg {
   visibility: hidden;
-  width: 400px;
+  min-width: 200px;
+  max-width: 400px;
   height: auto;
   background-color: black;
   color: #fff;
   text-align:left;
-  border-radius: 6px;
+  border-radius: 5px;
   /*padding: 5px 5px;*/
   padding-top: 2px;
   padding-bottom: 2px;
   padding-left: 5px;
   padding-right: 5px;
+  box-shadow:0 1px 8px rgba(139, 139, 139, 0.9);
 
   /* Position the tooltip */
   position:absolute;
