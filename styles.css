@@ -124,9 +124,9 @@ table {
     /* font-size: smaller; */
   }
 
-  p.bookmark {
+  .bookmark {
     /* text-indent: 25px; */
-    text-align: justify;
+    text-align: left;
     letter-spacing: 2px;
     font-family: "poppins";
     margin-bottom: 5px; 
@@ -157,6 +157,7 @@ table {
   }
   
   .tooltip .tooltiptext {
+    /* font-family: "Poppins"; */
     visibility: hidden;
     /* display: none; */
     /* width: 200px; */
