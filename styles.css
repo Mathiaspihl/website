@@ -104,9 +104,9 @@ table {
     text-shadow: 2px 2px darkgreen;
   }
   
-  p.main {
+  .main {
     /* text-indent: 25px; */
-    text-align: justify;
+    text-align: left;
     letter-spacing: 2px;
     font-family: "poppins";
     /* font-family: Verdana, Geneva, Tahoma, sans-serif; */
@@ -118,7 +118,7 @@ table {
     /* background-color: lightgray; */
   }
   
-  P.endpara{
+  .endpara{
     font-family: "poppins";
     text-align: right;
     /* font-size: smaller; */
@@ -157,7 +157,6 @@ table {
   }
   
   .tooltip .tooltiptext {
-    /* font-family: "Poppins"; */
     visibility: hidden;
     /* display: none; */
     /* width: 200px; */
@@ -172,7 +171,7 @@ table {
     padding-right: 5px;
     padding-top: 2px;
     padding-bottom: 2px;
-    box-shadow:0 1px 8px rgba(139, 139, 139, 0.9);
+    box-shadow:0 1px 8px rgba(14, 13, 13, 0.9);
   
     /* Position the tooltip */
     position:absolute;
@@ -205,7 +204,7 @@ table {
   padding-bottom: 2px;
   padding-left: 5px;
   padding-right: 5px;
-  box-shadow:0 1px 8px rgba(139, 139, 139, 0.9);
+  box-shadow:0 1px 8px rgba(14, 13, 13, 0.9);
 
   /* Position the tooltip */
   position:absolute;
