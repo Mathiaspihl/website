@@ -1,4 +1,5 @@
 # website
 
 ## What it is
-This is, for now, just a little static content test site...
+
+This is the site hosted on https://www.mathiaspihl.com
