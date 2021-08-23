@@ -124,6 +124,14 @@ table {
     /* font-size: smaller; */
   }
 
+  .translate{
+    font-family: "poppins";
+    text-align: right;
+    font-size: smaller;
+    white-space: nowrap;
+
+  }
+
   .bookmark {
     /* text-indent: 25px; */
     text-align: left;
