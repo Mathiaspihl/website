@@ -170,7 +170,7 @@ table {
     visibility: hidden;
     /* display: none; */
     /* width: 200px; */
-    min-width: 100px;
+    min-width: 200px;
     max-width: 400px;
     font-size: 13px;
     background-color: black;
@@ -201,7 +201,7 @@ table {
 
 .tooltipimg .tooltiptextimg {
   visibility: hidden;
-  min-width: 200px;
+  min-width: 300px;
   max-width: 400px;
   height: auto;
   font-size: 13px;
