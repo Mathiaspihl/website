@@ -206,7 +206,7 @@ table {
   font-family: 'Poppins', sans-serif;
   letter-spacing: normal;
   visibility: hidden;
-  min-width: 300px;
+  min-width: 200px;
   max-width: 400px;
   height: auto;
   font-size: 13px;
