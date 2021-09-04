@@ -121,13 +121,14 @@ table {
   
   .endpara{
     font-family: 'Poppins', sans-serif;
-    /* font-family: Verdana, Geneva, Tahoma, sans-serif; */
+    letter-spacing: normal;
     text-align: right;
     /* font-size: smaller; */
   }
 
   .translate{
     font-family: 'Poppins', sans-serif;
+    letter-spacing: normal;
     text-align: right;
     font-size: smaller;
     white-space: nowrap;
@@ -167,10 +168,12 @@ table {
   }
   
   .tooltip .tooltiptext {
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: normal;
     visibility: hidden;
     /* display: none; */
     /* width: 200px; */
-    min-width: 200px;
+    min-width: 100px;
     max-width: 400px;
     font-size: 13px;
     background-color: black;
@@ -200,6 +203,8 @@ table {
 }
 
 .tooltipimg .tooltiptextimg {
+  font-family: 'Poppins', sans-serif;
+  letter-spacing: normal;
   visibility: hidden;
   min-width: 300px;
   max-width: 400px;
