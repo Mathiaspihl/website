@@ -36,7 +36,11 @@ legend {
     background-color: rgba(255, 255, 255, 0.3); /* Black w/opacity/see-through */
 }
 
+:target{
+border: 2px dotted #666;
+background-color: greenyellow;
 
+}
 html,body{
     margin:0;
     padding:0;
