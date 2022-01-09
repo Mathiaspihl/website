@@ -70,8 +70,8 @@ table {
     border-style:solid;
     border-color: lightgray; */
     height: 10%;
-    /*background-image: url(https://www.mathiaspihl.com/images/Coffee-mug.png); background-size: contain; background-repeat: no-repeat;text-indent: 50px;*/
-    background-image: url(https://www.mathiaspihl.com/images/xmas_mug.png); background-size: contain; background-repeat: no-repeat;text-indent: 70px;
+    background-image: url(https://www.mathiaspihl.com/images/Coffee-mug.png); background-size: contain; background-repeat: no-repeat;text-indent: 50px;
+    /*background-image: url(https://www.mathiaspihl.com/images/xmas_mug.png); background-size: contain; background-repeat: no-repeat;text-indent: 70px;*/
     /*background-image: url(./images/green-mug.png); background-size: contain; background-repeat: no-repeat;text-indent: 70px;*/
 }
 
