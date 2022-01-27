@@ -2,3 +2,6 @@ User-agent: *
 Disallow: /_development/
 Disallow: /.vscode/
 Disallow: /images/
+
+Sitemap: https://www.mathiaspihl.com/sitemap.xml
+Sitemap: https://www.mathiaspihl.com/sitemap_archive.xml
