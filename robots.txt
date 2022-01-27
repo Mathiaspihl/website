@@ -1,5 +1,4 @@
 User-agent: *
 Disallow: /_development/
 Disallow: /.vscode/
-Disallow: /fontawesome/
 Disallow: /images/
