@@ -155,7 +155,20 @@
 						Some chores were done and then we went for a nice walk in the neighbourhood. Nice to explore an area just "around the corner" from where we live. See the sun and breath the air for a while.
 					</p>
 
-					
+
+					<p class="main" style="margin-bottom: 10px;">
+						<i class="fas fa-check"></i>
+						<i class="tooltip"><i style="font-size:20px;" class="fab fa-raspberry-pi"></i><span class="tooltiptext">Time for OS upgrade for one of my Raspberry Pi computers...</span></i> 
+						<i class="tooltip"><i style="font-size:20px;" class="fa fa-clock"></i><span class="tooltiptext">16:22:28 CET</span></i>
+						One thing led to another, not sure how it was anymore, but I took the decision to upgrade the OS on one of my Raspberry Pi computers. I believe it's one of my very first, the greatest workhorse of them all. It's running a complete "LAMP" (Apache, MySQL and PHP) environment, Pi camera surveillance, Document management system and some other things. So, doing an OS upgrade is always a big and scary thing to do start with (same struggle at work) as there will be upgrades done on dependent systems out of my control in such an environment.
+						<!-- https://dev.mysql.com/doc/refman/5.7/en/mysql-upgrade.html -->
+					</p>
+					<p class="main" style="margin-bottom: 10px;">
+						I just said <i style="font-size: 20px;" class="fas fa-volume-off"></i> it and started the <a href="https://www.raspberrypi.com/news/buster-the-new-version-of-raspbian/">upgrade</a> (not to the latest version, I just kept it to the next one). I felt like Zeb Macahan, shoot from the hip, when I launched it. It an easy operation, just update <code>/etc/apt/sources.list</code> and files in <code>/etc/apt/sources.list.d/</code> folder and run an apt update and it's done. Hours later, the process ended without a hitch. Was it too good to be true, or was it really a success? It was actually all looking fine and I could go to sleep.
+					</p>
+					<p class="main">
+						Today, after going through the syslog, I noticed that one of my own developed processes (extracting meta text from attachments into the database making it searchable with OCR functionalities) gave an exception. Stopped working thus. It turned out that, another long story I save from you, that the Mysql database was upgraded to MariaDB (in reality, same thing just another version) and one of my queries in the Python program failed. I debugged the exception message and found that I needed to run <a href="https://dev.mysql.com/doc/refman/5.7/en/mysql-upgrade.html">"mysql_upgrade"</a>. It did its magic and I could successfully execute the Python program. Cool! I wonder if there there will be more issues that unexpectedly will turn up... 
+					</p>
 
 					<!-- https://en.wikipedia.org/wiki/January_30 -->
 					<p class="main" id="didyouknow">
