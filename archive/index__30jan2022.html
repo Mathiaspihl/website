@@ -21,7 +21,7 @@
 	<link rel="stylesheet" href="./styles.css">
 
 
-	<title>.: The Daily Page :.</title>
+	<title>.: The Daily Page - Jan 30th 2022 :.</title>
 </head>
 
 
@@ -135,29 +135,47 @@
 			<td class="rowmiddle">
 				<!-- <center> -->
 				<fieldset>
-					<legend>31st of January 2022</legend>
+					<legend>30th of January 2022</legend>
 					
 					<p class="main" style="margin-bottom: 10px;">
 						<i class="fas fa-check"></i>
-						<i class="tooltip"><i style="font-size:20px;" class="fa fa-clock"></i><span class="tooltiptext">14:37:58 CET</span></i>
-						It's a grey, rainy and windy day - overall shitty weather - today. I'll better prepare a fresh pot of coffee before the call soon.
+						<i class="tooltip"><i style="font-size:20px;" class="fa fa-clock"></i><span class="tooltiptext">15:52:18 CET</span></i>
+						Enjoyed the Sunday breakfast this morning with coffee of a new brand. Yes indeed, shocking news <i style="font-size: 20px;" class="far fa-grin-tongue-wink"></i>. It's not home ground coffee (it's from <a href="https://www.bofrost.be/search?text=KOFFIE&userInput=koffie&queryFromSuggest=true">Bofrost</a>) this time. 
 					</p>
 
-					<p class="main"  style="margin-bottom: 10px;">
-						Concerning the weather and how windy it is; I was just out trying to anchoring the terrace tent that is almost taking off <i style="font-size: 20px;" class="fas fa-plane-departure"></i> to our neighbours. <i style="font-size: 20px;" class="far fa-surprise"></i> Also, Mocka - our street cat - hates the wind and gets really scared. 
+					<p class="main" style="margin-bottom: 10px;">
+						The breakfast gave us some time to process and discuss the nice dinner we had with our neighbour ladies M and D yesterday. It felt like the reality of next week was in a constructive perspective and we could laugh and enjoy each others company. And, of course, the great food and drinks!
+					</p>
+
+					<p class="main" style="margin-bottom: 10px;">
+						It was also nice to have J with us around the table. As a parent, it gave a special feeling and the timing was perfect.
 					</p>
 
 					<p class="main">
-						OK, the coffee is ready and I have to go into the call.
+						Some chores were done and then we went for a nice walk in the neighbourhood. Nice to explore an area just "around the corner" from where we live. See the sun and breath the air for a while.
 					</p>
 
 
-					<!-- https://en.wikipedia.org/wiki/January_31 -->
+					<p class="main" style="margin-bottom: 10px;">
+						<i class="fas fa-check"></i>
+						<i class="tooltip"><i style="font-size:20px;" class="fab fa-raspberry-pi"></i><span class="tooltiptext">Time for OS upgrade for one of my Raspberry Pi computers...</span></i> 
+						<i class="tooltip"><i style="font-size:20px;" class="fa fa-clock"></i><span class="tooltiptext">18:34:41 CET</span></i>
+						One thing led to another, not sure how it was anymore, but I took the decision to upgrade the OS on one of my Raspberry Pi computers. I believe it's one of my very first, the greatest workhorse of them all. It's running a complete "LAMP" (Apache, MySQL and PHP) environment, Pi camera surveillance, Document management system and some other things. So, doing an OS upgrade is always a big and scary thing to do start with (same struggle at work) as there will be upgrades done on dependent systems out of my control in such an environment.
+						<!-- https://dev.mysql.com/doc/refman/5.7/en/mysql-upgrade.html -->
+					</p>
+					<p class="main" style="margin-bottom: 10px;">
+						I just said <i style="font-size: 20px;" class="fas fa-volume-off"></i> it and started the <a href="https://www.raspberrypi.com/news/buster-the-new-version-of-raspbian/">upgrade</a> (not to the latest version, I just kept it to the next one). I felt like Zeb Macahan, shoot from the hip, when I launched it. It an easy operation, just update <code>/etc/apt/sources.list</code> and files in <code>/etc/apt/sources.list.d/</code> folder and run an apt update and it's done. Hours later, the process ended without a hitch. Was it too good to be true, or was it really a success? It was actually all looking fine and I could go to sleep.
+					</p>
+					<p class="main">
+						Today, after going through the syslog, I noticed that one of my own developed processes (extracting meta text from attachments into the database making it searchable with OCR functionalities) gave an exception. Stopped working thus. It turned out that, another long story I save from you, that the Mysql database was upgraded to MariaDB (in reality, same thing just another version) and one of my queries in the Python program failed. I debugged the exception message and found that I needed to run <a href="https://dev.mysql.com/doc/refman/5.7/en/mysql-upgrade.html">"mysql_upgrade"</a>. It did its magic and I could successfully execute the Python program. Cool! I wonder if there there will be more issues that unexpectedly will turn up... 
+					</p>
+
+					<!-- https://en.wikipedia.org/wiki/January_30 -->
 					<p class="main" id="didyouknow">
 						<i class="fas fa-check"></i>
 						<i class="tooltip"><i style="font-size:20px;" class="far fa-lightbulb"></i><span class="tooltiptext">Did you know?</span></i>
-						<i class="tooltip"><i style="font-size:20px;" class="fa fa-clock"></i><span class="tooltiptext">14:38:52 CET</span></i>
-						Did you know... that today in 1945 US Army private <a href="https://en.wikipedia.org/wiki/Eddie_Slovik">Eddie Slovik</a> is executed for desertion, the first such execution of an American soldier since the Civil War.
+						<i class="tooltip"><i style="font-size:20px;" class="fa fa-clock"></i><span class="tooltiptext">15:52:43 CET</span></i>
+						Did you know... that today in 1969 the Beatles' last public performance, on the roof of Apple Records in London. The <a href="https://en.wikipedia.org/wiki/The_Beatles%27_rooftop_concert">impromptu concert</a> is broken up by the police.
 					</p>
 					
 
@@ -229,8 +247,7 @@
 								<button class="dropbtn">Posts</button>
 								<div class="dropup-content">
 									<a target="_self" href="/index.html">Today</a>
-									<a target="_self" href="/archive/index__30jan2022.html">Yesterday</a>
-									<a target="_self" href="/archive/index__29jan2022.html">Jan 29th</a>
+									<a target="_self" href="/archive/index__29jan2022.html">Yesterday</a>
 									<a target="_self" href="/archive/index__29jan2022.html">Jan 28th</a>
 									<a target="_self" href="/archive/index__27jan2022.html">Jan 27th</a>
 									<a target="_self" href="/archive/index__26jan2022.html">Jan 26th</a>
