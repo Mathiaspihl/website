@@ -211,6 +211,13 @@ table {
     visibility: visible;
     /* display:block; */
   }
+
+
+.img-shadow {
+  box-shadow:0 1px 8px rgba(14, 13, 13, 0.9);
+  border-radius: 20px;
+}
+
 /* #### TOOLTIP for IMAGES ### */
 .tooltipimg {
   position: relative;
