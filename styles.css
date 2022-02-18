@@ -219,9 +219,8 @@ table {
 }
 
 .img-mask {
-  /*-webkit-mask-image: linear-gradient(black, transparent);*/
-  mask-image: linear-gradient(195deg, black 0%, gray 100%);
-  /*background-image: linear-gradient(195deg, #EC407A 0%, #D81B60 100%);*/
+  -webkit-mask-image: linear-gradient(195deg, black 0%, gray 100%);
+  background-image: linear-gradient(195deg, black 0%, gray 100%);
 }
 
 /* #### TOOLTIP for IMAGES ### */
