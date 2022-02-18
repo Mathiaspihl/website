@@ -221,7 +221,7 @@ table {
 .img-mask {
   /*-webkit-mask-image: linear-gradient(black, transparent);
   mask-image: linear-gradient(black, transparent);*/
-  background-image: radial-gradient(circle, white, gray, transparent);
+  background-image: radial-gradient(circle, red, pink, transparent);
 }
 
 /* #### TOOLTIP for IMAGES ### */
