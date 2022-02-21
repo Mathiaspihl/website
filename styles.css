@@ -224,11 +224,11 @@ table {
   position: relative;
   display: inline-block;
   border-bottom: 1px dotted black;
+  color: #4CAF50;
 }
 
 .tooltipimg .tooltiptextimg {
   font-family: 'Poppins', sans-serif;
-  color: #4CAF50;
   letter-spacing: normal;
   visibility: hidden;
   min-width: 200px;
