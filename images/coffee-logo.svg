@@ -1,0 +1,564 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="1920"
+   height="1080"
+   viewBox="0 0 1920 1080"
+   version="1.1"
+   id="svg5"
+   inkscape:version="1.1.1 (3bf5ae0d25, 2021-09-20)"
+   sodipodi:docname="coffee-logo.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="px"
+     showgrid="false"
+     inkscape:zoom="1.6042485"
+     inkscape:cx="1134.4876"
+     inkscape:cy="571.29553"
+     inkscape:window-width="1920"
+     inkscape:window-height="1027"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs2">
+    <filter
+       style="color-interpolation-filters:sRGB;"
+       inkscape:label="Drop Shadow"
+       id="filter9463"
+       x="-0.00030448126"
+       y="-0.0018588451"
+       width="1.0103236"
+       height="1.054239">
+      <feFlood
+         flood-opacity="0.498039"
+         flood-color="rgb(0,0,0)"
+         result="flood"
+         id="feFlood9453" />
+      <feComposite
+         in="flood"
+         in2="SourceGraphic"
+         operator="in"
+         result="composite1"
+         id="feComposite9455" />
+      <feGaussianBlur
+         in="composite1"
+         stdDeviation="0.035260253"
+         result="blur"
+         id="feGaussianBlur9457" />
+      <feOffset
+         dx="2.7"
+         dy="2.3"
+         result="offset"
+         id="feOffset9459" />
+      <feComposite
+         in="SourceGraphic"
+         in2="offset"
+         operator="over"
+         result="composite2"
+         id="feComposite9461" />
+    </filter>
+    <meshgradient
+       inkscape:collect="always"
+       id="meshgradient12461"
+       gradientUnits="userSpaceOnUse"
+       x="943.896"
+       y="512.49738">
+      <meshrow
+         id="meshrow12463">
+        <meshpatch
+           id="meshpatch12465">
+          <stop
+             path="c 92.6435,0  185.287,0  277.93,0"
+             style="stop-color:#ffffff;stop-opacity:1"
+             id="stop12467" />
+          <stop
+             path="c 0,15.1751  0,30.3502  0,45.5254"
+             style="stop-color:#000000;stop-opacity:1"
+             id="stop12469" />
+          <stop
+             path="c -92.6435,0  -185.287,0  -277.93,0"
+             style="stop-color:#ffffff;stop-opacity:1"
+             id="stop12471" />
+          <stop
+             path="c 0,-15.1751  0,-30.3502  0,-45.5254"
+             style="stop-color:#000000;stop-opacity:1"
+             id="stop12473" />
+        </meshpatch>
+      </meshrow>
+    </meshgradient>
+    <filter
+       inkscape:collect="always"
+       style="color-interpolation-filters:sRGB;"
+       id="filter12745"
+       x="-0.13793313"
+       y="-0.17055027"
+       width="1.2758663"
+       height="1.3411005"
+       inkscape:label="Button"
+       inkscape:menu="Bevels"
+       inkscape:menu-tooltip="Soft bevel, slightly depressed middle">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="0.0025389229"
+         id="feGaussianBlur12747"
+         result="fbSourceGraphic" />
+      <feColorMatrix
+         result="fbSourceGraphicAlpha"
+         in="fbSourceGraphic"
+         values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"
+         id="feColorMatrix13195" />
+      <feGaussianBlur
+         id="feGaussianBlur13197"
+         stdDeviation="2.3"
+         in="fbSourceGraphicAlpha"
+         result="result0" />
+      <feMorphology
+         id="feMorphology13199"
+         in="fbSourceGraphicAlpha"
+         radius="6.6"
+         result="result1" />
+      <feGaussianBlur
+         id="feGaussianBlur13201"
+         stdDeviation="8.9"
+         in="result1" />
+      <feColorMatrix
+         id="feColorMatrix13203"
+         values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 0.3 0"
+         result="result91" />
+      <feComposite
+         in2="result91"
+         id="feComposite13205"
+         in="result0"
+         operator="out"
+         result="result2" />
+      <feGaussianBlur
+         id="feGaussianBlur13207"
+         stdDeviation="1.7"
+         result="result4" />
+      <feDiffuseLighting
+         id="feDiffuseLighting13209"
+         surfaceScale="10"
+         result="result92">
+        <feDistantLight
+           id="feDistantLight13211"
+           azimuth="225"
+           elevation="45" />
+      </feDiffuseLighting>
+      <feBlend
+         in2="fbSourceGraphic"
+         id="feBlend13213"
+         mode="multiply"
+         result="result93" />
+      <feComposite
+         in2="fbSourceGraphicAlpha"
+         id="feComposite13215"
+         operator="in"
+         result="result3" />
+      <feSpecularLighting
+         id="feSpecularLighting13217"
+         in="result4"
+         surfaceScale="5"
+         specularExponent="17.9"
+         result="result94">
+        <feDistantLight
+           id="feDistantLight13219"
+           azimuth="225"
+           elevation="45" />
+      </feSpecularLighting>
+      <feComposite
+         in2="result3"
+         id="feComposite13221"
+         operator="atop" />
+    </filter>
+    <filter
+       style="color-interpolation-filters:sRGB;"
+       inkscape:label="Lighting"
+       id="filter13755"
+       x="0"
+       y="0"
+       width="1"
+       height="1">
+      <feComponentTransfer
+         in="blur"
+         result="component"
+         id="feComponentTransfer13753">
+        <feFuncR
+           type="gamma"
+           amplitude="0.718563"
+           exponent="1.1976"
+           offset="-0.011976"
+           id="feFuncR13747" />
+        <feFuncG
+           type="gamma"
+           amplitude="0.718563"
+           exponent="1.1976"
+           offset="-0.011976"
+           id="feFuncG13749" />
+        <feFuncB
+           type="gamma"
+           amplitude="0.718563"
+           exponent="1.1976"
+           offset="-0.011976"
+           id="feFuncB13751" />
+      </feComponentTransfer>
+    </filter>
+  </defs>
+  <g
+     inkscape:groupmode="layer"
+     id="layer2"
+     inkscape:label="background">
+    <ellipse
+       style="opacity:0.577726;fill:none;fill-opacity:1;stroke:#000000;stroke-width:10;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;filter:url(#filter12745)"
+       id="path12555"
+       cx="1082.4385"
+       cy="477.79382"
+       rx="130.37511"
+       ry="105.44132"
+       transform="matrix(1.198021,0,0,1.0936431,-213.41052,-36.638586)" />
+  </g>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <image
+       width="126.66667"
+       height="133.33333"
+       preserveAspectRatio="none"
+       xlink:href="Coffee-mug.png"
+       id="image17"
+       x="1013.9119"
+       y="388.20938" />
+    <image
+       xlink:href="data:image/png;base64,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
+"
+       width="126"
+       height="133"
+       transform="translate(1014,388)"
+       id="image21" />
+    <g
+       id="g41"
+       style="filter:url(#filter13755)">
+      <path
+         style="fill:#b9b9b9;fill-opacity:1"
+         d="m 1067.5,506.86798 c -7.3637,-2.97927 -10.7464,-5.97694 -14.3282,-12.6971 -2.1835,-4.0965 -4.0782,-6.33434 -5.9391,-7.01436 -1.8115,-0.662 -2.1283,-1.02524 -0.9399,-1.07757 0.9861,-0.0434 3.9111,1.86298 6.5,4.23645 2.589,2.37347 5.8046,5.29847 7.1458,6.5 1.3412,1.20153 3.4002,2.1846 4.5756,2.1846 2.3509,0 7.0144,-4.33566 6.1566,-5.72372 -0.2964,-0.47947 -0.1494,-1.50182 0.3265,-2.27187 0.6705,-1.08501 1.1443,-0.78776 2.105,1.32079 1.0826,2.37609 0.9646,3.09303 -0.9313,5.65736 -3.1319,4.23616 -2.8869,8.34847 0.579,9.71802 1.5125,0.59766 2.075,1.10999 1.25,1.13851 -0.825,0.0285 -3.75,-0.85848 -6.5,-1.97111 z m 29.5,-0.26099 c 0,-0.21616 0.6984,-0.661 1.5519,-0.98855 0.89,-0.34149 1.2914,-0.17385 0.941,0.39301 -0.5872,0.95021 -2.4929,1.40545 -2.4929,0.59554 z M 1109.0803,494 c 1.4578,-3.06103 1.9197,-3.62834 1.9197,-2.3578 0,0.53655 -0.6998,1.84905 -1.5552,2.91667 -1.4663,1.83031 -1.4872,1.7984 -0.3645,-0.55887 z m 4.0873,-10.05105 c 0.585,-1.67807 1.2492,-2.86548 1.476,-2.63868 0.4952,0.4952 -1.3917,5.68973 -2.0668,5.68973 -0.26,0 0.01,-1.37297 0.5908,-3.05105 z M 1036,483 c -0.9013,-0.58246 -1.0246,-0.97549 -0.309,-0.98469 0.655,-0.008 1.4691,0.43469 1.809,0.98469 0.7673,1.24153 0.4211,1.24153 -1.5,0 z m -9.0786,-4.40741 c -1.9485,-1.32408 -4.6787,-3.91158 -6.0671,-5.75 -2.5577,-3.38675 -4.4248,-8.31324 -2.761,-7.28495 0.4987,0.30821 0.9067,0.0727 0.9067,-0.52337 0,-0.59608 1.0729,-1.49171 2.3843,-1.99029 1.9947,-0.75837 2.6557,-2.18434 4.0446,-8.72525 0.9131,-4.3003 2.1609,-8.94373 2.7727,-10.31873 0.6118,-1.375 1.4111,-4.6375 1.7761,-7.25 0.5944,-4.25349 0.4622,-4.75 -1.264,-4.75 -1.3469,0 -1.7448,-0.47652 -1.3207,-1.58179 0.3339,-0.86998 0.607,-1.75843 0.607,-1.97432 0,-0.84046 6.0101,-3.44389 7.9503,-3.44389 1.1274,0 2.0497,-0.3876 2.0497,-0.86133 0,-0.47373 1.0736,-0.6561 2.3858,-0.40526 3.6266,0.69328 16.8384,-1.6263 18.6617,-3.27643 0.8855,-0.80134 2.137,-1.45698 2.7812,-1.45698 0.6442,0 1.2305,-0.7875 1.3029,-1.75 0.072,-0.9625 0.4099,-0.26979 0.75,1.53935 0.9533,5.07077 2.6104,3.35085 2.6875,-2.78935 0.038,-3.025 0.6855,-7.8625 1.439,-10.75 l 1.37,-5.25 h 11.8943 c 12.6271,0 13.6207,-0.49745 8.5522,-4.28161 -1.4021,-1.04682 -4.9737,-2.25556 -7.9369,-2.68609 -5.0548,-0.73442 -4.8254,-0.7905 3.7131,-0.90754 5.0054,-0.0686 10.4376,0.34127 12.0716,0.91087 2.5442,0.88694 2.9096,1.45223 2.5449,3.9374 -0.4078,2.77818 -0.2404,2.9183 3.9284,3.28967 2.5967,0.23131 1.0805,0.45841 -3.7561,0.56259 -4.4608,0.0961 -10.2345,0.46585 -12.8307,0.82169 -5.7455,0.78751 -6.3942,2.06417 -7.1448,14.06026 -0.3405,5.4423 -1.1656,9.54893 -2.332,11.60735 -1.6842,2.97194 -2.1237,3.16449 -6.5591,2.87319 -3.0121,-0.19782 -6.1681,-1.24809 -8.6137,-2.86649 -2.5333,-1.67644 -4.4697,-2.30382 -5.6345,-1.82551 -0.9762,0.40082 -5.3699,1.01574 -9.7639,1.36649 -6.9351,0.55359 -8.037,0.90159 -8.3519,2.63773 -0.1995,1.1 -1.4667,3.46502 -2.816,5.25559 -1.3493,1.79057 -3.891,6.29057 -5.6482,10 -3.0735,6.48826 -3.1942,7.22529 -3.18,19.40581 0.013,10.99996 0.2629,12.93547 1.905,14.75 2.4557,2.71345 1.8504,2.63621 -2.4984,-0.31881 z m 19.3496,0.31554 c 0.9741,-0.56708 1.5145,-1.44613 1.201,-1.95345 -1.4091,-2.27988 -5.3643,-20.08165 -5.7666,-25.95468 -0.245,-3.575 -0.2574,-5.57445 -0.028,-4.44321 0.2298,1.13123 1.5072,4.28123 2.8387,7 l 2.421,4.94321 0.2425,-5.5 c 0.4325,-9.8099 0.1577,-11.62427 -2.2556,-14.88833 -2.0506,-2.7736 -2.5318,-3.00153 -3.5106,-1.66291 -0.6239,0.85318 -1.5923,1.55124 -2.1521,1.55124 -0.5598,0 -1.7606,1.0125 -2.6686,2.25 -1.6091,2.19305 -1.6249,2.19481 -0.624,0.0695 0.5647,-1.19925 2.441,-3.18741 4.1693,-4.41813 2.6848,-1.91168 3.3042,-2.02724 4.2521,-0.79326 0.6102,0.79442 3.0438,4.03034 5.4079,7.19094 l 4.2984,5.74653 -0.061,11.72719 c -0.034,6.44995 -0.168,12.81583 -0.2984,14.1464 -0.2379,2.42792 -4.7211,5.89148 -7.737,5.97729 -1.1438,0.0326 -1.0795,-0.20213 0.271,-0.98837 z M 1040,478 c -1.828,-1.18132 -0.2491,-1.18132 2.5,0 1.3187,0.56668 1.4891,0.87815 0.5,0.9144 -0.825,0.0302 -2.175,-0.38124 -3,-0.9144 z m -5.7219,-3.25 c -1.4991,-1.93844 -2.4422,-3.75 -1.9521,-3.75 0.2442,0 1.1811,1.125 2.082,2.5 1.6859,2.57291 1.592,3.47635 -0.1299,1.25 z m -4.1992,-9.33333 c 0.048,-1.16495 0.285,-1.4019 0.6042,-0.60417 0.2889,0.72187 0.2534,1.58438 -0.079,1.91667 -0.3323,0.33229 -0.5687,-0.25834 -0.5253,-1.3125 z m 91.0001,-3 c 0.048,-1.16495 0.2849,-1.4019 0.6041,-0.60417 0.2889,0.72187 0.2534,1.58438 -0.079,1.91667 -0.3323,0.33229 -0.5686,-0.25834 -0.5252,-1.3125 z m -91.0001,-8 c 0.048,-1.16495 0.285,-1.4019 0.6042,-0.60417 0.2889,0.72187 0.2534,1.58438 -0.079,1.91667 -0.3323,0.33229 -0.5687,-0.25834 -0.5253,-1.3125 z m 1.6351,-6.43087 c 0.2901,-1.10933 0.8811,-2.23558 1.3134,-2.50276 0.4324,-0.26719 0.5487,0.42183 0.2586,1.53116 -0.2901,1.10933 -0.8811,2.23558 -1.3134,2.50276 -0.4324,0.26719 -0.5487,-0.42183 -0.2586,-1.53116 z m 93.9423,-4.4858 c 0.3349,-2.2 0.7743,-4.1875 0.9764,-4.41667 0.7574,-0.85918 0.1904,4.49696 -0.6794,6.41667 -0.6315,1.3939 -0.7215,0.7878 -0.297,-2 z m 1.4227,-8.08333 c 0.048,-1.16495 0.2849,-1.4019 0.6041,-0.60417 0.2889,0.72187 0.2534,1.58438 -0.079,1.91667 -0.3323,0.33229 -0.5686,-0.25834 -0.5252,-1.3125 z m 1,-6 c 0.048,-1.16495 0.2849,-1.4019 0.6041,-0.60417 0.2889,0.72187 0.2534,1.58438 -0.079,1.91667 -0.3323,0.33229 -0.5686,-0.25834 -0.5252,-1.3125 z M 1129.1579,420 c 0,-1.375 0.227,-1.9375 0.5044,-1.25 0.2774,0.6875 0.2774,1.8125 0,2.5 -0.2774,0.6875 -0.5044,0.125 -0.5044,-1.25 z m 1,-7 c 0,-1.375 0.227,-1.9375 0.5044,-1.25 0.2774,0.6875 0.2774,1.8125 0,2.5 -0.2774,0.6875 -0.5044,0.125 -0.5044,-1.25 z m 1.0741,-7 c 0,-1.925 0.2058,-2.7125 0.4573,-1.75 0.2516,0.9625 0.2516,2.5375 0,3.5 -0.2515,0.9625 -0.4573,0.175 -0.4573,-1.75 z m -69.482,-6.70573 c 1.2375,-0.23836 3.2625,-0.23836 4.5,0 1.2375,0.23835 0.225,0.43337 -2.25,0.43337 -2.475,0 -3.4875,-0.19502 -2.25,-0.43337 z m 49.211,-1.48283 c 1.1215,-1.20371 2.039,-2.55371 2.039,-3 0,-0.44629 0.7875,-0.80455 1.75,-0.79613 1.1849,0.0104 1.3634,0.2611 0.5528,0.7764 -0.711,0.452 -0.8623,1.30294 -0.3726,2.09538 0.6107,0.98813 2.1432,1.15295 5.907,0.63531 2.7952,-0.38445 6.5629,-0.33692 8.3725,0.10562 3.0834,0.75401 2.913,0.84707 -2.7097,1.47976 -3.3,0.37133 -8.605,0.72399 -11.789,0.78369 L 1108.9221,400 Z m -61.711,0.49923 c 0.9625,-0.25152 2.5375,-0.25152 3.5,0 0.9625,0.25153 0.175,0.45733 -1.75,0.45733 -1.925,0 -2.7125,-0.2058 -1.75,-0.45733 z m -5.5,-0.97295 c 0.6875,-0.27741 1.8125,-0.27741 2.5,0 0.6875,0.27741 0.125,0.50439 -1.25,0.50439 -1.375,0 -1.9375,-0.22698 -1.25,-0.50439 z M 1038.5,396 c -0.8991,-1.45482 0.3526,-3.01821 2.309,-2.884 1.5245,0.10458 1.5187,0.16103 -0.059,0.57333 -0.9625,0.25152 -1.75,0.84133 -1.75,1.31067 0,0.46934 0.7875,1.05915 1.75,1.31067 1.5777,0.4123 1.5835,0.46875 0.059,0.57333 -0.93,0.0638 -1.9691,-0.334 -2.309,-0.884 z m 5.3125,-3.68311 c 0.7219,-0.28887 1.5844,-0.25335 1.9167,0.0789 0.3323,0.33229 -0.2584,0.56864 -1.3125,0.52522 -1.165,-0.048 -1.4019,-0.28494 -0.6042,-0.60416 z m 14.4375,-1.05193 c 2.6125,-0.206 6.8875,-0.206 9.5,0 2.6125,0.206 0.475,0.37454 -4.75,0.37454 -5.225,0 -7.3625,-0.16854 -4.75,-0.37454 z"
+         id="path47" />
+      <path
+         style="fill:#8c8c8c;fill-opacity:1"
+         d="m 1072.75,507.70058 c -3.4659,-1.36955 -3.7109,-5.48186 -0.579,-9.71802 1.8959,-2.56433 2.0139,-3.28127 0.9313,-5.65736 -0.9607,-2.10855 -1.4345,-2.4058 -2.105,-1.32079 -0.4759,0.77005 -0.6229,1.7924 -0.3265,2.27187 0.8578,1.38806 -3.8057,5.72372 -6.1566,5.72372 -1.1754,0 -3.2344,-0.98307 -4.5756,-2.1846 -1.3412,-1.20153 -4.5568,-4.12653 -7.1458,-6.5 -2.7348,-2.50719 -5.684,-4.3154 -7.0385,-4.3154 -1.2823,0 -4.0967,-0.9 -6.2543,-2 -2.1576,-1.1 -4.4776,-2 -5.1557,-2 -0.678,0 -2.4879,-1.07964 -4.022,-2.39919 -2.7812,-2.39233 -2.7893,-2.43597 -2.8058,-15.25 -0.016,-12.39514 0.097,-13.08995 3.1783,-19.59522 1.7572,-3.70942 4.2989,-8.20942 5.6482,-10 1.3493,-1.79057 2.6165,-4.15559 2.816,-5.25559 0.3149,-1.73614 1.4168,-2.08414 8.3519,-2.63773 4.394,-0.35075 8.7877,-0.96567 9.7639,-1.36649 1.1648,-0.47831 3.1012,0.14907 5.6345,1.82551 2.4456,1.6184 5.6016,2.66867 8.6137,2.86649 4.4354,0.2913 4.8749,0.0988 6.5591,-2.87319 1.1664,-2.05842 1.9915,-6.16505 2.332,-11.60735 0.7982,-12.75738 1.2161,-13.4277 8.7786,-14.07886 13.5546,-1.16712 42.0054,-2.76365 42.3903,-2.37876 0.2234,0.22344 -0.2101,4.64618 -0.9633,9.82832 l -1.3695,9.42206 -0.1251,-7.58102 c -0.1134,-6.87056 -0.3454,-7.69892 -2.4759,-8.83911 -3.4099,-1.82493 -7.084,-1.03808 -7.4592,1.59751 -0.1705,1.19756 -1.0327,2.77256 -1.9159,3.5 -1.4249,1.17361 -1.5287,1.01279 -0.9209,-1.42738 0.4107,-1.64902 0.2769,-2.75 -0.3342,-2.75 -0.5604,0 -1.019,0.92656 -1.019,2.05902 0,2.47606 -1.7742,1.64323 -3.0067,-1.41135 -0.6913,-1.71334 -0.8793,-1.79376 -0.9299,-0.39767 -0.073,2.01767 -0.43,2.07883 -4.8065,0.82367 -4.1992,-1.20431 -4.6303,-0.41464 -4.8702,8.92099 -0.106,4.12794 -0.5155,10.31784 -0.9099,13.75534 -0.5361,4.67143 -0.4061,6.25 0.5143,6.25 0.884,0 1.0289,1.05808 0.5135,3.75 -0.3948,2.0625 -0.8521,9.67319 -1.0161,16.91265 -0.1641,7.23946 -0.5582,13.98946 -0.8759,15 -0.3177,1.01054 -0.7943,4.98735 -1.059,8.83735 -0.6666,9.69411 -4.9545,24.05432 -8.286,27.75 -1.4659,1.6261 -1.3719,1.75706 1.3274,1.84968 2.8916,0.0992 2.8935,0.10337 0.405,0.90032 -3.6285,1.16205 -16.04,0.969 -19.25,-0.29942 z M 1066,491.05902 c 0,-1.06754 0.45,-2.2191 1,-2.55902 0.55,-0.33992 1.0001,-2.05398 1.0002,-3.80902 10e-5,-1.75504 0.6573,-6.62545 1.4606,-10.82314 1.9323,-10.09825 1.3123,-33.18524 -0.9742,-36.27397 -0.8526,-1.15163 -2.4565,-3.51618 -3.5644,-5.25457 -1.1079,-1.73838 -2.6542,-3.40623 -3.4363,-3.70632 -1.6839,-0.6462 -2.9734,0.9477 -1.5022,1.85694 2.4528,1.51594 0.5074,2.02325 -6.4178,1.67354 -7.3746,-0.3724 -7.4297,-0.35654 -6.8807,1.98057 0.3044,1.29578 3.2504,4.98329 6.5468,8.19447 l 5.9934,5.8385 0.038,11.1615 c 0.043,12.49699 -1.1674,16.6466 -5.7264,19.63723 l -2.7796,1.82338 4.7484,2.10044 c 2.6117,1.15525 5.6216,2.10045 6.6887,2.10045 1.4852,0 1.7914,0.46908 1.3055,2 -0.7407,2.33363 0.2171,6 1.5674,6 0.5129,0 0.9326,-0.87344 0.9326,-1.94098 z m -15.5,-12.96289 c 3.4326,-2.01113 3.4505,-2.10413 3.5354,-18.32332 l 0.061,-11.72718 -4.2984,-5.74654 c -2.3641,-3.16059 -4.8099,-6.41319 -5.435,-7.22799 -0.9795,-1.2767 -1.6015,-1.12492 -4.5,1.09824 -11.6007,8.8976 -13.3435,34.91117 -2.7075,40.41127 7.0275,3.63406 9.2897,3.89099 13.3441,1.51552 z m 49.5,26.55406 c 0,-0.23109 1.1804,-1.1936 2.6231,-2.13891 1.4427,-0.9453 2.3177,-1.22448 1.9443,-0.62038 -0.7134,1.15439 -4.5674,3.48267 -4.5674,2.75929 z M 1106,498 c 0.5887,-1.1 1.2954,-2 1.5704,-2 0.275,0 0.018,0.9 -0.5704,2 -0.5887,1.1 -1.2954,2 -1.5704,2 -0.275,0 -0.018,-0.9 0.5704,-2 z m 3.0354,-5.55887 c 0.063,-1.67689 2.8935,-6.01539 2.8974,-4.44113 0,0.825 -0.6571,2.37351 -1.4646,3.44113 -0.8075,1.06762 -1.4523,1.51762 -1.4328,1 z m 2.9866,-7.06901 c -0.033,-1.67638 3.0217,-8.66181 3.5544,-8.1291 0.2525,0.25255 -0.439,2.43869 -1.5367,4.85808 -1.0977,2.4194 -2.0057,3.89136 -2.0177,3.27102 z m 3.7578,-10.62212 c 1.5149,-1.84809 6.0148,-19.46612 7.5725,-29.6479 1.3828,-9.0387 3.9079,-21.81309 4.6655,-23.6021 3.0562,-7.21763 -1.882,23.18541 -6.5782,40.5 -2.8357,10.45486 -4.2869,14 -5.731,14 -0.5667,0 -0.5378,-0.50713 0.071,-1.25 z M 1073.75,399.2596 c 3.4375,-0.19527 6.25,-0.68654 6.25,-1.09171 0,-0.40517 -1.4625,-1.6212 -3.25,-2.70228 -2.8204,-1.70578 -5.1006,-1.96561 -17.25,-1.96561 -14.6203,0 -19.1809,0.73318 -16.472,2.64813 1.1956,0.84517 1.1281,0.92895 -0.3598,0.4462 -1.0075,-0.32688 -2.245,-0.59433 -2.75,-0.59433 -0.505,0 -0.9182,-0.39658 -0.9182,-0.88129 0,-1.81709 9.3178,-3.11806 22.1928,-3.0986 16.0191,0.0242 25.3392,1.23997 28.6913,3.74264 5.0894,3.79984 4.03,4.24847 -9.5508,4.04457 -7.0583,-0.10597 -10.0208,-0.35245 -6.5833,-0.54772 z m -16.9821,-0.98433 c 1.7974,-0.22256 4.4974,-0.21797 6,0.0102 1.5027,0.22817 0.032,0.41027 -3.2679,0.40466 -3.3,-0.006 -4.5294,-0.19231 -2.7321,-0.41487 z m -8.4989,-0.96826 c 0.973,-0.25354 2.323,-0.23687 3,0.0371 0.6771,0.27393 -0.119,0.48137 -1.769,0.46099 -1.65,-0.0204 -2.2039,-0.2445 -1.231,-0.49804 z"
+         id="path45" />
+      <path
+         style="fill:#606060;fill-opacity:1"
+         d="m 1090.1726,505.39628 c 3.4423,-3.90268 7.7073,-18.0989 8.381,-27.89628 0.2647,-3.85 0.7413,-7.82681 1.059,-8.83735 0.3177,-1.01054 0.7118,-7.76054 0.8759,-15 0.164,-7.23946 0.6213,-14.85015 1.0161,-16.91265 0.5154,-2.69192 0.3705,-3.75 -0.5135,-3.75 -0.9204,0 -1.0504,-1.57857 -0.5143,-6.25 0.3944,-3.4375 0.8039,-9.6274 0.9099,-13.75534 0.2399,-9.33563 0.671,-10.1253 4.8702,-8.92099 4.3765,1.25516 4.7334,1.194 4.8065,-0.82367 0.051,-1.39609 0.2386,-1.31567 0.9299,0.39767 1.2325,3.05458 3.0067,3.88741 3.0067,1.41135 0,-1.13246 0.4586,-2.05902 1.019,-2.05902 0.6111,0 0.7449,1.10098 0.3342,2.75 -0.6078,2.44017 -0.504,2.60099 0.9209,1.42738 0.8832,-0.72744 1.7454,-2.30244 1.9159,-3.5 0.3752,-2.63559 4.0493,-3.42244 7.4592,-1.59751 2.1586,1.15525 2.3508,1.89439 2.3508,9.04206 0,4.28118 -0.4125,8.81764 -0.9166,10.08102 -0.8179,2.04973 -3.3291,14.73492 -4.7311,23.89915 -0.4564,2.98325 -2.7014,13.65582 -3.7657,17.9018 -1.5164,6.04973 -2.8854,10.6479 -3.4226,11.4961 -0.3484,0.55 -0.6676,1.225 -0.7094,1.5 -0.042,0.275 -0.8363,2.24246 -1.7654,4.37212 -0.929,2.12967 -1.6892,4.29492 -1.6892,4.81167 0,0.51675 -1.6548,4.33325 -3.6774,8.4811 -4.182,8.57628 -8.4191,12.14808 -15.5011,13.06695 -4.1802,0.54237 -4.2668,0.49869 -2.6489,-1.33556 z M 1063.5,491 c -0.3491,-1.1 -0.3491,-2.9 0,-4 0.4859,-1.53092 0.1797,-2 -1.3055,-2 -1.0671,0 -4.077,-0.9452 -6.6887,-2.10045 l -4.7484,-2.10044 2.7796,-1.82338 c 4.559,-2.99063 5.769,-7.14024 5.7264,-19.63723 l -0.038,-11.1615 -5.9934,-5.8385 c -3.2964,-3.21118 -6.2424,-6.89869 -6.5468,-8.19447 -0.549,-2.33711 -0.4939,-2.35297 6.8807,-1.98057 6.9252,0.34971 8.8706,-0.1576 6.4178,-1.67354 -1.4712,-0.90924 -0.1817,-2.50314 1.5022,-1.85694 0.7821,0.30009 2.3284,1.96794 3.4363,3.70632 1.1079,1.73839 2.7118,4.10294 3.5644,5.25457 2.2865,3.08873 2.9065,26.17572 0.9742,36.27397 -0.8033,4.19769 -1.4605,9.0681 -1.4606,10.82314 -10e-5,1.75504 -0.4502,3.4691 -1.0002,3.80902 -0.55,0.33992 -1,1.49148 -1,2.55902 0,2.53946 -1.6879,2.49962 -2.5,-0.059 z m -7.5,-93.10502 c -12.3683,-1.08057 -14.6557,-1.63966 -13.0935,-3.20034 0.8186,-0.81777 5.8329,-1.19464 15.8947,-1.19464 12.8441,0 15.1089,0.24802 17.9488,1.96561 1.7875,1.08108 3.25,2.31858 3.25,2.75 0,0.95317 -11.1205,0.8046 -24,-0.32063 z"
+         id="path43" />
+    </g>
+    <text
+       xml:space="preserve"
+       style="font-size:42.6667px;line-height:1.25;font-family:Calibri;-inkscape-font-specification:Calibri;letter-spacing:0px;word-spacing:0px;filter:url(#filter9463);fill-opacity:1;fill:#4caf50"
+       x="941.25067"
+       y="546.6734"
+       id="text1649"><tspan
+         sodipodi:role="line"
+         id="tspan1647"
+         x="941.25067"
+         y="546.6734"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Poppins;-inkscape-font-specification:'Poppins Bold';fill-opacity:1;fill:#4caf50">Daily Update</tspan></text>
+  </g>
+  <script
+     id="mesh_polyfill"
+     type="text/javascript">
+!function(){const t=&quot;http://www.w3.org/2000/svg&quot;,e=&quot;http://www.w3.org/1999/xlink&quot;,s=&quot;http://www.w3.org/1999/xhtml&quot;,r=2;if(document.createElementNS(t,&quot;meshgradient&quot;).x)return;const n=(t,e,s,r)=&gt;{let n=new x(.5*(e.x+s.x),.5*(e.y+s.y)),o=new x(.5*(t.x+e.x),.5*(t.y+e.y)),i=new x(.5*(s.x+r.x),.5*(s.y+r.y)),a=new x(.5*(n.x+o.x),.5*(n.y+o.y)),h=new x(.5*(n.x+i.x),.5*(n.y+i.y)),l=new x(.5*(a.x+h.x),.5*(a.y+h.y));return[[t,o,a,l],[l,h,i,r]]},o=t=&gt;{let e=t[0].distSquared(t[1]),s=t[2].distSquared(t[3]),r=.25*t[0].distSquared(t[2]),n=.25*t[1].distSquared(t[3]),o=e&gt;s?e:s,i=r&gt;n?r:n;return 18*(o&gt;i?o:i)},i=(t,e)=&gt;Math.sqrt(t.distSquared(e)),a=(t,e)=&gt;t.scale(2/3).add(e.scale(1/3)),h=t=&gt;{let e,s,r,n,o,i,a,h=new g;return t.match(/(\w+\(\s*[^)]+\))+/g).forEach(t=&gt;{let l=t.match(/[\w.-]+/g),d=l.shift();switch(d){case&quot;translate&quot;:2===l.length?e=new g(1,0,0,1,l[0],l[1]):(console.error(&quot;mesh.js: translate does not have 2 arguments!&quot;),e=new g(1,0,0,1,0,0)),h=h.append(e);break;case&quot;scale&quot;:1===l.length?s=new g(l[0],0,0,l[0],0,0):2===l.length?s=new g(l[0],0,0,l[1],0,0):(console.error(&quot;mesh.js: scale does not have 1 or 2 arguments!&quot;),s=new g(1,0,0,1,0,0)),h=h.append(s);break;case&quot;rotate&quot;:if(3===l.length&amp;&amp;(e=new g(1,0,0,1,l[1],l[2]),h=h.append(e)),l[0]){r=l[0]*Math.PI/180;let t=Math.cos(r),e=Math.sin(r);Math.abs(t)&lt;1e-16&amp;&amp;(t=0),Math.abs(e)&lt;1e-16&amp;&amp;(e=0),a=new g(t,e,-e,t,0,0),h=h.append(a)}else console.error(&quot;math.js: No argument to rotate transform!&quot;);3===l.length&amp;&amp;(e=new g(1,0,0,1,-l[1],-l[2]),h=h.append(e));break;case&quot;skewX&quot;:l[0]?(r=l[0]*Math.PI/180,n=Math.tan(r),o=new g(1,0,n,1,0,0),h=h.append(o)):console.error(&quot;math.js: No argument to skewX transform!&quot;);break;case&quot;skewY&quot;:l[0]?(r=l[0]*Math.PI/180,n=Math.tan(r),i=new g(1,n,0,1,0,0),h=h.append(i)):console.error(&quot;math.js: No argument to skewY transform!&quot;);break;case&quot;matrix&quot;:6===l.length?h=h.append(new g(...l)):console.error(&quot;math.js: Incorrect number of arguments for matrix!&quot;);break;default:console.error(&quot;mesh.js: Unhandled transform type: &quot;+d)}}),h},l=t=&gt;{let e=[],s=t.split(/[ ,]+/);for(let t=0,r=s.length-1;t&lt;r;t+=2)e.push(new x(parseFloat(s[t]),parseFloat(s[t+1])));return e},d=(t,e)=&gt;{for(let s in e)t.setAttribute(s,e[s])},c=(t,e,s,r,n)=&gt;{let o,i,a=[0,0,0,0];for(let h=0;h&lt;3;++h)e[h]&lt;t[h]&amp;&amp;e[h]&lt;s[h]||t[h]&lt;e[h]&amp;&amp;s[h]&lt;e[h]?a[h]=0:(a[h]=.5*((e[h]-t[h])/r+(s[h]-e[h])/n),o=Math.abs(3*(e[h]-t[h])/r),i=Math.abs(3*(s[h]-e[h])/n),a[h]&gt;o?a[h]=o:a[h]&gt;i&amp;&amp;(a[h]=i));return a},u=[[1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],[0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0],[-3,3,0,0,-2,-1,0,0,0,0,0,0,0,0,0,0],[2,-2,0,0,1,1,0,0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0],[0,0,0,0,0,0,0,0,-3,3,0,0,-2,-1,0,0],[0,0,0,0,0,0,0,0,2,-2,0,0,1,1,0,0],[-3,0,3,0,0,0,0,0,-2,0,-1,0,0,0,0,0],[0,0,0,0,-3,0,3,0,0,0,0,0,-2,0,-1,0],[9,-9,-9,9,6,3,-6,-3,6,-6,3,-3,4,2,2,1],[-6,6,6,-6,-3,-3,3,3,-4,4,-2,2,-2,-2,-1,-1],[2,0,-2,0,0,0,0,0,1,0,1,0,0,0,0,0],[0,0,0,0,2,0,-2,0,0,0,0,0,1,0,1,0],[-6,6,6,-6,-4,-2,4,2,-3,3,-3,3,-2,-1,-2,-1],[4,-4,-4,4,2,2,-2,-2,2,-2,2,-2,1,1,1,1]],f=t=&gt;{let e=[];for(let s=0;s&lt;16;++s){e[s]=0;for(let r=0;r&lt;16;++r)e[s]+=u[s][r]*t[r]}return e},p=(t,e,s)=&gt;{const r=e*e,n=s*s,o=e*e*e,i=s*s*s;return t[0]+t[1]*e+t[2]*r+t[3]*o+t[4]*s+t[5]*s*e+t[6]*s*r+t[7]*s*o+t[8]*n+t[9]*n*e+t[10]*n*r+t[11]*n*o+t[12]*i+t[13]*i*e+t[14]*i*r+t[15]*i*o},y=t=&gt;{let e=[],s=[],r=[];for(let s=0;s&lt;4;++s)e[s]=[],e[s][0]=n(t[0][s],t[1][s],t[2][s],t[3][s]),e[s][1]=[],e[s][1].push(...n(...e[s][0][0])),e[s][1].push(...n(...e[s][0][1])),e[s][2]=[],e[s][2].push(...n(...e[s][1][0])),e[s][2].push(...n(...e[s][1][1])),e[s][2].push(...n(...e[s][1][2])),e[s][2].push(...n(...e[s][1][3]));for(let t=0;t&lt;8;++t){s[t]=[];for(let r=0;r&lt;4;++r)s[t][r]=[],s[t][r][0]=n(e[0][2][t][r],e[1][2][t][r],e[2][2][t][r],e[3][2][t][r]),s[t][r][1]=[],s[t][r][1].push(...n(...s[t][r][0][0])),s[t][r][1].push(...n(...s[t][r][0][1])),s[t][r][2]=[],s[t][r][2].push(...n(...s[t][r][1][0])),s[t][r][2].push(...n(...s[t][r][1][1])),s[t][r][2].push(...n(...s[t][r][1][2])),s[t][r][2].push(...n(...s[t][r][1][3]))}for(let t=0;t&lt;8;++t){r[t]=[];for(let e=0;e&lt;8;++e)r[t][e]=[],r[t][e][0]=s[t][0][2][e],r[t][e][1]=s[t][1][2][e],r[t][e][2]=s[t][2][2][e],r[t][e][3]=s[t][3][2][e]}return r};class x{constructor(t,e){this.x=t||0,this.y=e||0}toString(){return`(x=${this.x}, y=${this.y})`}clone(){return new x(this.x,this.y)}add(t){return new x(this.x+t.x,this.y+t.y)}scale(t){return void 0===t.x?new x(this.x*t,this.y*t):new x(this.x*t.x,this.y*t.y)}distSquared(t){let e=this.x-t.x,s=this.y-t.y;return e*e+s*s}transform(t){let e=this.x*t.a+this.y*t.c+t.e,s=this.x*t.b+this.y*t.d+t.f;return new x(e,s)}}class g{constructor(t,e,s,r,n,o){void 0===t?(this.a=1,this.b=0,this.c=0,this.d=1,this.e=0,this.f=0):(this.a=t,this.b=e,this.c=s,this.d=r,this.e=n,this.f=o)}toString(){return`affine: ${this.a} ${this.c} ${this.e} \n       ${this.b} ${this.d} ${this.f}`}append(t){t instanceof g||console.error(&quot;mesh.js: argument to Affine.append is not affine!&quot;);let e=this.a*t.a+this.c*t.b,s=this.b*t.a+this.d*t.b,r=this.a*t.c+this.c*t.d,n=this.b*t.c+this.d*t.d,o=this.a*t.e+this.c*t.f+this.e,i=this.b*t.e+this.d*t.f+this.f;return new g(e,s,r,n,o,i)}}class w{constructor(t,e){this.nodes=t,this.colors=e}paintCurve(t,e){if(o(this.nodes)&gt;r){const s=n(...this.nodes);let r=[[],[]],o=[[],[]];for(let t=0;t&lt;4;++t)r[0][t]=this.colors[0][t],r[1][t]=(this.colors[0][t]+this.colors[1][t])/2,o[0][t]=r[1][t],o[1][t]=this.colors[1][t];let i=new w(s[0],r),a=new w(s[1],o);i.paintCurve(t,e),a.paintCurve(t,e)}else{let s=Math.round(this.nodes[0].x);if(s&gt;=0&amp;&amp;s&lt;e){let r=4*(~~this.nodes[0].y*e+s);t[r]=Math.round(this.colors[0][0]),t[r+1]=Math.round(this.colors[0][1]),t[r+2]=Math.round(this.colors[0][2]),t[r+3]=Math.round(this.colors[0][3])}}}}class m{constructor(t,e){this.nodes=t,this.colors=e}split(){let t=[[],[],[],[]],e=[[],[],[],[]],s=[[[],[]],[[],[]]],r=[[[],[]],[[],[]]];for(let s=0;s&lt;4;++s){const r=n(this.nodes[0][s],this.nodes[1][s],this.nodes[2][s],this.nodes[3][s]);t[0][s]=r[0][0],t[1][s]=r[0][1],t[2][s]=r[0][2],t[3][s]=r[0][3],e[0][s]=r[1][0],e[1][s]=r[1][1],e[2][s]=r[1][2],e[3][s]=r[1][3]}for(let t=0;t&lt;4;++t)s[0][0][t]=this.colors[0][0][t],s[0][1][t]=this.colors[0][1][t],s[1][0][t]=(this.colors[0][0][t]+this.colors[1][0][t])/2,s[1][1][t]=(this.colors[0][1][t]+this.colors[1][1][t])/2,r[0][0][t]=s[1][0][t],r[0][1][t]=s[1][1][t],r[1][0][t]=this.colors[1][0][t],r[1][1][t]=this.colors[1][1][t];return[new m(t,s),new m(e,r)]}paint(t,e){let s,n=!1;for(let t=0;t&lt;4;++t)if((s=o([this.nodes[0][t],this.nodes[1][t],this.nodes[2][t],this.nodes[3][t]]))&gt;r){n=!0;break}if(n){let s=this.split();s[0].paint(t,e),s[1].paint(t,e)}else{new w([...this.nodes[0]],[...this.colors[0]]).paintCurve(t,e)}}}class b{constructor(t){this.readMesh(t),this.type=t.getAttribute(&quot;type&quot;)||&quot;bilinear&quot;}readMesh(t){let e=[[]],s=[[]],r=Number(t.getAttribute(&quot;x&quot;)),n=Number(t.getAttribute(&quot;y&quot;));e[0][0]=new x(r,n);let o=t.children;for(let t=0,r=o.length;t&lt;r;++t){e[3*t+1]=[],e[3*t+2]=[],e[3*t+3]=[],s[t+1]=[];let r=o[t].children;for(let n=0,o=r.length;n&lt;o;++n){let o=r[n].children;for(let r=0,i=o.length;r&lt;i;++r){let i=r;0!==t&amp;&amp;++i;let h,d=o[r].getAttribute(&quot;path&quot;),c=&quot;l&quot;;null!=d&amp;&amp;(c=(h=d.match(/\s*([lLcC])\s*(.*)/))[1]);let u=l(h[2]);switch(c){case&quot;l&quot;:0===i?(e[3*t][3*n+3]=u[0].add(e[3*t][3*n]),e[3*t][3*n+1]=a(e[3*t][3*n],e[3*t][3*n+3]),e[3*t][3*n+2]=a(e[3*t][3*n+3],e[3*t][3*n])):1===i?(e[3*t+3][3*n+3]=u[0].add(e[3*t][3*n+3]),e[3*t+1][3*n+3]=a(e[3*t][3*n+3],e[3*t+3][3*n+3]),e[3*t+2][3*n+3]=a(e[3*t+3][3*n+3],e[3*t][3*n+3])):2===i?(0===n&amp;&amp;(e[3*t+3][3*n+0]=u[0].add(e[3*t+3][3*n+3])),e[3*t+3][3*n+1]=a(e[3*t+3][3*n],e[3*t+3][3*n+3]),e[3*t+3][3*n+2]=a(e[3*t+3][3*n+3],e[3*t+3][3*n])):(e[3*t+1][3*n]=a(e[3*t][3*n],e[3*t+3][3*n]),e[3*t+2][3*n]=a(e[3*t+3][3*n],e[3*t][3*n]));break;case&quot;L&quot;:0===i?(e[3*t][3*n+3]=u[0],e[3*t][3*n+1]=a(e[3*t][3*n],e[3*t][3*n+3]),e[3*t][3*n+2]=a(e[3*t][3*n+3],e[3*t][3*n])):1===i?(e[3*t+3][3*n+3]=u[0],e[3*t+1][3*n+3]=a(e[3*t][3*n+3],e[3*t+3][3*n+3]),e[3*t+2][3*n+3]=a(e[3*t+3][3*n+3],e[3*t][3*n+3])):2===i?(0===n&amp;&amp;(e[3*t+3][3*n+0]=u[0]),e[3*t+3][3*n+1]=a(e[3*t+3][3*n],e[3*t+3][3*n+3]),e[3*t+3][3*n+2]=a(e[3*t+3][3*n+3],e[3*t+3][3*n])):(e[3*t+1][3*n]=a(e[3*t][3*n],e[3*t+3][3*n]),e[3*t+2][3*n]=a(e[3*t+3][3*n],e[3*t][3*n]));break;case&quot;c&quot;:0===i?(e[3*t][3*n+1]=u[0].add(e[3*t][3*n]),e[3*t][3*n+2]=u[1].add(e[3*t][3*n]),e[3*t][3*n+3]=u[2].add(e[3*t][3*n])):1===i?(e[3*t+1][3*n+3]=u[0].add(e[3*t][3*n+3]),e[3*t+2][3*n+3]=u[1].add(e[3*t][3*n+3]),e[3*t+3][3*n+3]=u[2].add(e[3*t][3*n+3])):2===i?(e[3*t+3][3*n+2]=u[0].add(e[3*t+3][3*n+3]),e[3*t+3][3*n+1]=u[1].add(e[3*t+3][3*n+3]),0===n&amp;&amp;(e[3*t+3][3*n+0]=u[2].add(e[3*t+3][3*n+3]))):(e[3*t+2][3*n]=u[0].add(e[3*t+3][3*n]),e[3*t+1][3*n]=u[1].add(e[3*t+3][3*n]));break;case&quot;C&quot;:0===i?(e[3*t][3*n+1]=u[0],e[3*t][3*n+2]=u[1],e[3*t][3*n+3]=u[2]):1===i?(e[3*t+1][3*n+3]=u[0],e[3*t+2][3*n+3]=u[1],e[3*t+3][3*n+3]=u[2]):2===i?(e[3*t+3][3*n+2]=u[0],e[3*t+3][3*n+1]=u[1],0===n&amp;&amp;(e[3*t+3][3*n+0]=u[2])):(e[3*t+2][3*n]=u[0],e[3*t+1][3*n]=u[1]);break;default:console.error(&quot;mesh.js: &quot;+c+&quot; invalid path type.&quot;)}if(0===t&amp;&amp;0===n||r&gt;0){let e=window.getComputedStyle(o[r]).stopColor.match(/^rgb\s*\(\s*(\d+)\s*,\s*(\d+)\s*,\s*(\d+)\s*\)$/i),a=window.getComputedStyle(o[r]).stopOpacity,h=255;a&amp;&amp;(h=Math.floor(255*a)),e&amp;&amp;(0===i?(s[t][n]=[],s[t][n][0]=Math.floor(e[1]),s[t][n][1]=Math.floor(e[2]),s[t][n][2]=Math.floor(e[3]),s[t][n][3]=h):1===i?(s[t][n+1]=[],s[t][n+1][0]=Math.floor(e[1]),s[t][n+1][1]=Math.floor(e[2]),s[t][n+1][2]=Math.floor(e[3]),s[t][n+1][3]=h):2===i?(s[t+1][n+1]=[],s[t+1][n+1][0]=Math.floor(e[1]),s[t+1][n+1][1]=Math.floor(e[2]),s[t+1][n+1][2]=Math.floor(e[3]),s[t+1][n+1][3]=h):3===i&amp;&amp;(s[t+1][n]=[],s[t+1][n][0]=Math.floor(e[1]),s[t+1][n][1]=Math.floor(e[2]),s[t+1][n][2]=Math.floor(e[3]),s[t+1][n][3]=h))}}e[3*t+1][3*n+1]=new x,e[3*t+1][3*n+2]=new x,e[3*t+2][3*n+1]=new x,e[3*t+2][3*n+2]=new x,e[3*t+1][3*n+1].x=(-4*e[3*t][3*n].x+6*(e[3*t][3*n+1].x+e[3*t+1][3*n].x)+-2*(e[3*t][3*n+3].x+e[3*t+3][3*n].x)+3*(e[3*t+3][3*n+1].x+e[3*t+1][3*n+3].x)+-1*e[3*t+3][3*n+3].x)/9,e[3*t+1][3*n+2].x=(-4*e[3*t][3*n+3].x+6*(e[3*t][3*n+2].x+e[3*t+1][3*n+3].x)+-2*(e[3*t][3*n].x+e[3*t+3][3*n+3].x)+3*(e[3*t+3][3*n+2].x+e[3*t+1][3*n].x)+-1*e[3*t+3][3*n].x)/9,e[3*t+2][3*n+1].x=(-4*e[3*t+3][3*n].x+6*(e[3*t+3][3*n+1].x+e[3*t+2][3*n].x)+-2*(e[3*t+3][3*n+3].x+e[3*t][3*n].x)+3*(e[3*t][3*n+1].x+e[3*t+2][3*n+3].x)+-1*e[3*t][3*n+3].x)/9,e[3*t+2][3*n+2].x=(-4*e[3*t+3][3*n+3].x+6*(e[3*t+3][3*n+2].x+e[3*t+2][3*n+3].x)+-2*(e[3*t+3][3*n].x+e[3*t][3*n+3].x)+3*(e[3*t][3*n+2].x+e[3*t+2][3*n].x)+-1*e[3*t][3*n].x)/9,e[3*t+1][3*n+1].y=(-4*e[3*t][3*n].y+6*(e[3*t][3*n+1].y+e[3*t+1][3*n].y)+-2*(e[3*t][3*n+3].y+e[3*t+3][3*n].y)+3*(e[3*t+3][3*n+1].y+e[3*t+1][3*n+3].y)+-1*e[3*t+3][3*n+3].y)/9,e[3*t+1][3*n+2].y=(-4*e[3*t][3*n+3].y+6*(e[3*t][3*n+2].y+e[3*t+1][3*n+3].y)+-2*(e[3*t][3*n].y+e[3*t+3][3*n+3].y)+3*(e[3*t+3][3*n+2].y+e[3*t+1][3*n].y)+-1*e[3*t+3][3*n].y)/9,e[3*t+2][3*n+1].y=(-4*e[3*t+3][3*n].y+6*(e[3*t+3][3*n+1].y+e[3*t+2][3*n].y)+-2*(e[3*t+3][3*n+3].y+e[3*t][3*n].y)+3*(e[3*t][3*n+1].y+e[3*t+2][3*n+3].y)+-1*e[3*t][3*n+3].y)/9,e[3*t+2][3*n+2].y=(-4*e[3*t+3][3*n+3].y+6*(e[3*t+3][3*n+2].y+e[3*t+2][3*n+3].y)+-2*(e[3*t+3][3*n].y+e[3*t][3*n+3].y)+3*(e[3*t][3*n+2].y+e[3*t+2][3*n].y)+-1*e[3*t][3*n].y)/9}}this.nodes=e,this.colors=s}paintMesh(t,e){let s=(this.nodes.length-1)/3,r=(this.nodes[0].length-1)/3;if(&quot;bilinear&quot;===this.type||s&lt;2||r&lt;2){let n;for(let o=0;o&lt;s;++o)for(let s=0;s&lt;r;++s){let r=[];for(let t=3*o,e=3*o+4;t&lt;e;++t)r.push(this.nodes[t].slice(3*s,3*s+4));let i=[];i.push(this.colors[o].slice(s,s+2)),i.push(this.colors[o+1].slice(s,s+2)),(n=new m(r,i)).paint(t,e)}}else{let n,o,a,h,l,d,u;const x=s,g=r;s++,r++;let w=new Array(s);for(let t=0;t&lt;s;++t){w[t]=new Array(r);for(let e=0;e&lt;r;++e)w[t][e]=[],w[t][e][0]=this.nodes[3*t][3*e],w[t][e][1]=this.colors[t][e]}for(let t=0;t&lt;s;++t)for(let e=0;e&lt;r;++e)0!==t&amp;&amp;t!==x&amp;&amp;(n=i(w[t-1][e][0],w[t][e][0]),o=i(w[t+1][e][0],w[t][e][0]),w[t][e][2]=c(w[t-1][e][1],w[t][e][1],w[t+1][e][1],n,o)),0!==e&amp;&amp;e!==g&amp;&amp;(n=i(w[t][e-1][0],w[t][e][0]),o=i(w[t][e+1][0],w[t][e][0]),w[t][e][3]=c(w[t][e-1][1],w[t][e][1],w[t][e+1][1],n,o));for(let t=0;t&lt;r;++t){w[0][t][2]=[],w[x][t][2]=[];for(let e=0;e&lt;4;++e)n=i(w[1][t][0],w[0][t][0]),o=i(w[x][t][0],w[x-1][t][0]),w[0][t][2][e]=n&gt;0?2*(w[1][t][1][e]-w[0][t][1][e])/n-w[1][t][2][e]:0,w[x][t][2][e]=o&gt;0?2*(w[x][t][1][e]-w[x-1][t][1][e])/o-w[x-1][t][2][e]:0}for(let t=0;t&lt;s;++t){w[t][0][3]=[],w[t][g][3]=[];for(let e=0;e&lt;4;++e)n=i(w[t][1][0],w[t][0][0]),o=i(w[t][g][0],w[t][g-1][0]),w[t][0][3][e]=n&gt;0?2*(w[t][1][1][e]-w[t][0][1][e])/n-w[t][1][3][e]:0,w[t][g][3][e]=o&gt;0?2*(w[t][g][1][e]-w[t][g-1][1][e])/o-w[t][g-1][3][e]:0}for(let s=0;s&lt;x;++s)for(let r=0;r&lt;g;++r){let n=i(w[s][r][0],w[s+1][r][0]),o=i(w[s][r+1][0],w[s+1][r+1][0]),c=i(w[s][r][0],w[s][r+1][0]),x=i(w[s+1][r][0],w[s+1][r+1][0]),g=[[],[],[],[]];for(let t=0;t&lt;4;++t){(d=[])[0]=w[s][r][1][t],d[1]=w[s+1][r][1][t],d[2]=w[s][r+1][1][t],d[3]=w[s+1][r+1][1][t],d[4]=w[s][r][2][t]*n,d[5]=w[s+1][r][2][t]*n,d[6]=w[s][r+1][2][t]*o,d[7]=w[s+1][r+1][2][t]*o,d[8]=w[s][r][3][t]*c,d[9]=w[s+1][r][3][t]*x,d[10]=w[s][r+1][3][t]*c,d[11]=w[s+1][r+1][3][t]*x,d[12]=0,d[13]=0,d[14]=0,d[15]=0,u=f(d);for(let e=0;e&lt;9;++e){g[t][e]=[];for(let s=0;s&lt;9;++s)g[t][e][s]=p(u,e/8,s/8),g[t][e][s]&gt;255?g[t][e][s]=255:g[t][e][s]&lt;0&amp;&amp;(g[t][e][s]=0)}}h=[];for(let t=3*s,e=3*s+4;t&lt;e;++t)h.push(this.nodes[t].slice(3*r,3*r+4));l=y(h);for(let s=0;s&lt;8;++s)for(let r=0;r&lt;8;++r)(a=new m(l[s][r],[[[g[0][s][r],g[1][s][r],g[2][s][r],g[3][s][r]],[g[0][s][r+1],g[1][s][r+1],g[2][s][r+1],g[3][s][r+1]]],[[g[0][s+1][r],g[1][s+1][r],g[2][s+1][r],g[3][s+1][r]],[g[0][s+1][r+1],g[1][s+1][r+1],g[2][s+1][r+1],g[3][s+1][r+1]]]])).paint(t,e)}}}transform(t){if(t instanceof x)for(let e=0,s=this.nodes.length;e&lt;s;++e)for(let s=0,r=this.nodes[0].length;s&lt;r;++s)this.nodes[e][s]=this.nodes[e][s].add(t);else if(t instanceof g)for(let e=0,s=this.nodes.length;e&lt;s;++e)for(let s=0,r=this.nodes[0].length;s&lt;r;++s)this.nodes[e][s]=this.nodes[e][s].transform(t)}scale(t){for(let e=0,s=this.nodes.length;e&lt;s;++e)for(let s=0,r=this.nodes[0].length;s&lt;r;++s)this.nodes[e][s]=this.nodes[e][s].scale(t)}}document.querySelectorAll(&quot;rect,circle,ellipse,path,text&quot;).forEach((r,n)=&gt;{let o=r.getAttribute(&quot;id&quot;);o||(o=&quot;patchjs_shape&quot;+n,r.setAttribute(&quot;id&quot;,o));const i=r.style.fill.match(/^url\(\s*&quot;?\s*#([^\s&quot;]+)&quot;?\s*\)/),a=r.style.stroke.match(/^url\(\s*&quot;?\s*#([^\s&quot;]+)&quot;?\s*\)/);if(i&amp;&amp;i[1]){const a=document.getElementById(i[1]);if(a&amp;&amp;&quot;meshgradient&quot;===a.nodeName){const i=r.getBBox();let l=document.createElementNS(s,&quot;canvas&quot;);d(l,{width:i.width,height:i.height});const c=l.getContext(&quot;2d&quot;);let u=c.createImageData(i.width,i.height);const f=new b(a);&quot;objectBoundingBox&quot;===a.getAttribute(&quot;gradientUnits&quot;)&amp;&amp;f.scale(new x(i.width,i.height));const p=a.getAttribute(&quot;gradientTransform&quot;);null!=p&amp;&amp;f.transform(h(p)),&quot;userSpaceOnUse&quot;===a.getAttribute(&quot;gradientUnits&quot;)&amp;&amp;f.transform(new x(-i.x,-i.y)),f.paintMesh(u.data,l.width),c.putImageData(u,0,0);const y=document.createElementNS(t,&quot;image&quot;);d(y,{width:i.width,height:i.height,x:i.x,y:i.y});let g=l.toDataURL();y.setAttributeNS(e,&quot;xlink:href&quot;,g),r.parentNode.insertBefore(y,r),r.style.fill=&quot;none&quot;;const w=document.createElementNS(t,&quot;use&quot;);w.setAttributeNS(e,&quot;xlink:href&quot;,&quot;#&quot;+o);const m=&quot;patchjs_clip&quot;+n,M=document.createElementNS(t,&quot;clipPath&quot;);M.setAttribute(&quot;id&quot;,m),M.appendChild(w),r.parentElement.insertBefore(M,r),y.setAttribute(&quot;clip-path&quot;,&quot;url(#&quot;+m+&quot;)&quot;),u=null,l=null,g=null}}if(a&amp;&amp;a[1]){const o=document.getElementById(a[1]);if(o&amp;&amp;&quot;meshgradient&quot;===o.nodeName){const i=parseFloat(r.style.strokeWidth.slice(0,-2))*(parseFloat(r.style.strokeMiterlimit)||parseFloat(r.getAttribute(&quot;stroke-miterlimit&quot;))||1),a=r.getBBox(),l=Math.trunc(a.width+i),c=Math.trunc(a.height+i),u=Math.trunc(a.x-i/2),f=Math.trunc(a.y-i/2);let p=document.createElementNS(s,&quot;canvas&quot;);d(p,{width:l,height:c});const y=p.getContext(&quot;2d&quot;);let g=y.createImageData(l,c);const w=new b(o);&quot;objectBoundingBox&quot;===o.getAttribute(&quot;gradientUnits&quot;)&amp;&amp;w.scale(new x(l,c));const m=o.getAttribute(&quot;gradientTransform&quot;);null!=m&amp;&amp;w.transform(h(m)),&quot;userSpaceOnUse&quot;===o.getAttribute(&quot;gradientUnits&quot;)&amp;&amp;w.transform(new x(-u,-f)),w.paintMesh(g.data,p.width),y.putImageData(g,0,0);const M=document.createElementNS(t,&quot;image&quot;);d(M,{width:l,height:c,x:0,y:0});let S=p.toDataURL();M.setAttributeNS(e,&quot;xlink:href&quot;,S);const k=&quot;pattern_clip&quot;+n,A=document.createElementNS(t,&quot;pattern&quot;);d(A,{id:k,patternUnits:&quot;userSpaceOnUse&quot;,width:l,height:c,x:u,y:f}),A.appendChild(M),o.parentNode.appendChild(A),r.style.stroke=&quot;url(#&quot;+k+&quot;)&quot;,g=null,p=null,S=null}}})}();
+</script>
+</svg>
