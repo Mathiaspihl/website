@@ -217,14 +217,12 @@ table {
     position: relative;
     display: inline-block;
     border-bottom: 1px dotted black;
-    font-weight: bold;
   }
   
   .tooltip .tooltiptext {
     font-family: 'Poppins', sans-serif;
     letter-spacing: normal;
     visibility: hidden;
-    font-weight: normal;
     /* display: none; */
     width: 200px;
     top: 100%;
