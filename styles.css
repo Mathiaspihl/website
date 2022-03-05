@@ -177,20 +177,59 @@ table {
   }
 
   /* ##### TOOLTIP ##### */
+  .tooltiponly {
+    position: relative;
+    display: inline-block;
+    /* border-bottom: 1px dotted black; */
+  }
+
+  .tooltiponly .tooltiptextonly {
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: normal;
+    visibility: hidden;
+    width: 200px;
+    top: 100%;
+    left: 50%;
+    margin-left: -100px; /* Use half of the width (200/2 = 100), to center the tooltip */
+    font-size: 13px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    box-shadow:0 1px 8px rgba(14, 13, 13, 0.9);
+  
+    /* Position the tooltip */
+    position:absolute;
+    z-index: 1;
+  }
+
+  .tooltiponly:hover .tooltiptextonly {
+    visibility: visible;
+    /* display:block; */
+  }
+
+
   .tooltip {
     position: relative;
     display: inline-block;
     border-bottom: 1px dotted black;
+    font-weight: bold;
   }
   
   .tooltip .tooltiptext {
     font-family: 'Poppins', sans-serif;
     letter-spacing: normal;
     visibility: hidden;
+    font-weight: normal;
     /* display: none; */
-    /* width: 200px; */
-    min-width: 100px;
-    max-width: 400px;
+    width: 200px;
+    top: 100%;
+    left: 50%;
+    margin-left: -100px; /* Use half of the width (200/2 = 100), to center the tooltip */
     font-size: 13px;
     background-color: black;
     color: #fff;
