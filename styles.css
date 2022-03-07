@@ -261,7 +261,7 @@ table {
   position: relative;
   display: inline-block;
   border-bottom: 1px dotted black;
-  color: #4CAF50;
+  /* color: #4CAF50; */
 }
 
 .tooltipimg .tooltiptextimg {
