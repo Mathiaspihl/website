@@ -30,6 +30,14 @@
     <!-- <link rel="icon" type="image/x-icon" href="./images/coffee-logo.svg"> -->
 
     <style>
+        .img-center {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            width: 40%;
+        }
+
+
         * {
             box-sizing: border-box;
         }
@@ -101,10 +109,10 @@
             clear: both;
         }
 
-        /* Six columns side by side */
+        /* 7 columns side by side */
         .column {
             float: left;
-            width: 16.66%;
+            width: 14.28%;
         }
 
         /* Add a transparency effect for thumnbail images */
@@ -252,40 +260,51 @@
         <tr>
             <td class="rowmiddle">
                 <fieldset>
-                    <legend>Gallery</legend>
+                    <legend>Gallery - The Random Seven</legend>
 
                     <!-- Container for the image gallery -->
-                    <div class="container">
+                    <div class="container img-center" style="width: 70%;">
 
                         <!-- Full-width images with number text -->
                         <div class="mySlides">
-                            <div class="numbertext">1 / 6</div>
-                            <img src="https://source.unsplash.com/random/640x400/?city,night" style="height: 200px;">
+                            <div class="numbertext">1 / 7</div>
+                            <img class="img-shadow" src="https://source.unsplash.com/random/640x400/?coffee,dark,mug"
+                                style="width: 100%;">
                         </div>
 
                         <div class="mySlides">
-                            <div class="numbertext">2 / 6</div>
-                            <img src="https://source.unsplash.com/random/640x400/?city,night" style="width:100%">
+                            <div class="numbertext">2 / 7</div>
+                            <img class="img-shadow" src="https://source.unsplash.com/random/640x400/?trysil,skiing"
+                                style="width:100%">
                         </div>
 
                         <div class="mySlides">
-                            <div class="numbertext">3 / 6</div>
-                            <img src="https://source.unsplash.com/random/640x400/?city,night" style="width:100%">
+                            <div class="numbertext">3 / 7</div>
+                            <img class="img-shadow" src="https://source.unsplash.com/random/640x400/?electric,car"
+                                style="width:100%">
                         </div>
 
                         <div class="mySlides">
-                            <div class="numbertext">4 / 6</div>
-                            <img src="https://source.unsplash.com/random/640x400/?city,night" style="width:100%">
+                            <div class="numbertext">4 / 7</div>
+                            <img class="img-shadow" src="https://source.unsplash.com/random/640x400/?nature,mountains"
+                                style="width:100%">
                         </div>
 
                         <div class="mySlides">
-                            <div class="numbertext">5 / 6</div>
-                            <img src="https://source.unsplash.com/random/640x400/?city,night" style="width:100%">
+                            <div class="numbertext">5 / 7</div>
+                            <img class="img-shadow" class="img-shadow"
+                                src="https://source.unsplash.com/random/640x400/?sailing,sailboat,summer" style="width:100%">
                         </div>
 
                         <div class="mySlides">
-                            <div class="numbertext">6 / 6</div>
-                            <img src="https://source.unsplash.com/random/640x400/?city,night" style="width:100%">
+                            <div class="numbertext">6 / 7</div>
+                            <img class="img-shadow" src="https://source.unsplash.com/random/640x400/?scuba,diving"
+                                style="width:100%">
+                        </div>
+                        <div class="mySlides">
+                            <div class="numbertext">7 / 7</div>
+                            <img class="img-shadow" src="https://source.unsplash.com/random/640x400/?raspberry,computer"
+                                style="width:100%">
                         </div>
 
                         <!-- Next and previous buttons -->
@@ -300,36 +319,41 @@
                         <!-- Thumbnail images -->
                         <div class="row">
                             <div class="column">
-                                <img class="demo cursor" src="https://source.unsplash.com/random/640x400/?city,night"
-                                    style="width:100%" onclick="currentSlide(1)" alt="The Woods">
+                                <img class="demo cursor"
+                                    src="https://source.unsplash.com/random/640x400/?coffee,dark,mug" style="width:100%"
+                                    onclick="currentSlide(1)" alt="Coffe, Dark and Mug">
                             </div>
                             <div class="column">
-                                <img class="demo cursor" src="https://source.unsplash.com/random/640x400/?city,night"
-                                    style="width:100%" onclick="currentSlide(2)" alt="Cinque Terre">
+                                <img class="demo cursor" src="https://source.unsplash.com/random/640x400/?trysil,skiing"
+                                    style="width:100%" onclick="currentSlide(2)" alt="Trysil and Skiing">
                             </div>
                             <div class="column">
-                                <img class="demo cursor" src="https://source.unsplash.com/random/640x400/?city,night"
-                                    style="width:100%" onclick="currentSlide(3)" alt="Mountains and fjords">
+                                <img class="demo cursor" src="https://source.unsplash.com/random/640x400/?electric,car"
+                                    style="width:100%" onclick="currentSlide(3)" alt="Electric and Car">
                             </div>
                             <div class="column">
-                                <img class="demo cursor" src="https://source.unsplash.com/random/640x400/?city,night"
-                                    style="width:100%" onclick="currentSlide(4)" alt="Northern Lights">
+                                <img class="demo cursor"
+                                    src="https://source.unsplash.com/random/640x400/?nature,mountains"
+                                    style="width:100%" onclick="currentSlide(4)" alt="Nature and Mountains">
                             </div>
                             <div class="column">
-                                <img class="demo cursor" src="https://source.unsplash.com/random/640x400/?city,night"
-                                    style="width:100%" onclick="currentSlide(5)" alt="Nature and sunrise">
+                                <img class="demo cursor"
+                                    src="https://source.unsplash.com/random/640x400/?sailing,sailboat,summer"
+                                    style="width:100%" onclick="currentSlide(5)" alt="Sailing, Sailboat and Summer">
                             </div>
                             <div class="column">
-                                <img class="demo cursor" src="https://source.unsplash.com/random/640x400/?city,night"
-                                    style="width:100%" onclick="currentSlide(6)" alt="Snowy Mountains">
+                                <img class="demo cursor" src="https://source.unsplash.com/random/640x400/?scuba,diving"
+                                    style="width:100%" onclick="currentSlide(6)" alt="Scuba and Diving">
+                            </div>
+                            <div class="column">
+                                <img class="demo cursor" src="https://source.unsplash.com/random/640x400/?raspberry,computer"
+                                    style="width:100%" onclick="currentSlide(7)" alt="Raspberry and Computer">
                             </div>
                         </div>
                     </div>
 
                     <p class="endpara">
-                        <i class="tooltip"><i class="timestamp fa fa-clock"></i><span class="tooltiptext">2021-08-23
-                                12:14:23 CET</span></i>"<i>The surest sign that intelligent life exists elsewhere in the
-                            universe is that it has never tried to contact us."</i><br>-Bill Watterson
+                        <i class="tooltip"><i class="timestamp fa fa-clock"></i><span class="tooltiptext">2022-03-10 17:18:36</span></i>"<i>If your photos aren’t good enough, then you’re not close enough."</i><br>-Robert Capa
                     </p>
 
                 </fieldset>
