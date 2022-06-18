@@ -83,10 +83,11 @@ table {
   border-bottom-color: darkgreen;
 
   overflow:hidden;
-  display:inline-block;
+  display: inline-block;
   position: fixed;
   top: 0;
 
+  
 }
 
 
