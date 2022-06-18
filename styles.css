@@ -72,6 +72,7 @@ table {
     border-color: lightgray; */
     height: 90px;
     margin-left: 10px; margin-top: 10px;
+    
     background-position:left;
     background-image: url(https://www.mathiaspihl.com/images/Coffee-mug.png); background-size: contain; background-repeat: no-repeat;text-indent: 50px;
     /*background-image: url(https://www.mathiaspihl.com/images/xmas_mug.png); background-size: contain; background-repeat: no-repeat;text-indent: 70px;*/
@@ -81,8 +82,8 @@ table {
     border-bottom-width: thin;
     border-bottom-color: darkgreen;
 
-    overflow: hidden;
-    display:inline;
+    overflow:hidden;
+    display:inline-block;
     position: fixed;
     top: 0;
   
@@ -94,8 +95,9 @@ table {
     /* border-width:thin; */
     /* border-style:dotted; */
     /* border-color: rgb(209, 4, 4); */
-    vertical-align: top;
     
+    /* vertical-align: top; */
+
 }
 
 .rowfooter {
@@ -114,6 +116,20 @@ table {
 
   
   /* text-shadow: 2px 2px darkgreen; */
+  
+}
+
+.rowmiddle {
+  /* height: 90%;
+  width: 100%;
+   */
+  /* border-width:thin; */
+  /* border-style:dotted; */
+  /* border-color: rgb(209, 4, 4); */
+
+  /* vertical-align: top; */
+  margin-top: 100px;
+  
   
 }
 
