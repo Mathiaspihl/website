@@ -64,14 +64,39 @@ table {
     border-color: rgb(14, 13, 13); */
 }
 
+.rowheader-new {
+  width: 100%;
+  z-index: 999;
+  /* border-width:thin;
+  border-style:solid;
+  border-color: lightgray; */
+  height: 90px;
+  margin-left: 10px; margin-top: 10px;
+  
+  background-position:left;
+  background-image: url(https://www.mathiaspihl.com/images/Coffee-mug.png); background-size: contain; background-repeat: no-repeat;text-indent: 50px;
+  /*background-image: url(https://www.mathiaspihl.com/images/xmas_mug.png); background-size: contain; background-repeat: no-repeat;text-indent: 70px;*/
+  /*background-image: url(./images/green-mug.png); background-size: contain; background-repeat: no-repeat;text-indent: 70px;*/
+
+  border-bottom-style:dotted;
+  border-bottom-width: thin;
+  border-bottom-color: darkgreen;
+
+  overflow:hidden;
+  display:inline-block;
+  position: fixed;
+  top: 0;
+
+}
+
+
 .rowheader {
     width: 100%;
     z-index: 999;
     /* border-width:thin;
     border-style:solid;
     border-color: lightgray; */
-    height: 90px;
-    margin-left: 10px; margin-top: 10px;
+    height: 10%;
     
     background-position:left;
     background-image: url(https://www.mathiaspihl.com/images/Coffee-mug.png); background-size: contain; background-repeat: no-repeat;text-indent: 50px;
@@ -81,11 +106,6 @@ table {
     border-bottom-style:dotted;
     border-bottom-width: thin;
     border-bottom-color: darkgreen;
-
-    overflow:hidden;
-    display:inline-block;
-    position: fixed;
-    top: 0;
   
 }
 
