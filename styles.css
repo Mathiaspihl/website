@@ -66,13 +66,26 @@ table {
 
 .rowheader {
     width: 100%;
+    z-index: 999;
     /* border-width:thin;
     border-style:solid;
     border-color: lightgray; */
-    height: 10%;
+    height: 90px;
+    margin-left: 10px; margin-top: 10px;
+    background-position:left;
     background-image: url(https://www.mathiaspihl.com/images/Coffee-mug.png); background-size: contain; background-repeat: no-repeat;text-indent: 50px;
     /*background-image: url(https://www.mathiaspihl.com/images/xmas_mug.png); background-size: contain; background-repeat: no-repeat;text-indent: 70px;*/
     /*background-image: url(./images/green-mug.png); background-size: contain; background-repeat: no-repeat;text-indent: 70px;*/
+
+    border-bottom-style:dotted;
+    border-bottom-width: thin;
+    border-bottom-color: darkgreen;
+
+    overflow: hidden;
+    display:inline;
+    position: fixed;
+    top: 0;
+  
 }
 
 .rowmiddle {
@@ -86,19 +99,22 @@ table {
 }
 
 .rowfooter {
-    width: 100%;
-    border-width:thin;
-    border-style:dotted;
-    border-color: rgb(73, 71, 71);
-
-
-    /* overflow: hidden; */
-    position: fixed;
-    bottom: 0;
+  z-index: 99;
+  width: 100%;
   
-    
-    /* text-shadow: 2px 2px darkgreen; */
-    
+  border-top-style:dotted;
+  border-top-width: thin;
+  border-top-color: darkgreen;
+  
+  margin-left: 10px; margin-top: 10px;
+  height: 50px;
+  /* overflow: hidden; */
+  position: fixed;
+  bottom: 0;
+
+  
+  /* text-shadow: 2px 2px darkgreen; */
+  
 }
 
 .border {
@@ -151,6 +167,7 @@ table {
     text-align: right;
     font-size: smaller;
     white-space: nowrap;
+    padding-right: 20px;
 
   }
 
@@ -244,7 +261,7 @@ table {
   
     /* Position the tooltip */
     position:absolute;
-    z-index: 1;
+    z-index: 9999;
   }
   
   .tooltip:hover .tooltiptext {
@@ -292,7 +309,7 @@ table {
 
   /* Position the tooltip */
   position:absolute;
-  z-index: 1;
+  z-index: 9999;
 }
 
 .tooltipimg:hover .tooltiptextimg {
