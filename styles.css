@@ -106,17 +106,21 @@ table {
     border-bottom-style:dotted;
     border-bottom-width: thin;
     border-bottom-color: darkgreen;
-  
+    
+    
 }
 
 .rowmiddle {
+
+  /* ONLY FOR BACKWARDS COMPATIBILITY */
+
     height: 90%;
     width: 100%;
     /* border-width:thin; */
     /* border-style:dotted; */
     /* border-color: rgb(209, 4, 4); */
     
-    /* vertical-align: top; */
+    vertical-align: top;
 
 }
 
