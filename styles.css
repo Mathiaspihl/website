@@ -88,15 +88,6 @@ table {
   
 }
 
-.rowmiddle {
-    height: 90%;
-    width: 100%;
-    /* border-width:thin; */
-    /* border-style:dotted; */
-    /* border-color: rgb(209, 4, 4); */
-    vertical-align: top;
-    
-}
 
 .rowfooter {
   z-index: 99;
