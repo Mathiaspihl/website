@@ -112,6 +112,15 @@ table {
 }
 
 .rowmiddle {
+  width: 100%;
+  
+  vertical-align: top;
+
+  /* margin-top: 120px; */
+
+}
+
+.rowmiddle_new {
     height: 1%;
     width: 100%;
     /* border-width:thin; */
