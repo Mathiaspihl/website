@@ -112,7 +112,7 @@ table {
 }
 
 .rowmiddle {
-    /* height: 90%; */
+    height: 1%;
     width: 100%;
     /* border-width:thin; */
     /* border-style:dotted; */
@@ -120,7 +120,7 @@ table {
     
     vertical-align: top;
 
-    margin-top: 120px;
+    /* margin-top: 120px; */
 
 }
 
