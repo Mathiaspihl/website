@@ -65,7 +65,7 @@ table {
 }
 
 .rowheader-new {
-  width: 98%;
+  width: 99%;
   z-index: 999999;
   /* border-width:thin;
   border-style:solid;
@@ -122,7 +122,7 @@ table {
 
 .rowmiddle_new {
     height: 1%;
-    width: 98%;
+    width: 99%;
     /* border-width:thin; */
     /* border-style:dotted; */
     /* border-color: rgb(209, 4, 4); */
@@ -135,7 +135,7 @@ table {
 
 .rowfooter {
   z-index: 999999;
-  width: 98%;
+  width: 99%;
   
   border-top-style:dotted;
   border-top-width: thin;
