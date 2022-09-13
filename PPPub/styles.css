@@ -5,7 +5,7 @@ USEFUL LINKS:
     https://www.w3schools.com/howto/howto_css_shake_image.asp
 
 */
-@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quattrocento&display=swap');
 
 
 fieldset {
@@ -28,28 +28,101 @@ fieldset {
   margin-right: 2%;
 }
 
-legend {
-    border: 1px black solid;
-    margin-left: 1em; 
-    padding: 0.2em 0.8em;
-    font-family: 'Poppins', sans-serif;
-    background-color: rgba(255, 255, 255, 0.3); /* Black w/opacity/see-through */
-}
-
 :target{
-border: 2px dotted #666;
-background-color: greenyellow;
+  border: 2px dotted #666;
+  background-color: greenyellow;
+  
+  }
+
+  
+
+.border {
+  border: 1px solid gray;
+  padding: 8px;
+  width: 80%;
+}
+
+.borderfooter {
+  border: 1px solid gray;
+  padding: 8px;
+  width: 100%;
+} 
+
+
+.endpara{
+  font-family: 'Quattrocento', sans-serif;
+  letter-spacing: normal;
+  text-align: right;
+  /* font-size: smaller; */
+}
+
+.translate{
+  font-family: 'Quattrocento', sans-serif;
+  
+  white-space: nowrap;
+  /* padding-right: 20px; */
+
+  font-size: small;
+  text-align:right;
 
 }
+
+.bookmark {
+  /* text-indent: 25px; */
+  text-align: left;
+  letter-spacing: 2px;
+  font-family: 'Quattrocento', sans-serif;
+  margin-bottom: 5px; 
+  margin-top: 2px;
+  margin-right: 10px;
+  margin-left: 10px;
+  /* background-color: lightgray; */
+}
+
+.timestamp {
+  /* background-color: white; */
+  font-size: 12px;
+}
+
+/* ====================================    NOT USED ABOVE THIS    ================================================ */
+
+
+.img-article {
+  box-shadow:0 1px 8px rgba(14, 13, 13, 0.9);
+  border-radius: 10px;
+
+  vertical-align: top ;
+}
+
+.article_right-bottom {
+  padding-left: 20px;
+  padding-bottom: 10px;
+  /* top right bottom left */
+  border-style: none solid solid none;
+  border-width: thin;
+  border-color: #666;
+  width: 1%;
+  vertical-align: top;
+
+}
+
+legend {
+    padding-bottom: 10px;
+    font-family: 'Quattrocento', sans-serif;
+    /* background-color: rgba(255, 255, 255, 0.3); */
+    font-weight: bolder;
+    font-size: 20px;
+}
+
 html,body{
     margin:0;
     padding:0;
     height:100%;
     border:none;                    /*!!!this was remarked*/
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Quattrocento', sans-serif;
     font-size: 14px;
-    background-color: #f60505;
-    background-image: url(https://www.mathiaspihl.com/images/coffee_bg-50-mini.png);
+    background-color: #ffffff;
+    /* background-image: url(https://www.mathiaspihl.com/images/coffee_bg-50-mini.png); */
     /*background-position: left;*/
     background-repeat: no-repeat;
     background-size: 100% ;
@@ -64,63 +137,37 @@ table {
     border-color: rgb(14, 13, 13); */
 }
 
-.rowheader-new {
+.titlestyle {
+  font-size:50px ;
+  text-align: center;
+  text-transform: capitalize;
+  font-weight: bolder;
+}
+
+.rowheader {
   width: 99%;
   z-index: 999999;
-  /* border-width:thin;
+  border-width:thin;
   border-style:solid;
-  border-color: lightgray; */
-  height: 100px;
-  margin-top: 10px;
+  border-color: lightgray;
+  height: 80px;
+  margin-top: 1px;
   
-  background-position:left;
-  background-image: url(https://www.mathiaspihl.com/images/Coffee-mug.png); background-size: contain; background-repeat: no-repeat;text-indent: 50px;
-  /*background-image: url(https://www.mathiaspihl.com/images/xmas_mug.png); background-size: contain; background-repeat: no-repeat;text-indent: 70px;*/
-  /*background-image: url(./images/green-mug.png); background-size: contain; background-repeat: no-repeat;text-indent: 70px;*/
+  /* background-position:left;
+  background-image: url(https://www.mathiaspihl.com/images/Coffee-mug.png); background-size: contain; background-repeat: no-repeat;text-indent: 50px; */
 
-  border-bottom-style:dotted;
-  border-bottom-width: thin;
-  border-bottom-color: darkgreen;
+  border-bottom-style:double;
+  border-bottom-width:5px;
+  border-bottom-color: black;
 
   overflow:hidden;
   display: inline-block;
   position: fixed;
   top: 0;
-
   
-}
-
-
-.rowheader {
-    width: 100%;
-    z-index: 999;
-    /* border-width:thin;
-    border-style:solid;
-    border-color: lightgray; */
-    height: 10%;
-    
-    background-position:left;
-    background-image: url(https://www.mathiaspihl.com/images/Coffee-mug.png); background-size: contain; background-repeat: no-repeat;text-indent: 50px;
-    /*background-image: url(https://www.mathiaspihl.com/images/xmas_mug.png); background-size: contain; background-repeat: no-repeat;text-indent: 70px;*/
-    /*background-image: url(./images/green-mug.png); background-size: contain; background-repeat: no-repeat;text-indent: 70px;*/
-
-    border-bottom-style:dotted;
-    border-bottom-width: thin;
-    border-bottom-color: darkgreen;
-    
-    
 }
 
 .rowmiddle {
-  width: 100%;
-  
-  vertical-align: top;
-
-  /* margin-top: 120px; */
-
-}
-
-.rowmiddle_new {
     height: 1%;
     width: 99%;
     /* border-width:thin; */
@@ -152,31 +199,19 @@ table {
   
 }
 
-
-.border {
-    border: 1px solid gray;
-    padding: 8px;
-    width: 80%;
-  }
- 
-.borderfooter {
-    border: 1px solid gray;
-    padding: 8px;
-    width: 100%;
-  } 
   h1 {
-    text-align: left;
+    text-align: center;
     text-transform: capitalize;
-    color: #4CAF50;
+    color: black;
     /* text-decoration: underline; */
-    text-shadow: 2px 2px darkgreen;
+    text-shadow: 2px 2px lightslategray;
   }
   
   .main {
     /* text-indent: 25px; */
     text-align: left;
     letter-spacing: 2px;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Quattrocento', sans-serif;
     margin-bottom: 30px; 
     margin-top: 2px;
     margin-right: 10px;
@@ -185,53 +220,18 @@ table {
 
   p{
     letter-spacing: 2px;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Quattrocento', sans-serif;
 
   }
   
 
-  .endpara{
-    font-family: 'Poppins', sans-serif;
-    letter-spacing: normal;
-    text-align: right;
-    /* font-size: smaller; */
-  }
-
-  .translate{
-    font-family: 'Poppins', sans-serif;
-    
-    white-space: nowrap;
-    /* padding-right: 20px; */
-
-    font-size: small;
-    text-align:right;
-
-  }
-
-  .bookmark {
-    /* text-indent: 25px; */
-    text-align: left;
-    letter-spacing: 2px;
-    font-family: 'Poppins', sans-serif;
-    margin-bottom: 5px; 
-    margin-top: 2px;
-    margin-right: 10px;
-    margin-left: 10px;
-    /* background-color: lightgray; */
-  }
-
 
   a {
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Quattrocento', sans-serif;
     text-decoration: none;
     color: #4CAF50;
   }
 
-  .timestamp {
-    /* background-color: white; */
-    font-size: 12px;
-
-  }
 
   /* ##### TOOLTIP ##### */
   .tooltiponly {
@@ -241,7 +241,7 @@ table {
   }
 
   .tooltiponly .tooltiptextonly {
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Quattrocento', sans-serif;
     letter-spacing: normal;
     visibility: hidden;
     width: 200px;
@@ -277,7 +277,7 @@ table {
   }
   
   .tooltip .tooltiptext {
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Quattrocento', sans-serif;
     letter-spacing: normal;
     visibility: hidden;
     /* display: none; */
@@ -307,11 +307,6 @@ table {
   }
 
 
-.img-shadow {
-  box-shadow:0 1px 8px rgba(14, 13, 13, 0.9);
-  border-radius: 20px;
-}
-
 
 /* #### TOOLTIP for IMAGES ### */
 .tooltipimg {
@@ -322,7 +317,7 @@ table {
 }
 
 .tooltipimg .tooltiptextimg {
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Quattrocento', sans-serif;
   letter-spacing: normal;
   visibility: hidden;
   min-width: 200px;
@@ -418,7 +413,7 @@ http://www.menucool.com/tooltip/css-tooltip
   color: white;
   padding: 10px;
   /* font-size: 14px; */
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Quattrocento', sans-serif;
   border: none;
   min-width: 160px;
 }
@@ -439,7 +434,7 @@ http://www.menucool.com/tooltip/css-tooltip
 }
 
 .dropup-content a {
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Quattrocento', sans-serif;
   color: black;
   padding: 5px 10px;
   text-decoration: none;
