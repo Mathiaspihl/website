@@ -1,0 +1,459 @@
+/*
+USEFUL LINKS:
+=============
+
+    https://www.w3schools.com/howto/howto_css_shake_image.asp
+
+*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+
+fieldset {
+    display: block;
+    border: 1px black solid;
+    width: 80%;
+    background-color: rgba(255, 255, 255, 0.3); /* Black w/opacity/see-through */
+    margin-bottom: 20px;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.fieldsetnested {
+  display: block;
+  border: 1px black dotted;
+  width: 95%;
+  background-color: rgba(255, 255, 255, 0.3); /* Black w/opacity/see-through */
+  margin-bottom: 5px;
+  margin-left: 2%;
+  margin-right: 2%;
+}
+
+legend {
+    border: 1px black solid;
+    margin-left: 1em; 
+    padding: 0.2em 0.8em;
+    font-family: 'Poppins', sans-serif;
+    background-color: rgba(255, 255, 255, 0.3); /* Black w/opacity/see-through */
+}
+
+:target{
+border: 2px dotted #666;
+background-color: greenyellow;
+
+}
+html,body{
+    margin:0;
+    padding:0;
+    height:100%;
+    border:none;                    /*!!!this was remarked*/
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    background-color: #ffffff;
+    background-image: url(https://www.mathiaspihl.com/images/coffee_bg-50-mini.png);
+    /*background-position: left;*/
+    background-repeat: no-repeat;
+    background-size: 100% ;
+    background-attachment: fixed;
+ }
+
+table {
+    width: 100%;
+    height: 100%;
+    /* border-width:thin;
+    border-style:solid;
+    border-color: rgb(14, 13, 13); */
+}
+
+.rowheader-new {
+  width: 99%;
+  z-index: 999999;
+  /* border-width:thin;
+  border-style:solid;
+  border-color: lightgray; */
+  height: 100px;
+  margin-top: 10px;
+  
+  background-position:left;
+  background-image: url(https://www.mathiaspihl.com/images/Coffee-mug.png); background-size: contain; background-repeat: no-repeat;text-indent: 50px;
+  /*background-image: url(https://www.mathiaspihl.com/images/xmas_mug.png); background-size: contain; background-repeat: no-repeat;text-indent: 70px;*/
+  /*background-image: url(./images/green-mug.png); background-size: contain; background-repeat: no-repeat;text-indent: 70px;*/
+
+  border-bottom-style:dotted;
+  border-bottom-width: thin;
+  border-bottom-color: darkgreen;
+
+  overflow:hidden;
+  display: inline-block;
+  position: fixed;
+  top: 0;
+
+  
+}
+
+
+.rowheader {
+    width: 100%;
+    z-index: 999;
+    /* border-width:thin;
+    border-style:solid;
+    border-color: lightgray; */
+    height: 10%;
+    
+    background-position:left;
+    background-image: url(https://www.mathiaspihl.com/images/Coffee-mug.png); background-size: contain; background-repeat: no-repeat;text-indent: 50px;
+    /*background-image: url(https://www.mathiaspihl.com/images/xmas_mug.png); background-size: contain; background-repeat: no-repeat;text-indent: 70px;*/
+    /*background-image: url(./images/green-mug.png); background-size: contain; background-repeat: no-repeat;text-indent: 70px;*/
+
+    border-bottom-style:dotted;
+    border-bottom-width: thin;
+    border-bottom-color: darkgreen;
+    
+    
+}
+
+.rowmiddle {
+  width: 100%;
+  
+  vertical-align: top;
+
+  /* margin-top: 120px; */
+
+}
+
+.rowmiddle_new {
+    height: 1%;
+    width: 99%;
+    /* border-width:thin; */
+    /* border-style:dotted; */
+    /* border-color: rgb(209, 4, 4); */
+    
+    vertical-align: top;
+
+    /* margin-top: 120px; */
+
+}
+
+.rowfooter {
+  z-index: 999999;
+  width: 99%;
+  
+  border-top-style:dotted;
+  border-top-width: thin;
+  border-top-color: darkgreen;
+  
+  margin-left: 10px; margin-top: 10px;
+  height: 50px;
+  /* overflow: hidden; */
+  position: fixed;
+  bottom: 0;
+
+  
+  /* text-shadow: 2px 2px darkgreen; */
+  
+}
+
+
+.border {
+    border: 1px solid gray;
+    padding: 8px;
+    width: 80%;
+  }
+ 
+.borderfooter {
+    border: 1px solid gray;
+    padding: 8px;
+    width: 100%;
+  } 
+  h1 {
+    text-align: left;
+    text-transform: capitalize;
+    color: #4CAF50;
+    /* text-decoration: underline; */
+    text-shadow: 2px 2px darkgreen;
+  }
+  
+  .main {
+    /* text-indent: 25px; */
+    text-align: left;
+    letter-spacing: 2px;
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 30px; 
+    margin-top: 2px;
+    margin-right: 10px;
+    margin-left: 10px;
+  }
+
+  p{
+    letter-spacing: 2px;
+    font-family: 'Poppins', sans-serif;
+
+  }
+  
+
+  .endpara{
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: normal;
+    text-align: right;
+    /* font-size: smaller; */
+  }
+
+  .translate{
+    font-family: 'Poppins', sans-serif;
+    
+    white-space: nowrap;
+    /* padding-right: 20px; */
+
+    font-size: small;
+    text-align:right;
+
+  }
+
+  .bookmark {
+    /* text-indent: 25px; */
+    text-align: left;
+    letter-spacing: 2px;
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 5px; 
+    margin-top: 2px;
+    margin-right: 10px;
+    margin-left: 10px;
+    /* background-color: lightgray; */
+  }
+
+
+  a {
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+    color: #4CAF50;
+  }
+
+  .timestamp {
+    /* background-color: white; */
+    font-size: 12px;
+
+  }
+
+  /* ##### TOOLTIP ##### */
+  .tooltiponly {
+    position: relative;
+    display: inline-block;
+    /* border-bottom: 1px dotted black; */
+  }
+
+  .tooltiponly .tooltiptextonly {
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: normal;
+    visibility: hidden;
+    width: 200px;
+    top: 100%;
+    left: 50%;
+    margin-left: -100px; /* Use half of the width (200/2 = 100), to center the tooltip */
+    font-size: 13px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    box-shadow:0 1px 8px rgba(14, 13, 13, 0.9);
+  
+    /* Position the tooltip */
+    position:absolute;
+    z-index: 1;
+  }
+
+  .tooltiponly:hover .tooltiptextonly {
+    visibility: visible;
+    /* display:block; */
+  }
+
+
+  .tooltip {
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px dotted black;
+  }
+  
+  .tooltip .tooltiptext {
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: normal;
+    visibility: hidden;
+    /* display: none; */
+    width: 200px;
+    top: 100%;
+    left: 50%;
+    margin-left: -100px; /* Use half of the width (200/2 = 100), to center the tooltip */
+    font-size: 13px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    box-shadow:0 1px 8px rgba(14, 13, 13, 0.9);
+  
+    /* Position the tooltip */
+    position:absolute;
+    z-index: 9999;
+  }
+  
+  .tooltip:hover .tooltiptext {
+    visibility: visible;
+    /* display:block; */
+  }
+
+
+.img-shadow {
+  box-shadow:0 1px 8px rgba(14, 13, 13, 0.9);
+  border-radius: 20px;
+}
+
+
+/* #### TOOLTIP for IMAGES ### */
+.tooltipimg {
+  position: relative;
+  display: inline-block;
+  border-bottom: 1px dotted black;
+  /* color: #4CAF50; */
+}
+
+.tooltipimg .tooltiptextimg {
+  font-family: 'Poppins', sans-serif;
+  letter-spacing: normal;
+  visibility: hidden;
+  min-width: 200px;
+  max-width: 400px;
+  top: 100%;
+  left: 0%;
+  margin-left: -50px;
+
+  height: auto;
+  font-size: 13px;
+  background-color: black;
+  color: #fff;
+  text-align:left;
+  border-radius: 5px;
+  /*padding: 5px 5px;*/
+  padding-top: 2px;
+  padding-bottom: 2px;
+  padding-left: 5px;
+  padding-right: 5px;
+  box-shadow:0 1px 8px rgba(14, 13, 13, 0.9);
+
+  /* Position the tooltip */
+  position:absolute;
+  z-index: 9999;
+}
+
+.tooltipimg:hover .tooltiptextimg {
+  visibility: visible;
+}
+/* #### END ### */
+
+/* ##### tooltip2 ######### */
+/* 
+http://www.menucool.com/tooltip/css-tooltip
+ */
+ .tooltip2 {
+  display:inline-block;
+  position:relative;
+  border-bottom:1px dotted #666;
+  text-align:left;
+}
+
+.tooltip2 .bottom {
+  min-width:200px; 
+  max-width:400px;
+  top:20px;
+  left:50%;
+  transform:translate(-50%, 0);
+  padding:10px 20px;
+  color:#444444;
+  background-color:#EEEEEE;
+  font-weight:normal;
+  font-size:13px;
+  border-radius:8px;
+  position:absolute;
+  z-index:99999999;
+  box-sizing:border-box;
+  box-shadow:0 1px 8px rgba(0,0,0,0.5);
+  display:none;
+}
+
+.tooltip2:hover .bottom {
+  display:block;
+}
+
+.tooltip2 .bottom i {
+  position:absolute;
+  bottom:100%;
+  left:50%;
+  margin-left:-12px;
+  width:24px;
+  height:12px;
+  overflow:hidden;
+}
+
+.tooltip2 .bottom i::after {
+  content:'';
+  position:absolute;
+  width:12px;
+  height:12px;
+  left:50%;
+  transform:translate(-50%,50%) rotate(45deg);
+  background-color:#EEEEEE;
+  box-shadow:0 1px 8px rgba(0,0,0,0.5);
+}
+/* ###################### */
+
+
+
+/* #### DROPUP BUTTON MENU #### */
+.dropbtn {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px;
+  /* font-size: 14px; */
+  font-family: 'Poppins', sans-serif;
+  border: none;
+  min-width: 160px;
+}
+.dropup {
+  position: relative;
+  display: inline-block;
+}
+
+.dropup-content {
+  display: none;
+  position: absolute;
+  background-color: rgb(207, 233, 180);
+  min-width: 170px;
+  bottom: 40px;
+  z-index: 1;
+  max-height: 300px;
+  overflow-y: scroll;
+}
+
+.dropup-content a {
+  font-family: 'Poppins', sans-serif;
+  color: black;
+  padding: 5px 10px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropup-content a:hover {background-color: #ccc}
+
+.dropup:hover .dropup-content {
+  display: block;
+}
+
+.dropup:hover .dropbtn {
+  background-color: #4CAF50;
+}
+
+/* ################### */
