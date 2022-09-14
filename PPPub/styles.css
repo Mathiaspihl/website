@@ -106,6 +106,18 @@ fieldset {
 
 }
 
+.article_bottom {
+  padding-left: 20px;
+  padding-bottom: 10px;
+  /* top right bottom left */
+  border-style: none none solid none;
+  border-width: thin;
+  border-color: #666;
+  width: 1%;
+  vertical-align: top;
+
+}
+
 legend {
     padding-bottom: 10px;
     font-family: 'Quattrocento', sans-serif;
@@ -142,6 +154,7 @@ table {
   text-align: center;
   text-transform: capitalize;
   font-weight: bolder;
+  letter-spacing: 0.2em;
 }
 
 .rowheader {
