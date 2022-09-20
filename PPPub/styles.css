@@ -89,12 +89,12 @@ fieldset {
 
 .img-article {
   box-shadow:0 1px 8px rgba(14, 13, 13, 0.9);
-  border-radius: 10px;
+  border-radius: 5px;
 
   vertical-align: top ;
 }
 
-.article_right-bottom {
+.article_Left-right-bottom {
   padding-left: 20px;
   padding-bottom: 10px;
   /* top right bottom left */
@@ -103,10 +103,20 @@ fieldset {
   border-color: #666;
   width: 1%;
   vertical-align: top;
-
+}
+.article_left-right {
+  padding-left: 20px;
+  padding-bottom: 10px;
+  /* top right bottom left */
+  border-style: none solid none none;
+  border-width: thin;
+  border-color: #666;
+  width: 1%;
+  vertical-align: top;
 }
 
-.article_bottom {
+
+.article_right-bottom {
   padding-left: 20px;
   padding-bottom: 10px;
   /* top right bottom left */
@@ -115,8 +125,18 @@ fieldset {
   border-color: #666;
   width: 1%;
   vertical-align: top;
-
 }
+.article_right {
+  padding-left: 20px;
+  padding-bottom: 10px;
+  /* top right bottom left */
+  border-style: none none none none;
+  border-width: thin;
+  border-color: #666;
+  width: 1%;
+  vertical-align: top;
+}
+
 
 legend {
     padding-bottom: 10px;
@@ -197,12 +217,15 @@ table {
   z-index: 999999;
   width: 99%;
   
+  border-width:thin;
+  border-style:solid;
+  border-color: lightgray;
   border-top-style:double;
   border-top-width: 5px;
   border-top-color: black;
   
-  margin-left: 10px; margin-top: 10px;
-  height: 50px;
+  margin-left: 10px; margin-top: 5px;
+  height: 75px;
   /* overflow: hidden; */
   position: fixed;
   bottom: 0;

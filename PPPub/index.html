@@ -52,7 +52,7 @@
 	 -->
 
 	 <div style="top:0;position:fixed;z-index: 1; width: 100%; height: 90px; background-color: white; opacity: 1;"></div>
-	 <div style="bottom:0;position:fixed;z-index: 1; width: 100%; height: 50px;background-color: white; opacity: 0.7;"></div>
+	 <div style="bottom:0;position:fixed;z-index: 1; width: 100%; height: 80px;background-color: white; opacity: 1;"></div>
 
 	 <!-- Row Header -->
 	<div class="rowheader">
@@ -74,52 +74,56 @@
 
 	</div>
 
-	
+	<!-- Brilliant Table Layout tool
+
+		https://www.tablesgenerator.com/html_tables#
+
+	-->
 	<table class="rowmiddle" >
 		<!-- TOP SPACER -->
 		<tr style="height: 120px;"><td> </td></tr>
 
-		<!-- Daily Post -->
-		<tr >
-			<td class="article_right-bottom">
-				<legend>Test</legend>
-				Here we have some text...
-				<img class="img-article" width="200px" src="https://images2.imgbox.com/f5/7e/pGQ4RmmK_o.jpg">
-			</td>
-			<td class="article_bottom">
-				<legend>This is another header</legend>
-				And this is some more text...
-			</td>
-		</tr>
+		<!-- ROW ONE -->
+			<tr >
+				<td class="article_Left-right-bottom">
+					<legend>Test</legend>
+					Here we have some text...some text goes here.<br>
+					<img class="img-article" width="200px" src="https://images2.imgbox.com/f5/7e/pGQ4RmmK_o.jpg">
+					
+				</td>
+				<td class="article_Left-right-bottom">
+					<!-- dummy -->
+				</td>
+				<td class="article_right-bottom">
+					<legend>This is another header</legend>
+					And this is some more text...
+				</td>
+			</tr>
 
-		<!-- Daily Post -->
-		<tr>
-			<td >
-				<fieldset>
-					<legend>12th of Sep 2022</legend>
+		<!-- ROW TWO -->
+			<tr>
+				<td class="article_Left-right-bottom" colspan="2">
+					<legend>A different layout</legend>
+					Here we have some text...
+					<img class="img-article" width="" src="https://dummyimage.com/700x200/000/ffffff&text=En+bild">
+				</td>
+				<!-- <td></td> -->
+				<td class="article_right" rowspan="2">
+					<legend>It can also look like this</legend>
+					Note how this article spans over two rows...
+				</td>
+			</tr>
 
-					<p class="main" style="margin-bottom: 10px;">
-						<i class="fas fa-check fa-fw"></i>
-						<i class="tooltip"><i style="font-size:20px;" class="fa fa-clock fa-fw"></i><span class="tooltiptext">2022-09-12 19:24:29 CET</span></i>
-						The work week started in all its glory and I am glad I could finally turn off the worklaptop at around 18:30. Especially since it was a grewsome start this morning. The Grewsome word is a strong word, but once a month we have an "executive update" and you always have to be on your "best behaviour" and well prepared. You know what I am talking about and we all have it. Anyway, if that happens on a Monday morning it is a struggle. At least for me. So, thus, that is why I am glad the day is over and I can enjoy the evening...
-					</p>
-
-					<p class="main">
-						Today was the day, a big day for our neighbour ladies, when <i class="tooltipimg">they left <i class="fas fa-image"></i><span class="tooltiptextimg"><img width="400px" src="https://images2.imgbox.com/f5/7e/pGQ4RmmK_o.jpg">No, it's not like I am spying at them, just the driveway camera recording what's happening. It's proved to be very useful. Also, it's a Raspberry Pi computer doing it all.</span></i> for the round of the next treatment. As I said earlier, it is a very interesting week... but we are ready to fight this shit. We will see it through and it will, it WILL, be a positive outcome! We have to see that this is all for the best!
-						<!-- <a href="https://imgbox.com/pGQ4RmmK" target="_blank"><img src="https://images2.imgbox.com/f5/7e/pGQ4RmmK_o.jpg" alt="image host"/></a> -->
-					</p>
-
-					<!-- https://en.wikipedia.org/wiki/aug_12 -->
-					<!-- https://www.daysoftheyear.com/days/sept/12/  -->
-					<p class="main" id="didyouknow">
-						<i class="fas fa-check fa-fw"></i>
-						<i class="tooltip"><i style="font-size:20px;" class="fa-solid fa-clock-rotate-left"></i><span class="tooltiptext">Did you know that..? I try to find an interesting historical event that occurred on this day.</span></i>
-						<i class="tooltip"><i style="font-size:20px;" class="fa fa-clock fa-fw"></i><span class="tooltiptext">2022-09-12 19:24:40 CET</span></i>
-						Did you know that today in 1323 the <i class="tooltip"><a href="https://en.wikipedia.org/wiki/Treaty_of_N%C3%B6teborg">treaty of Nöteborg</a> <i class="fas fa-link"></i><span class="tooltiptext">Read more about it here on Wikipedia.</span></i> between Sweden and Novgorod Republic is signed, regulating the border between the two countries for the first time.
-					</p>
-				</fieldset>
-			</td>
-		</tr>
+		<!-- ROW THREE -->
+			<tr>
+				<td class="article_left-right">
+					<legend>Another article</legend>
+					Here we have some text...
+					<img class="img-article" width="" src="https://dummyimage.com/400x200/000/ffffff&text=En+till+bild">
+				</td>
+				<td class="article_left-right"></td>
+				<!-- <td></td> -->
+			</tr>
 
 		
 		<!-- FOOTER SPACER -->
@@ -131,61 +135,10 @@
 		<table style="border-style: none;">
 			<tr>
 				<td>
-					<div class="dropup">
-						<button class="dropbtn">Posts</button>
-						<!-- DROPDOWN list -->
-						<div class="dropup-content">
-							<a target="_self" href="/index.html">Today</a>
-							<a target="_self" href="/archive/index__11sep2022.html">Sep 11th</a>
-							<a target="_self" href="/archive/index__11sep2022.html">Sep 10th</a>
-							<a target="_self" href="/archive/index__11sep2022.html">Sep 9th</a>
-							<a target="_self" href="/archive/index__11sep2022.html">Sep 8th</a>
-							<a target="_self" href="/archive/index__11sep2022.html">Sep 7th</a>
-							<a target="_self" href="/archive/index__11sep2022.html">Sep 6th</a>
-							<a target="_self" href="/archive/index__11sep2022.html">Sep 5th</a>
-							<a target="_self" href="/archive/index__04sep2022.html">Sep 4th</a>
-							<a target="_self" href="/archive/index__04sep2022.html">Sep 3rd</a>
-							<a target="_self" href="/archive/index__04sep2022.html">Sep 2nd</a>
-							<a target="_self" href="/archive/index__04sep2022.html">Sep 1st</a>
-							<a target="_self" href="/archive/index__04sep2022.html">Aug 31th</a>
-							<a target="_self" href="/archive/index__04sep2022.html">Aug 30th</a>
-							<a target="_self" href="/archive/index__04sep2022.html">Aug 29th</a>
-							<a target="_self" href="/archive/index__28aug2022.html">Aug 28th</a>
-							<a target="_self" href="/archive/index__28aug2022.html">Aug 27th</a>
-							<a target="_self" href="/archive/index__28aug2022.html">Aug 26th</a>
-							<a target="_self" href="/archive/index__28aug2022.html">Aug 25th</a>
-							<a target="_self" href="/archive/index__28aug2022.html">Aug 24th</a>
-							<a target="_self" href="/archive/index__28aug2022.html">Aug 23th</a>
-							<a target="_self" href="/archive/index__28aug2022.html">Aug 22th</a>
-							<a target="_self" href="/archive/index__28aug2022.html">Aug 21th</a>
-							<a target="_self" href="/archive/index__28aug2022.html">Aug 20th</a>
-							<a target="_self" href="/archive/index__28aug2022.html">Aug 19th</a>
-							<a target="_self" href="/archive/index__28aug2022.html">Aug 18th</a>
-							<a target="_self" href="/archive/index__28aug2022.html">Aug 17th</a>
-							<a target="_self" href="/archive/index__28aug2022.html">Aug 16th</a>
-							<a target="_self" href="/archive/index__28aug2022.html">Aug 15th</a>
-							<a target="_self" href="/archive/index__14aug2022.html">Aug 14th</a>
-							<a target="_self" href="/archive/index__14aug2022.html">Aug 13th</a>
-							<a target="_self" href="/archive/index__14aug2022.html">Aug 12th</a>
-							<a target="_self" href="/archive/index__14aug2022.html">Aug 11th</a>
-							<abbr title="Select last entry from list above to go further back.">Continued...</abbr>
-						</div>
-					</div>
+					<legend>Het Weer:</legend>
 				</td>
 
-				<td style="text-align: right; ">
-					<div class="dropup">
-						<button class="dropbtn">Stuff</button>
-						<div style="text-align: left; " class="dropup-content">
-							<a target="_self" href="https://www.mathiaspihl.com/index_stuff.html">Stuff</a>
-							<a target="_self" href="https://www.mathiaspihl.com/index_bookmarks.html">Bookmarks</a>
-							<a target="_blank" href="https://cse.google.com/cse?cx=49e449a463e53fd3d">Search</a>
-							<a target="_self" href="/index_gallery.html">The Random 7</a>
-						</div>
-					</div>
-				</td>
-
-				<!-- <td style="text-align: right; "><div class="dropup dropbtn"><a style="color: white;" href="https://www.mathiaspihl.com/index_stuff.html">Stuff</a></div</td> -->
+			
 			</tr>
 		</table>
 	</div>
