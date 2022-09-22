@@ -114,8 +114,6 @@ fieldset {
   width: 1%;
   vertical-align: top;
 }
-
-
 .article_right-bottom {
   padding-left: 20px;
   padding-bottom: 10px;
@@ -137,6 +135,16 @@ fieldset {
   vertical-align: top;
 }
 
+.footer-top {
+  padding-left: 20px;
+  padding-bottom: 0px;
+  /* top right bottom left */
+  border-style: solid none none none;
+  border-width: double;
+  border-color: #000;
+  width: 1%;
+  vertical-align: top;
+}
 
 legend {
     padding-bottom: 10px;
