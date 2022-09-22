@@ -8,82 +8,6 @@ USEFUL LINKS:
 @import url('https://fonts.googleapis.com/css2?family=Quattrocento&display=swap');
 
 
-fieldset {
-    display: block;
-    border: 1px black solid;
-    width: 80%;
-    background-color: rgba(255, 255, 255, 0.3); /* Black w/opacity/see-through */
-    margin-bottom: 20px;
-    margin-left: 10%;
-    margin-right: 10%;
-}
-
-.fieldsetnested {
-  display: block;
-  border: 1px black dotted;
-  width: 95%;
-  background-color: rgba(255, 255, 255, 0.3); /* Black w/opacity/see-through */
-  margin-bottom: 5px;
-  margin-left: 2%;
-  margin-right: 2%;
-}
-
-:target{
-  border: 2px dotted #666;
-  background-color: greenyellow;
-  
-  }
-
-  
-
-.border {
-  border: 1px solid gray;
-  padding: 8px;
-  width: 80%;
-}
-
-.borderfooter {
-  border: 1px solid gray;
-  padding: 8px;
-  width: 100%;
-} 
-
-
-.endpara{
-  font-family: 'Quattrocento', sans-serif;
-  letter-spacing: normal;
-  text-align: right;
-  /* font-size: smaller; */
-}
-
-.translate{
-  font-family: 'Quattrocento', sans-serif;
-  
-  white-space: nowrap;
-  /* padding-right: 20px; */
-
-  font-size: small;
-  text-align:right;
-
-}
-
-.bookmark {
-  /* text-indent: 25px; */
-  text-align: left;
-  letter-spacing: 2px;
-  font-family: 'Quattrocento', sans-serif;
-  margin-bottom: 5px; 
-  margin-top: 2px;
-  margin-right: 10px;
-  margin-left: 10px;
-  /* background-color: lightgray; */
-}
-
-.timestamp {
-  /* background-color: white; */
-  font-size: 12px;
-}
-
 /* ====================================    NOT USED ABOVE THIS    ================================================ */
 
 
@@ -221,28 +145,6 @@ table {
 
 }
 
-.rowfooter {
-  z-index: 999999;
-  width: 99%;
-  
-  border-width:thin;
-  border-style:solid;
-  border-color: lightgray;
-  border-top-style:double;
-  border-top-width: 5px;
-  border-top-color: black;
-  
-  margin-left: 10px; margin-top: 5px;
-  /* height: 75px; */
-  height: 90px;
-  /* overflow: hidden; */
-  position: fixed;
-  bottom: 0;
-
-  
-  /* text-shadow: 2px 2px darkgreen; */
-  
-}
 
   h1 {
     text-align: center;
@@ -269,8 +171,6 @@ table {
 
   }
   
-
-
   a {
     font-family: 'Quattrocento', sans-serif;
     text-decoration: none;
