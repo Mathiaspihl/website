@@ -20,7 +20,7 @@ USEFUL LINKS:
 
 .article_Left-right-bottom {
   padding-left: 20px;
-  padding-bottom: 10px;
+  /* padding-bottom: 10px; */
   /* top right bottom left */
   border-style: none solid solid none;
   border-width: thin;
@@ -30,7 +30,7 @@ USEFUL LINKS:
 }
 .article_left-right {
   padding-left: 20px;
-  padding-bottom: 10px;
+  /* padding-bottom: 10px; */
   /* top right bottom left */
   border-style: none solid none none;
   border-width: thin;
@@ -40,7 +40,7 @@ USEFUL LINKS:
 }
 .article_right-bottom {
   padding-left: 20px;
-  padding-bottom: 10px;
+  /* padding-bottom: 10px; */
   /* top right bottom left */
   border-style: none none solid none;
   border-width: thin;
@@ -50,7 +50,7 @@ USEFUL LINKS:
 }
 .article_right {
   padding-left: 20px;
-  padding-bottom: 10px;
+  /* padding-bottom: 10px; */
   /* top right bottom left */
   border-style: none none none none;
   border-width: thin;
