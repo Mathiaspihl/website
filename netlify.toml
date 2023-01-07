@@ -3,4 +3,10 @@ package = "@netlify/plugin-sitemap"
 
   [plugins.inputs]
   changeFreq = "daily"
+  exclude = [
+    # By file Path
+    './PPPub/**',
+    # By Glob pattern
+    #'**/**/child-one.html'
+  ]
   filePath = "./sitemap.xml"
