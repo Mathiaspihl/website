@@ -8,6 +8,8 @@ package = "@netlify/plugin-sitemap"
     './PPPub/**',
     './vscode/**',
     './test**',
+    './_development/**',
+    './test-text.txt',
     # By Glob pattern
     #'**/**/child-one.html'
   ]
