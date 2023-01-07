@@ -9,7 +9,7 @@ package = "@netlify/plugin-sitemap"
     './vscode/**',
     './test**',
     './_development/**',
-    './test-text.txt',
+    './thankyou.html',
     # By Glob pattern
     #'**/**/child-one.html'
   ]
