@@ -100,21 +100,22 @@
                 </fieldset>
 
                 <!-- Question -->
-                <fieldset>
+                <fieldset id="contact">
                     <legend>Send me a message</legend>
                     <p class="main" style="margin-bottom: 10px;">As you have noticed, I do not let people comment my posts. It is a done on purpose, the idea is do focus on the content rather than chase likes. I leave that up to platforms like Facebook and others...</p>
                     <p class="main">However, as of now, you can send me a message. A comment, feedback, question...anything really!</p>
 
+
                     <form action="https://formsubmit.co/12aa72b50560fd33158b059d72d3272a" method="POST">
                         <input type="hidden" name="_subject" value="Feedback submitted from mathiaspihl.com">
                         <input type="hidden" name="_next" value="https://www.mathiaspihl.com/thankyou.html">
-                        <input type="hidden" name="_autoresponse" value="Thanks for submitting feedback on mathiaspihl.com.">
+                        <!-- <input type="hidden" name="_autoresponse" value="Thanks for submitting feedback on mathiaspihl.com."> -->
                         <input type="hidden" name="_captcha" value="false">
                         <input type="hidden" name="_template" value="table">
 
-                        <input type="text" name="name" placeholder="Your name" required><br>
-                        <input type="email" name="email" placeholder="Your Email address" required><br>
-                        <textarea rows="5" cols="50" name="body" placeholder="Enter your message..."></textarea><br>
+                        <p><input type="text" name="name" placeholder="Your name" required></p>
+                        <p><input type="email" name="email" placeholder="Your Email address" required></p>
+                        <p><textarea rows="5" cols="50" name="body" placeholder="Enter your message..."></textarea></p>
                         <input type="submit" name="submit">
 
                     </form>
