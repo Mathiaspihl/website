@@ -2,7 +2,5 @@
 package = "@netlify/plugin-sitemap"
 
   [plugins.inputs]
-  buildDir = "public"
   changeFreq = "daily"
   filePath = "/sitemap.xml"
-  
