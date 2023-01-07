@@ -10,6 +10,7 @@ package = "@netlify/plugin-sitemap"
     './test**',
     './_development/**',
     './thankyou.html',
+    './google**',
     # By Glob pattern
     #'**/**/child-one.html'
   ]
