@@ -74,9 +74,8 @@ table {
   margin-top: 10px;
   
   background-position:left;
-  background-image: url(https://www.mathiaspihl.com/images/Coffee-mug.png); background-size: contain; background-repeat: no-repeat;text-indent: 50px;
-  /*background-image: url(https://www.mathiaspihl.com/images/xmas_mug.png); background-size: contain; background-repeat: no-repeat;text-indent: 70px;*/
-  /*background-image: url(./images/green-mug.png); background-size: contain; background-repeat: no-repeat;text-indent: 70px;*/
+  background-image: url(https://www.mathiaspihl.com/images/Coffee-mug_2.png); background-size: contain; background-repeat: no-repeat;text-indent: 50px;
+  /* background-image: url(https://www.mathiaspihl.com/images/Coffee-mug.png); background-size: contain; background-repeat: no-repeat;text-indent: 50px; */
 
   border-bottom-style:dotted;
   border-bottom-width: thin;
