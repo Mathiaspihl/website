@@ -1,5 +1,6 @@
 User-agent: *
 Disallow: /_development/
+Disallow: /PPPub/
 Disallow: /.vscode/
 Disallow: /images/
 Disallow: /test-xmldom.html
@@ -11,4 +12,3 @@ Disallow: /googlee8060bc5ba6cf15b.html
 
 
 Sitemap: https://www.mathiaspihl.com/sitemap.xml
-Sitemap: https://www.mathiaspihl.com/sitemap_archive.xml
