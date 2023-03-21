@@ -38,7 +38,8 @@ legend {
 
 :target{
 border: 2px dotted #666;
-background-color: greenyellow;
+background-color: rgb(218, 242, 183);
+/* background-blend-mode: color-burn; */
 
 }
 html,body{
