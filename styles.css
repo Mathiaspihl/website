@@ -449,6 +449,7 @@ http://www.menucool.com/tooltip/css-tooltip
   background-color: rgb(207, 233, 180);
   min-width: 170px;
   bottom: 40px;
+  font-family: 'Inter', sans-serif;
   z-index: 1;
   max-height: 300px;
   overflow-y: scroll;
