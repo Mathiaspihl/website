@@ -1,0 +1,964 @@
+<!DOCTYPE HTML>
+<html lang="en">
+
+<head>
+	<base href="https://www.mathiaspihl.com/" target="_blank">
+	<!-- <base href="file:///C:/Users/mathi/Documents/GitHub/website" target="_blank"> -->
+	
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-ZSY4FPL43Q"></script> 
+
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-ZSY4FPL43Q');
+</script>
+
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="//use.fontawesome.com/releases/v6.4.0/css/all.css">
+	<meta charset="UTF-8">
+	<meta name="description" content="Random content every day ;-)">
+	<meta name="keywords"
+		content="reflections,gadget,coffee,gadget,life,tech,howto,thoughts about life,web,development,3d printing,design,writing,knowledge,daily,share">
+
+	<link rel="stylesheet" href="./styles.css">
+	<!-- <link rel="stylesheet" href="file:///C:/Users/mathi/Documents/GitHub/website/styles.css"> -->
+
+
+	<title>.: The Daily Page - Apr 2023:.</title>
+	<link rel="icon" type="image/x-icon" href="./images/Coffee-mug.png">
+</head>
+
+
+
+<body>
+	<!-- ----------------- -->
+	<!-- search ICONS here					:	https://fontawesome.com/icons?d=gallery&p=2&m=free -->
+	<!--Robin Williams Quotes 				:	https://www.quoteambition.com/robin-williams-quotes/ -->
+	<!--Bill Watterson quotes 				:	https://www.goodreads.com/author/quotes/13778.Bill_Watterson -->
+	<!--Change of Cursor, see HELP			:	https://www.w3schools.com/css/tryit.asp?filename=trycss_cursor -->
+	<!-- CTRL + SHIFT + i / SHIFT + CMD + i	: 	will insert the timestamp! -->
+
+	<!--COMPLETE PARAGRAPH (with nestled paragraphs logic):	
+		<p class="main" style="margin-bottom: 10px;">
+			<i class="fas fa-check fa-fw"></i>
+			<i class="tooltip"><i style="font-size:20px;" class="fa fa-clock fa-fw"></i><span class="tooltiptext">07:14 CET</span></i>
+			...main paragraph...
+		</p>
+		<p class="main">
+			...nestled paragraph...
+		</p>
+	-->
+
+
+	<!-- ---------ICON SETS
+
+		COMPLETE UPDATE ICON:	
+			....
+				<i class="tooltip"><i style="font-size:20px;" class="far fa-edit fa-fw"></i><span class="tooltiptext">13:45:07 CET</span></i>
+			....
+		
+		COMPLETE TECHIE ICON:	
+			....
+				<i class="tooltip"><i style="font-size:20px;" class="fas fa-laptop fa-fw"></i><span class="tooltiptext">...Techie tooltip text goes here...</span></i> 
+			....
+		
+		COMPLETE CODE ICON:	
+			....
+				<i class="tooltip"><i style="font-size:20px;" class="fas fa-laptop-code fa-fw"></i><span class="tooltiptext">...Techie tooltip text goes here...</span></i> 
+			....
+		
+
+		COMPLETE TIPS ICON:	
+			....
+				<i class="tooltip"><i style="font-size:20px;" class="far fa-lightbulb fa-fw"></i><span class="tooltiptext">...Tips tool tip text goes here...</span></i> 
+			....
+		
+		COMPLETE NEWS ICON:	
+			....
+				<i class="tooltip"><i style="font-size:20px;" class="far fa-newspaper fa-fw"></i><span class="tooltiptext">...News tooltip text goes here...</span></i> 
+			....
+	
+  -->
+	
+	<!-- ---------TOOLTIP LINKS 
+
+		COMPLETE TOOLTIP LINK:
+		MACRO: SHIFT+ALT+M | SHIFT+ALT+L
+			<i class="tooltip">[[LINK OR TEXT HERE]]<i class="fas fa-link"></i><span class="tooltiptext">[[TOOLTIP TEXT HERE]]</span></i>
+		
+
+		COMPLETE TOOLTIP IMAGE:
+		MACRO: SHIFT+ALT+M | SHIFT+ALT+I
+			<i class="tooltipimg">[[tooltip text]]<i class="fas fa-image"></i><span class="tooltiptextimg"><img width="400px" src="https://source.unsplash.com/random/?city,night">[[tooltip image text]]</span></i> 
+			
+	-->
+	
+	<!------ ICONS
+		RASPBERRY PI		 		:	<i style="font-size: 20px;" class="fab fa-raspberry-pi fa-fw"></i>
+		LINUX 						:	<i style="font-size: 20px;" class="fab fa-linux fa-fw"></i>
+		MOBILEPHONE for Gadget		:	<i style="font-size: 20px;" class="fas fa-mobile-alt fa-fw"></i>
+		LAPTOP for Tech/Gadget		:	<i style="font-size: 20px;" class="fas fa-laptop fa-fw"></i>
+		Development Coding Laptop	:	<i style="font-size: 20px;" class="fas fa-laptop-code fa-fw"></i>
+		Drone						:	<img src="/images/drone-icon.png" width="60px">
+		3D-printer 					:	<img src="/images/3d-printer.svg" width="30px">
+		LIGHTBULB for TIPS/IDEAS	:	<i style="font-size: 20px;" class="far fa-lightbulb fa-fw"></i>
+		COMMENT CLOUD for reflection:	<i style="font-size: 20px;" class="far fa-comment fa-fw"></i>
+		TIRED 						:	<i style="font-size: 20px;" class="far fa-tired fa-fw"></i>
+		LIGHTNING / RAIN 			:	<i style="font-size: 20px;" class="fas fa-poo-storm fa-fw"></i>
+		CLOUD / RAIN 				:	<i style="font-size: 20px;" class="fas fa-cloud-showers-heavy fa-fw"></i>
+		SUN 						:	<i style="font-size: 20px;color: #f6cb0a;" class="fas fa-sun fa-fw"></i>
+		TOOLBOX						:	<i class="fa-solid fa-toolbox" style="font-size:20px; color: #105b15;"></i>
+		GRIN TOUNGE 				:	<i style="font-size: 20px;" class="far fa-grin-tongue-wink fa-fw"></i>
+		GRIN WINK 					:	<i style="font-size: 20px;" class="far fa-grin-wink fa-fw"></i>
+		Smile grin squint tears		:	<i style="font-size: 20px;" class="fa-regular fa-face-grin-squint-tears"></i>
+		SMILE WINK 					:	<i style="font-size: 20px;" class="far fa-smile-wink fa-fw"></i>
+		SMILE BEAM 					:	<i style="font-size: 20px;" class="far fa-smile-beam fa-fw"></i>
+		GRIMACE, ANGRY, SCARED etc 	:	<i style="font-size: 20px;" class="far fa-grimace fa-fw"></i>
+		Angry 						:	<i style="font-size: 20px;" class="far fa-angry fa-fw"></i>
+		Surprised 					:	<i style="font-size: 20px;" class="far fa-surprise fa-fw"></i>
+		Sad							:	<i style="font-size: 20px;" class="far fa-sad-tear fa-fw"></i>
+		COFFEE CUP					:	<i style="font-size: 20px;" class="fas fa-coffee fa-fw"></i>
+		Hot Coffee 					:	<i style="font-size: 20px;" class="fa-solid fa-mug-hot"></i>
+		HOME office 				:	<i style="font-size: 20px;" class="fas fa-laptop-house fa-fw"></i>
+		THUMBS UP 					:	<i style="font-size: 20px;" class="far fa-thumbs-up fa-fw"></i>
+		THUMBS DOWN					:	<i style="font-size: 20px;" class="far fa-thumbs-down"></i>
+		CHEERS! 					:	<i style="font-size: 20px;" class="fas fa-glass-cheers fa-fw"></i>
+		NEWSPAPER 					:	<i style="font-size: 20px;" class="far fa-newspaper fa-fw"></i>
+		Movies 						:	<i style="font-size: 20px;" class="fas fa-film fa-fw"></i>
+		Beach, holiday, relax 		:	<i style="font-size: 20px;" class="fas fa-umbrella-beach fa-fw"></i>
+		Car, driving 				:	<i style="font-size: 20px;" class="fas fa-car-side fa-fw"></i>
+		EV, charging station 		:	<i style="font-size: 20px;" class="fas fa-charging-station fa-fw"></i>
+		UPDATE! 					:	<i style="font-size: 20px;" class="far fa-edit fa-fw"></i>
+		Study, School				:	<i style="font-size: 20px;" class="fas fa-graduation-cap fa-fw"></i>
+		Birthday 					:	<i style="font-size: 20px;" class="fas fa-birthday-cake fa-fw"></i>
+		Exclamation 				:	<i style="font-size: 20px;" class="fas fa-exclamation fa-fw"></i>
+		Syringe, COVID 				:	<i style="font-size: 20px;" class="fas fa-syringe fa-fw"></i>
+		CAT, Mocka 					:	<i style="font-size: 20px;" class="fas fa-cat fa-fw"></i>
+		ALT Cat, Mocka 				:	<i style="font-size: 20px;" class="fas fa-paw fa-fw"></i>
+		Heart, hope 				:	<i style="font-size: 20px; color: red;" class="fas fa-heart fa-fw"></i>
+		Ghost						:	<i style="font-size: 20px; color: gray;" class="fa-solid fa-ghost fa-fw"></i>
+		Wine						:	<i style="font-size: 20px;" class="fa-solid fa-wine-glass"></i>
+	------->
+
+	
+	<!-- 	SPECIAL FEATURES
+			Check: https://www.w3schools.com/icons/fontawesome5_intro.asp
+	
+		<i class="fas fa-spinner fa-spin"></i>
+		<i class="fas fa-circle-notch fa-spin"></i>
+		<i class="fas fa-sync-alt fa-spin"></i>
+		<i class="fas fa-cog fa-spin"></i>
+		<i class="fas fa-cog fa-pulse"></i>
+		<i class="fas fa-spinner fa-pulse"></i>
+		
+		<i class="fa fa-car fa-rotate-90"></i>
+		<i class="fa fa-cog fa-fw"></i>Settings
+
+		¯\_(ツ)_/¯ 
+
+	 -->
+
+	 <div style="top:0;position:fixed;z-index: 1; width: 100%; height: 110px; background-color: white; opacity: 0.7;"></div>
+	 <div style="bottom:0;position:fixed;z-index: 1; width: 100%; height: 50px;background-color: white; opacity: 0.7;"></div>
+
+	 <!-- Row Header -->
+	<div class="rowheader-new">
+		<table>
+			<tr>
+				<td colspan="2" class="translate">Translate: <a target="_blank"
+						href="https://www-mathiaspihl-com.translate.goog/?_x_tr_sl=en&_x_tr_tl=sv&_x_tr_hl=nl&_x_tr_pto=nui,elem">Swedish</a>
+					| <a target="_blank"
+						href="https://www-mathiaspihl-com.translate.goog/?_x_tr_sl=en&_x_tr_tl=nl&_x_tr_hl=nl&_x_tr_pto=nui,elem">Dutch</a>|
+					<a target="_blank"
+						href="https://www-mathiaspihl-com.translate.goog/?_x_tr_sl=en&_x_tr_tl=fr&_x_tr_hl=nl&_x_tr_pto=nui,elem">French</a>
+				</td>
+			</tr>
+	
+			<tr >
+				<td>
+					<h1 style="padding-left: 50px;">The Daily Update...</h1>
+				</td>
+				<td style="text-align: right; font-size: x-small;">
+					"<i>The surest sign that intelligent life exists elsewhere in the universe is that it has never tried to contact us."</i><br>-Bill Watterson
+				</td>
+			</tr>
+
+		</table>
+
+	</div>
+
+	
+	<table class="rowmiddle_new" >
+		<!-- TOP SPACER -->
+		<tr style="height: 120px;"><td> </td></tr>
+		
+		
+		<!-- Daily Post -->	
+		<tr>
+			<td >
+				<fieldset id="01may2023">
+					<legend>28th Of April until 1st of May 2023</legend>
+
+					<p class="main" style="margin-bottom: 10px;">
+						<i class="fas fa-check fa-fw"></i>
+						<i class="tooltip"><i style="font-size:20px;" class="fa fa-clock fa-fw"></i><span class="tooltiptext">2023-05-01 11:29:34 CET</span></i>
+						It is a new month and a public holiday in most of the European countries today. The international <b>workers' day</b>. Yesterday it was the Walpurgis Night which is an important celebration in Sweden.
+					</p>
+
+					<p class="main" style="margin-bottom: 10px;">
+						It's been some time - three days - that I posted something here. It seems that something always comes in between. Anyway, today we are off to Antwerp with the family to do some sight-seeing/city exploration all of us. It's something the city is arranging; a tour around the high-lights of the city with questions about what you see. If you complete the questioner form you have the chance of winning a price. Not sure what it is though, but that is not why we participate. At least not most of us... 
+					</p>
+
+					<p class="main">
+						Just as a little side-note, I am exploring and comparing some new and existing CMS systems and what would be the best workflow/solution when developing and maintaining content of websites. An overall efficient workflow I value the highest. It's a very interesting topic and something that is constantly changing with the rapid development in that area. Especially now also with the ever so popular AI and ML technology popping up like mushrooms. Hugo, Grav, Netlify CMS are some of the products that I wanted to mention for now. I updated my Bookmark page with some interesting resources. 
+					</p>
+
+					<!-- https://en.wikipedia.org/wiki/may_01 -->
+					<!-- https://www.daysoftheyear.com/days/  -->
+					<p class="main" id="didyouknow">
+						<i class="fas fa-check fa-fw"></i>
+						<i class="tooltip"><i style="font-size:20px;" class="fa-solid fa-clock-rotate-left"></i><span class="tooltiptext">Today in ... is the day... Randomly picked historical events that occurred on this day.</span></i>
+						<i class="tooltip"><i style="font-size:20px;" class="fa fa-clock fa-fw"></i><span class="tooltiptext">2023-05-01 11:34:14 CET</span></i>
+						Did you know that today in 1807 is the day when the <i class="tooltip"><a href="https://en.wikipedia.org/wiki/Slave_Trade_Act_1807">Slave Trade Act 1807</a><i class="fas fa-link"></i><span class="tooltiptext">Read more about it on Wikipedia.</span></i> takes effect, abolishing the slave trade within the British Empire.
+					</p>
+				</fieldset>
+			</td>
+		</tr>
+
+		<!-- Daily Post -->	
+		<tr>
+			<td >
+				<fieldset id="27apr2023">
+					<legend>25th until 27th of April 2023</legend>
+
+					<p class="main" style="margin-bottom: 10px;">
+						<i class="fas fa-check fa-fw"></i>
+						<i class="tooltip"><i style="font-size:20px;" class="fa fa-clock fa-fw"></i><span class="tooltiptext">2023-04-27 20:16:12 CET</span></i>
+						Again, there were some really heavy days at work <i class="fa-solid fa-user-tie fa-fade fa-lg"></i>. It comes and goes in waves this period - every year the same thing. It is either start-up of big projects or a lot of travels this time of the year. I can see the latter happening more again now post pandemic. I have two new big projects and one travel going on at the moment. The travelling I am sorting out, always a lot of effort and coordination involved (time and duration, flights, hotel arrangements, transportation, people, organizational, cost approvals, schedules ... )! But once done, it's really the perks of my job. Especially when there is a totally new destination on the horizon like this! But, in between the trip seems very far away. It might just stay at the horizon...we will see.
+					</p>
+
+					<p class="main" style="margin-bottom: 10px;">
+						Our wonderful son has fled the scene, he and his friends left for Leuven to visit one of his friends who studies there. "Fled", I said because he receives the points from his exams today. The points have already been released, it is his parents that desperately are trying to see it. It seems we are the only one interested in it though.
+					</p>
+
+					<p class="main" style="margin-bottom: 10px;">
+						Tomorrow is it Friday, end of a very rough week . Normally I was going to the office tomorrow, but seriously I actually have no time for it <i class="fa-regular fa-rectangle-list fa-lg"></i>. This will sound strange, but there is just too much going on at the moment and I have to utilize my time the best.
+					</p>
+
+					<p class="main">
+						During all this crazy times, thank god there are a lot of nice stuff going on to brightens life up and make it all worth the while. The great news about my mom's knee surgery that finally is going through. My family are close, great results from H's general doctor's check-up, health and that we are well off to do what we want - 3D printing, drone flying, working in the garden, multiple holidays for us this year, able to make investments to our house, buying a car... we have a lot to be grateful <i class="fa-solid fa-person-praying fa-lg"></i> for on multiple levels! 
+					</p>
+
+					<!-- https://en.wikipedia.org/wiki/apr_27 -->
+					<!-- https://www.daysoftheyear.com/days/  -->
+					<p class="main" id="didyouknow">
+						<i class="fas fa-check fa-fw"></i>
+						<i class="tooltip"><i style="font-size:20px;" class="fa-solid fa-clock-rotate-left"></i><span class="tooltiptext">Today in ... is the day... Randomly picked historical events that occurred on this day.</span></i>
+						<i class="tooltip"><i style="font-size:20px;" class="fa fa-clock fa-fw"></i><span class="tooltiptext">2023-04-27 20:15:48 CET</span></i>
+						Did you know that today in 2005 is the day when <i class="tooltip"><a href="https://en.wikipedia.org/wiki/Airbus_A380">Airbus A380</a> <i class="fas fa-link"></i><span class="tooltiptext">Read more on Wikipedia. I have once flew with this, KLM from LA to Amsterdam.</span></i> aircraft has its maiden test flight.
+					</p>
+				</fieldset>
+			</td>
+		</tr>
+
+		<!-- Daily Post -->	
+		<tr>
+			<td >
+				<fieldset id="24apr2023">
+					<legend>24th of April 2023</legend>
+
+					<p class="main" style="margin-bottom: 10px;">
+						<i class="fas fa-check fa-fw"></i>
+						<i class="tooltip"><i style="font-size:20px;" class="fa fa-clock fa-fw"></i><span class="tooltiptext">Mon Apr 24 2023, 11:17:04 am CET</span></i>
+						The workweek started with a bang, straight into calls. Some admin stuff (the boring part of business travels) to take care of as well and later today there are more calls, some less "fun" than others.
+					</p>
+
+					<p class="main" style="margin-bottom: 10px;">
+						Soon J and K will have to leave for Antwerp and classes. It's nice they could stopover and spend the evening and night here though.
+					</p>
+
+					<p class="main" style="margin-bottom: 10px;">
+						I forgot to mention, but I discovered a great new online tool, it's more of a service than anything else. It's called <i class="tooltip"><a href="https://vdo.ninja">VDO.Ninja</a> <i class="fas fa-link"></i><span class="tooltiptext">This is a fantastic free tool that works great. I am really impressed by how easy it is to use and how performant it is!</span></i> and it allows users to use their mobile phone or tablets as secondary cameras with OBS etc. I tried it out and it works perfectly!
+					</p>
+
+					<p class="main">
+						I leave this current post by mention yet another techie thing that I discovered yesterday, namely the solution on streaming directly from my DJI drone to a media device. I tried Nginx on a Raspberry Pi, but never really got it working (OBS kept disconnecting/reconnecting to the stream) so I turned back again to the MonaServer. I got it working in the end (just a matter of entering correct URI expression in the settings of the drone software.)
+					</p>
+
+					<!-- https://en.wikipedia.org/wiki/apr_24 -->
+					<!-- https://www.daysoftheyear.com/days/  -->
+					<p class="main" id="didyouknow">
+						<i class="fas fa-check fa-fw"></i>
+						<i class="tooltip"><i style="font-size:20px;" class="fa-solid fa-clock-rotate-left"></i><span class="tooltiptext">Today in ... is the day... Randomly picked historical events that occurred on this day.</span></i>
+						<i class="tooltip"><i style="font-size:20px;" class="fa fa-clock fa-fw"></i><span class="tooltiptext">Mon Apr 24 2023, 12:01:04 am CET</span></i>
+						Did you know that today in 1953 is the day when <i class="tooltip"><a href="https://en.wikipedia.org/wiki/Winston_Churchill">Winston Churchill </a><i class="fas fa-link"></i><span class="tooltiptext">Read more about it on Wikipedia.</span></i> is knighted by Queen Elizabeth II.
+					</p>
+				</fieldset>
+			</td>
+		</tr>
+
+		<!-- Daily Post -->	
+		<tr>
+			<td >
+				<fieldset id="24apr2023">
+					<legend>24th of April 2023</legend>
+
+					<p class="main" style="margin-bottom: 10px;">
+						<i class="fas fa-check fa-fw"></i>
+						<i class="tooltip"><i style="font-size:20px;" class="fa fa-clock fa-fw"></i><span class="tooltiptext">Mon Apr 24 2023, 11:17:04 am CET</span></i>
+						The workweek started with a bang, straight into calls. Some admin stuff (the boring part of business travels) to take care of as well and later today there are more calls, some less "fun" than others.
+					</p>
+
+					<p class="main" style="margin-bottom: 10px;">
+						Soon J and K will have to leave for Antwerp and classes. It's nice they could stopover and spend the evening and night here though.
+					</p>
+
+					<p class="main" style="margin-bottom: 10px;">
+						I forgot to mention, but I discovered a great new online tool, it's more of a service than anything else. It's called <i class="tooltip"><a href="https://vdo.ninja">VDO.Ninja</a> <i class="fas fa-link"></i><span class="tooltiptext">This is a fantastic free tool that works great. I am really impressed by how easy it is to use and how performant it is!</span></i> and it allows users to use their mobile phone or tablets as secondary cameras with OBS etc. I tried it out and it works perfectly!
+					</p>
+
+					<p class="main">
+						I leave this current post by mention yet another techie thing that I discovered yesterday, namely the solution on streaming directly from my DJI drone to a media device. I tried Nginx on a Raspberry Pi, but never really got it working (OBS kept disconnecting/reconnecting to the stream) so I turned back again to the MonaServer. I got it working in the end (just a matter of entering correct URI expression in the settings of the drone software.)
+					</p>
+
+					<!-- https://en.wikipedia.org/wiki/apr_24 -->
+					<!-- https://www.daysoftheyear.com/days/  -->
+					<p class="main" id="didyouknow">
+						<i class="fas fa-check fa-fw"></i>
+						<i class="tooltip"><i style="font-size:20px;" class="fa-solid fa-clock-rotate-left"></i><span class="tooltiptext">Today in ... is the day... Randomly picked historical events that occurred on this day.</span></i>
+						<i class="tooltip"><i style="font-size:20px;" class="fa fa-clock fa-fw"></i><span class="tooltiptext">Mon Apr 24 2023, 12:01:04 am CET</span></i>
+						Did you know that today in 1953 is the day when <i class="tooltip"><a href="https://en.wikipedia.org/wiki/Winston_Churchill">Winston Churchill </a><i class="fas fa-link"></i><span class="tooltiptext">Read more about it on Wikipedia.</span></i> is knighted by Queen Elizabeth II.
+					</p>
+				</fieldset>
+			</td>
+		</tr>
+
+		<!-- Daily Post -->	
+		<tr>
+			<td >
+				<fieldset id="23apr2023">
+					<legend>23rd of April 2023</legend>
+
+					<p class="main" style="margin-bottom: 10px;">
+						<i class="fas fa-check fa-fw"></i>
+						<i class="tooltip"><i style="font-size:20px;" class="fa fa-clock fa-fw"></i><span class="tooltiptext">2023-04-23 12:19:28 CET</span></i>
+						it was a fantastic Sunday morning, we took a walk to one of the local bakery to buy some nice bread (for the breakfast and for the week) and a nice croissant to share (we have to think a bit on our "line"). After the home made bacon sandwich accompanied with fantastic coffee you feel like a king. <i class="fa-solid fa-crown fa-lg" style="color: #ffce1f;"></i>  
+					</p>
+
+					<p class="main">
+						This evening the youths will return home - we probably need to get them at the train station - and we'll probably can have a dinner together. We are busy with some chores outside before the rain starts today (it's supposed to start at 15:00). I have to fix the pump in the pond, it is also the plan to clean up the driveway  before we'll start with the indoor chores. At least, that is the general plan... A typical cosy Sunday.
+					</p>
+
+					<!-- https://en.wikipedia.org/wiki/apr_23 -->
+					<!-- https://www.daysoftheyear.com/days/  -->
+					<p class="main" id="didyouknow">
+						<i class="fas fa-check fa-fw"></i>
+						<i class="tooltip"><i style="font-size:20px;" class="fa-solid fa-clock-rotate-left"></i><span class="tooltiptext">Today in ... is the day... Randomly picked historical events that occurred on this day.</span></i>
+						<i class="tooltip"><i style="font-size:20px;" class="fa fa-clock fa-fw"></i><span class="tooltiptext">2023-04-23 11:59:23 CET</span></i>
+						Did you know that today in 1660 is the day when the <i class="tooltip"><a href="https://en.wikipedia.org/wiki/Treaty_of_Oliva">Treaty of Oliva</a> <i class="fas fa-link"></i><span class="tooltiptext">Read more about it on Wikipedia.</span></i> is established between Sweden and Poland.
+					</p>
+				</fieldset>
+			</td>
+		</tr>
+
+		<!-- Daily Post -->	
+		<tr>
+			<td >
+				<fieldset id="22apr2023">
+					<legend>21st and 22nd of April 2023</legend>
+
+					<p class="main" style="margin-bottom: 10px;">
+						<i class="fas fa-check fa-fw"></i>
+						<i class="tooltip"><i style="font-size:20px;" class="fa fa-clock fa-fw"></i><span class="tooltiptext">2023-04-22 12:37:17 CET</span></i>
+						Today H has to work for the school, J has his guitar lesson and then he is going to K's family place until tomorrow. That gives me some time to focus on specific chores (cleaning the pump in the pond, investigating car cleaning [more to come], writing and some 3D printing [more to come about this as well]). The plan was also to go for a walk, but the weather took a turn for the worse...
+					</p>
+
+					<p class="main">
+						I went flying yesterday with the drone, I packed the fully charged drone and gear in the <i class="tooltipimg">backpack <i class="fas fa-image"></i><span class="tooltiptextimg"><img width="400px" src="https://images2.imgbox.com/4d/35/DBuDBdyj_o.jpg">[[tooltip image text]]</span></i> (I even brought some coffee with me) and took the bike to my nearby dedicated spot - a public green lush field. It was fantastic little break in the sunshine! I could try out some new functions and practise some flying. Great stuff!
+					</p>
+
+					<p class="main">
+						<i class="fas fa-check fa-fw"></i>
+						<i class="tooltip"><i style="font-size:20px;" class="fa fa-clock fa-fw"></i><span class="tooltiptext">2023-04-22 19:15:35 CET</span></i>
+						Of course - expect the the unexpectable - my initial plans for the day did not really match the reality. But that is to be expected, not surprised thus. Some things took  much longer and others set me off on side tracks. But these paths are sometimes the coolest tracks you can explore. That is how we learn and develop and today was a rare opportunity to let that happen.
+					</p>
+
+					<p class="main" style="margin-bottom: 10px;">
+						I did have the time to try out the <i class="tooltipimg">propeller protection <i class="fas fa-image"></i><span class="tooltiptextimg"><img width="400px" src="https://images2.imgbox.com/d3/59/ORYPBYh8_o.jpg">Look at this beauty - the super cool DJI drone with my matching 3D prints - the propeller protection.</span></i> that I 3D printed some time ago (I managed to break one part though, but 45 mins later I had it printed again). I am very happy with the result, and it worked perfectly! I also took the time to explore how I can stream the video recording directly from the drone. I explored the RTMP protocol with <b>Nginx</b> webserver and, a new webserver to me, the <b>Monaserver</b>. None of them really worked for different reasons. I turned to Youtube, but it takes 24 hours to activate the Stream service. I guess I just have to wait...
+					</p>
+
+					<p class="main">
+						It was not the opportunity to clean the car due to the bad weather, but I explored what can be done to clean it more efficient. Especially now with the upcoming season. With just one investment, I can really utilize what I already have - the high pressure cleaner. I decided to order a little additional gadget to hopefully make the cleaning processes more efficient. 
+					</p>
+
+				
+					<!-- https://en.wikipedia.org/wiki/apr_22 -->
+					<!-- https://www.daysoftheyear.com/days/  -->
+					<p class="main" id="didyouknow">
+						<i class="fas fa-check fa-fw"></i>
+						<i class="tooltip"><i style="font-size:20px;" class="fa-solid fa-clock-rotate-left"></i><span class="tooltiptext">Today in ... is the day... Randomly picked historical events that occurred on this day.</span></i>
+						<i class="tooltip"><i style="font-size:20px;" class="fa fa-clock fa-fw"></i><span class="tooltiptext">2023-04-22 12:33:19 CET</span></i>
+						Did you know that today in 1977 is the day when <i class="tooltip"><a href="https://en.wikipedia.org/wiki/Optical_fiber">optical fiber</a> <i class="fas fa-link"></i><span class="tooltiptext">Read more about it on Wikipedia.</span></i> is first used to carry live telephone traffic.
+					</p>
+				</fieldset>
+			</td>
+		</tr>
+
+		<!-- Daily Post -->	
+		<tr>
+			<td >
+				<fieldset id="20apr2023">
+					<legend>20th of April 2023</legend>
+
+					<p class="main" style="margin-bottom: 10px;">
+						<i class="fas fa-check fa-fw"></i>
+						<i class="tooltip"><i style="font-size:20px;" class="fa fa-clock fa-fw"></i><span class="tooltiptext">2023-04-20 19:19:53 CET</span></i>
+						It's indeed been a day at work with only two scheduled calls which gave room for some admin tasks (a lot to arrange before the business travel in May etc) and working on pending work items - mostly interesting but it's like a bottomless pit. 
+					</p>
+
+					<p class="main">
+						J is preparing to leave for Antwerp, he is spending the night there but will return tomorrow. He was planning to be away 10 minutes ago, he still needs to shower and eat the dinner. Interesting time perception, I am trying to remember how my time management was when I was 19... 
+					</p>
+
+					<p class="main">
+						<i class="fas fa-check fa-fw"></i>
+						<i class="tooltip"><i style="font-size:20px;" class="fa fa-clock fa-fw"></i><span class="tooltiptext">2023-04-20 21:37:23 CET</span></i>
+						We all had dinner together, J. was brought to the tram and now we will enjoy chilling out in front of the TV. It was a strange day today, but what is normal these days though? It was just a strange vibe kind, the weather was completely chaotic - rain, sun, grey and cloudy and then back to rain again. It was just all over the place. That certainly contributed to the overall strangeness. Well, enough with the contemplating, it's time to chill...
+					</p>
+
+					<!-- https://en.wikipedia.org/wiki/apr_20 -->
+					<!-- https://www.daysoftheyear.com/days/  -->
+					<p class="main" id="didyouknow">
+						<i class="fas fa-check fa-fw"></i>
+						<i class="tooltip"><i style="font-size:20px;" class="fa-solid fa-clock-rotate-left"></i><span class="tooltiptext">Today in ... is the day... Randomly picked historical events that occurred on this day.</span></i>
+						<i class="tooltip"><i style="font-size:20px;" class="fa fa-clock fa-fw"></i><span class="tooltiptext">2023-04-20 19:17:12 CET</span></i>
+						Did you know that today in 1657 is the day when <i class="tooltip"><a href="https://en.wikipedia.org/wiki/Freedom_of_religion">Freedom of religion</a><i class="fas fa-link"></i><span class="tooltiptext">Read more about it on Wikipedia.</span></i> is granted to the Jews of New Amsterdam (later New York City).
+					</p>
+				</fieldset>
+			</td>
+		</tr>
+
+		<!-- Daily Post -->	
+		<tr>
+			<td >
+				<fieldset id="19apr2023">
+					<legend>18th and 19th of April 2023</legend>
+
+					<p class="main" style="margin-bottom: 10px;">
+						<i class="fas fa-check fa-fw"></i>
+						<i class="tooltip"><i style="font-size:20px;" class="fa fa-clock fa-fw"></i><span class="tooltiptext">2023-04-19 19:53:18 CET</span></i>
+						Today was a very beautiful day, sun and blue skies. The temperature is also picking up, this time of the year is really pretty - everything is in bloom. The road that leads into the village where I live have these Japanese blossoms tree that only blooms for about a week. That time is now and every time you drive there, along an avenue of the white and pink trees in full bloom, it's like a reminder that the dark and grey period is over. Yes, we survived it yet another year!
+					</p>
+
+					<p class="main" style="margin-bottom: 10px;">
+						It was another very busy day at work today, but hopefully it will be a bit calmer tomorrow. Time will tell, I guess, but I really hope that I will have some time for other things than only conference calls tomorrow.
+					</p>
+
+					<p class="main">
+						I took some time, it got much too late last night, investigating how to build your own drone having Raspberry Pi, 3D printing and programming in mind. There is so much interesting out there in that area. I made some updates in my new <i class="tooltip"><a href="/index_bookmarks.html#drone">Bookmark section</a><i class="fas fa-link"></i><span class="tooltiptext">A complete fresh new section about Drones. Fantastic!</span></i>, but I am sure more will come. 
+					</p>
+
+					<!-- https://en.wikipedia.org/wiki/apr_19 -->
+					<!-- https://www.daysoftheyear.com/days/  -->
+					<p class="main" id="didyouknow">
+						<i class="fas fa-check fa-fw"></i>
+						<i class="tooltip"><i style="font-size:20px;" class="fa-solid fa-clock-rotate-left"></i><span class="tooltiptext">Today in ... is the day... Randomly picked historical events that occurred on this day.</span></i>
+						<i class="tooltip"><i style="font-size:20px;" class="fa fa-clock fa-fw"></i><span class="tooltiptext">2023-04-19 20:00:51 CET</span></i>
+						Did you know that today in 2021 is the day when the <i class="tooltip"><a href="https://en.wikipedia.org/wiki/Ingenuity_(helicopter)">Ingenuity</a> <i class="fas fa-link"></i><span class="tooltiptext">Read more about it on Wikipedia.</span></i> helicopter becomes the first aircraft to achieve flight on another planet.
+					</p>
+				</fieldset>
+			</td>
+		</tr>
+
+		<!-- Daily Post -->	
+		<tr>
+			<td >
+				<fieldset id="17apr2023">
+					<legend>14th until 17th of April 2023</legend>
+
+					<p class="main" style="margin-bottom: 10px;">
+						<i class="fas fa-check fa-fw"></i>
+						<i class="tooltip"><i style="font-size:20px;" class="fa fa-clock fa-fw"></i><span class="tooltiptext">2023-04-17 09:40:49 CET</span></i>
+						The last couple of days were well needed time away, a little mini holiday away from the daily chores. We stayed two nights in a hotel located in <a href="https://en.wikipedia.org/wiki/Zaanse_Schans">Zaanse Schans</a> which made it possible to explore <i class="tooltipimg">the area <i class="fas fa-image"></i><span class="tooltiptextimg"><img width="400px" src="https://www.amsterdamsights.com/excursions/img/zaanseschans6.jpg">This is a nice areal picture of the area around the mills.</span></i> by foot. It's an area that probably can not be more Dutch - windmills (the 8 most famous from the end of 16th century are still working), cheese and wooden clogs (really interesting history and you get to see how they are made). It's got a pretty interesting history as well. Claude Monet (who visited in 1871 and produced 25 paintings), Napoleon (brief visit in 1811) are but a few who visited the place. 
+					</p>
+
+					<p class="main" style="margin-bottom: 10px;">
+						Yesterday we ended the excursion by going to Schiphol airport to pick up the kids - J and K arrived from a wonderful time in Spain. It's nice to be back together again.
+					</p>
+
+					<p class="main">
+						It's fantastic to be on holiday, but coming back to the inbox is challenging. At least I have my nice coffee back. Now I need to go back to the emails and the planning...
+					</p>
+
+					<p class="main" style="margin-bottom: 10px;">
+						<i class="fas fa-check fa-fw"></i>
+						<i class="tooltip"><i style="font-size:20px;" class="fa fa-clock fa-fw"></i><span class="tooltiptext">2023-04-17 23:00:48 CET</span></i>
+						It's getting late faster than expected and time for bed but I just have time for a little update. It was a nice evening, J had classes today and came home in the evening. I finally took some time to fly the <img src="/images/drone-icon.png" width="40px"> drone today. Every time I fly it hits me what a fantastic little thing it is. It's really a pleasure and so much fun to operate it. 
+					</p>	
+
+					<p class="main">
+						There was some interesting development at work as well; it seems that I have to travel to <i class="tooltip"><a href="https://en.wikipedia.org/wiki/Dubai_International_Airport">Dubai</a> <i class="fas fa-link"></i><span class="tooltiptext">Read more about the world busiest airport on Wikipedia.</span></i> for work in May. I love seeing new places, even if it's a business trip. It's also for a very interesting project, let's see how that plays out...
+					</p>
+
+
+					<!-- https://en.wikipedia.org/wiki/apr_17 -->
+					<!-- https://www.daysoftheyear.com/days/  -->
+					<p class="main" id="didyouknow">
+						<i class="fas fa-check fa-fw"></i>
+						<i class="tooltip"><i style="font-size:20px;" class="fa-solid fa-clock-rotate-left"></i><span class="tooltiptext">Today in ... is the day... Randomly picked historical events that occurred on this day.</span></i>
+						<i class="tooltip"><i style="font-size:20px;" class="fa fa-clock fa-fw"></i><span class="tooltiptext">2023-04-17 09:07:33 CET</span></i>
+						Did you know that today in 1521 is the day when  the trial of <i class="tooltip"><a href="https://en.wikipedia.org/wiki/Martin_Luther">Martin Luther</a><i class="fas fa-link"></i><span class="tooltiptext">Read more about him on Wikipedia.</span></i> over his teachings begins during the assembly of the <i class="tooltip"><a href="https://en.wikipedia.org/wiki/Diet_of_Worms">Diet of Worms</a><i class="fas fa-link"></i><span class="tooltiptext">Read more about it on Wikipedia.</span></i>.
+					</p>
+				</fieldset>
+			</td>
+		</tr>
+
+		<!-- Daily Post -->	
+		<tr>
+			<td >
+				<fieldset id="13apr2023">
+					<legend>12th and 13th of April 2023</legend>
+
+					<p class="main" style="margin-bottom: 10px;">
+						<i class="fas fa-check fa-fw"></i>
+						<i class="tooltip"><i style="font-size:20px;" class="fa fa-clock fa-fw"></i><span class="tooltiptext">2023-04-13 21:09:50 CET</span></i>
+						The holiday feeling is definitely there, it's been a couple of nice days (two to be specific). We have done things around the house, in the garden and still taken the time to enjoy the time off. We have also enjoyed the update from J and how he and K are enjoying their holiday. Feels really great to be able to be a part of such a development in my sons life. He is growing up and he shares it with his parents. I feel that this is a part of the meaning of life... 
+					</p>
+
+					<p class="main" style="margin-bottom: 10px;">
+						Yesterday we had our neighbour ladies M and D over for dinner. It was a long time since the four of us could sit down together as we used to do. Well, nothing is how it used to be of course, but it was a very nice feeling to peek into what will be. I am confident it will!
+					</p>
+
+					<p class="main">
+						<i class="tooltipimg"><img src="/images/drone-icon.png" width="60px"> <i class="fas fa-image"></i><span class="tooltiptextimg"><img width="400px" src="/images/drone-icon.png">This one really looks like the drone that I have...the DJI Mini 2 se. This will be my official drone icon in the future!</span></i>
+						I am also getting into the drone world. First off; the drone I have is absolutely fantastic. The more I am learning and experiencing, the more I appreciate it. It is absolutely mind blowing how nice it is. Imagine that I can fly up on an altitude of 120 meters (it goes even higher, but I am only allowed to go to 120 m according to the regulations here) and 10 km (6 km guaranteed) away. Like I said, it's mind blowing! The video quality is better than expected and the 3-axis gimbal system makes it 100% steady. Even in windy conditions as I experienced yesterday. 
+					</p>
+
+					<p class="main">
+						<i class="fas fa-check fa-fw"></i>
+						<i class="tooltip"><i style="font-size:20px;" class="fa fa-clock fa-fw"></i><span class="tooltiptext">2023-04-13 21:35:21 CET</span></i>
+						Oh of course, I also meant to say that tomorrow we are going to travel to <i class="tooltip"><a href="https://www.tripadvisor.com/Tourism-g1045128-Zaandijk_North_Holland_Province-Vacations.html">Zaandijk</a> <i class="fas fa-link"></i><span class="tooltiptext">Read more about one of the nicest places in The Netherlands... That is how it's presented at least. We'll just have to see...</span></i> (in the Netherlands) for 2 nights in an hotel there to meet up with the kids on Sunday who are arriving in Schiphol airport from their holiday. No question, we will be there for them. It's a privilege!  
+					</p>
+
+					<!-- https://en.wikipedia.org/wiki/apr_13 -->
+					<!-- https://www.daysoftheyear.com/days/  -->
+					<p class="main" id="didyouknow">
+						<i class="fas fa-check fa-fw"></i>
+						<i class="tooltip"><i style="font-size:20px;" class="fa-solid fa-clock-rotate-left"></i><span class="tooltiptext">Today in ... is the day... Randomly picked historical events that occurred on this day.</span></i>
+						<i class="tooltip"><i style="font-size:20px;" class="fa fa-clock fa-fw"></i><span class="tooltiptext">2023-04-13 20:34:56 CET</span></i>
+						Did you know that today in 1204 is the day when  Constantinople <i class="tooltip"><a href="https://en.wikipedia.org/wiki/Sack_of_Constantinople">falls to the Crusaders</a><i class="fas fa-link"></i><span class="tooltiptext">Read more about it on Wikipedia.</span></i> of the Fourth Crusade, temporarily ending the Byzantine Empire.
+					</p>
+				</fieldset>
+			</td>
+		</tr>
+
+		<!-- Daily Post -->	
+		<tr>
+			<td >
+				<fieldset id="11apr2023">
+					<legend>10th and 11th of April 2023</legend>
+
+					<p class="main" style="margin-bottom: 10px;">
+						<i class="fas fa-check fa-fw"></i>
+						<i class="tooltip"><i style="font-size:20px;" class="fa fa-clock fa-fw"></i><span class="tooltiptext">Tue Apr 11 2023, 11:09:43 am CET</span></i>
+						My one day workweek started with an early:ish call. It will be a heavy day due to all the calls that have been squeezed into one day. I am already on the second pot of coffee.
+					</p>
+
+					<p class="main" style="margin-bottom: 10px;">
+						Something very exciting will hopefully happen today - it looks like my drone will be delivered later today. I just can NOT wait... <i style="font-size: 20px;" class="far fa-grin-tongue-wink fa-fw"></i>. Yesterday I started 3D printing propeller guards. I will post an update about them and how good that worked out later. 
+					</p>
+
+					<p class="main">
+						J and K are traveling from <i class="tooltip"><a href="https://www.google.com/maps/dir/Alicante,+Spain/Valencia,+Spain/@38.9643571,-1.1783511,9z/data=!4m13!4m12!1m5!1m1!1s0xd6235da3b9dab4b:0x1d7da872ac0b81e3!2m2!1d-0.4906855!2d38.3459963!1m5!1m1!1s0xd604f4cf0efb06f:0xb4a351011f7f1d39!2m2!1d-0.3762881!2d39.4699075">Valencia to Alicante</a> <i class="fas fa-link"></i><span class="tooltiptext">They are traveling from Valencia south to Alicante today. Travel safe! </span></i> today. They seems to enjoy to the maximum, the updates and pictures looks fantastic!
+					</p>
+
+					<!-- https://en.wikipedia.org/wiki/apr_11 -->
+					<!-- https://www.daysoftheyear.com/days/  -->
+					<p class="main" id="didyouknow">
+						<i class="fas fa-check fa-fw"></i>
+						<i class="tooltip"><i style="font-size:20px;" class="fa-solid fa-clock-rotate-left"></i><span class="tooltiptext">Today in ... is the day... Randomly picked historical events that occurred on this day.</span></i>
+						<i class="tooltip"><i style="font-size:20px;" class="fa fa-clock fa-fw"></i><span class="tooltiptext">Tue Apr 11 2023, 11:11:03 am CET</span></i>
+						Did you know that today in 1979 is the day when the Ugandan dictator <i class="tooltip"><a href="https://en.wikipedia.org/wiki/Idi_Amin">Idi Amin</a> <i class="fas fa-link"></i><span class="tooltiptext">Read more about the dictator on Wikipedia.</span></i> is deposed.
+					</p>
+				</fieldset>
+			</td>
+		</tr>
+
+		<!-- Daily Post -->	
+		<tr>
+			<td >
+				<fieldset id="09apr2023">
+					<legend>9th of April 2023</legend>
+
+					<p class="main" style="margin-bottom: 10px;">
+						<i class="fas fa-check fa-fw"></i>
+						<i class="tooltip"><i style="font-size:20px;" class="fa fa-clock fa-fw"></i><span class="tooltiptext">2023-04-09 23:15:31 CET</span></i>
+						It was a great Easter celebration today. J and K stayed over and this morning we were invited to a brunch at parents in law and we could all experience the nice food and company. 
+					</p>
+
+					<p class="main" style="margin-bottom: 10px;">
+						We even had a moment after the family gathering just the 4 of us before leaving for the airport, and guess where we went? That is right, back to the local little local airport where we live. We had a snack and drinks before it was time to go to Eindhoven.
+					</p>
+
+					<p class="main" style="margin-bottom: 10px;">
+						After a very nice time together we drove (92 km one way) to Eindhoven where they caught their flight to Valencia. They will spend the next wee k there and then return next weekend to Amsterdam (indeed, another airport). We, the parents, have already booked something in Amsterdam perfectly in time to pick them up. We have taken the opportunity to do a little excursion in the area before we pick up the kids! But that will be for another post...
+					</p>
+
+					<p class="main">
+						You can not believe what happened today in between everything else that happened. I bought my fantastic drone - the <b><i>DJI Mini 2 se</i></b>. It's such a fantastic cool little drone. I have done a seriously and thorough research about drones. I even have my official drone operator certificate and I have the diploma to prove it. Yes, Sire! I have already found loads of things that I can 3D print for it...
+					</p>
+
+					<!-- https://en.wikipedia.org/wiki/apr_09 -->
+					<!-- https://www.daysoftheyear.com/days/  -->
+					<p class="main" id="didyouknow">
+						<i class="fas fa-check fa-fw"></i>
+						<i class="tooltip"><i style="font-size:20px;" class="fa-solid fa-clock-rotate-left"></i><span class="tooltiptext">Today in ... is the day... Randomly picked historical events that occurred on this day.</span></i>
+						<i class="tooltip"><i style="font-size:20px;" class="fa fa-clock fa-fw"></i><span class="tooltiptext">2023-04-09 20:42:01 CET</span></i>
+						Did you know that today in 1940 is the day when <i class="tooltip"><a href="https://en.wikipedia.org/wiki/Vidkun_Quisling">Vidkun Quisling</a><i class="fas fa-link"></i><span class="tooltiptext">Read more about him on Wikipedia.</span></i> seizes power in Norway.
+					</p>
+				</fieldset>
+			</td>
+		</tr>
+
+		<!-- Daily Post -->	
+		<tr>
+			<td >
+				<fieldset id="08apr2023">
+					<legend>7th and 8th of April 2023</legend>
+
+					<p class="main" style="margin-bottom: 10px;">
+						<i class="fas fa-check fa-fw"></i>
+						<i class="tooltip"><i style="font-size:20px;" class="fa fa-clock fa-fw"></i><span class="tooltiptext">2023-04-08 21:58:49 CET</span></i>
+						Happy Easter! It was a very nice day today, the weather turned great in the afternoon and we even went to the local air field. There were a lot of gliders and small planes taking off and landing all the time. We enjoyed the view with some drinks and something small to eat in the sun - fantastic evening!
+					</p>
+
+					<p class="main" style="margin-bottom: 10px;">
+						Tomorrow J and girlfriend K are travelling to Valencia and we just had a home cooked dinner all together. J is still struggling with the cold - at times he can still really have throat ache. Well...  
+					</p>
+
+					<p class="main" style="margin-bottom: 10px;">
+						I am still investigating drones. My eyes are really stuck on the <i>DJI Mini 2 SE</i>. That one really makes sense for my needs (and fun).
+					</p>
+
+					<p class="main">
+						It was an irregular night (had to go and get the kids at 01:00), I didn't sleep too well and I felt it today. Watching some TV and then off to bed...
+					</p>
+
+					<!-- https://en.wikipedia.org/wiki/apr_08 -->
+					<!-- https://www.daysoftheyear.com/days/  -->
+					<p class="main" id="didyouknow">
+						<i class="fas fa-check fa-fw"></i>
+						<i class="tooltip"><i style="font-size:20px;" class="fa-solid fa-clock-rotate-left"></i><span class="tooltiptext">Today in ... is the day... Randomly picked historical events that occurred on this day.</span></i>
+						<i class="tooltip"><i style="font-size:20px;" class="fa fa-clock fa-fw"></i><span class="tooltiptext">2023-04-08 21:22:10 CET</span></i>
+						Did you know that today in 1605 is the day when the  city of Oulu, Finland, is founded by <i class="tooltip"><a href="https://en.wikipedia.org/wiki/Charles_IX_of_Sweden">Charles IX of Sweden</a> <i class="fas fa-link"></i><span class="tooltiptext">Read more about him on Wikipedia.</span></i>.
+					</p>
+				</fieldset>
+			</td>
+		</tr>
+
+		<!-- Daily Post -->	
+		<tr>
+			<td >
+				<fieldset id="06apr2023">
+					<legend>6th of April 2023</legend>
+
+					<p class="main" style="margin-bottom: 10px;">
+						<i class="fas fa-check fa-fw"></i>
+						<i class="tooltip"><i style="font-size:20px;" class="fa fa-clock fa-fw"></i><span class="tooltiptext">2023-04-06 19:53:06 CET</span></i>
+						The second day of my holiday (66% into it) was a grey and rainy day and we did a lot of indoor chores waiting for a more suitable weather for the garden.
+					</p>
+
+					<p class="main" style="margin-bottom: 10px;">
+						Let's see if J is feeling better tomorrow (he will have a check-up at the doctor's since he is flying to Valencia on Sunday). He had a bad night yesterday - it reminded me of when he was a child waking up sick in the middle of the night and us having to take care of him. In a lot of ways it was much nicer this time around.
+					</p>
+
+					<p class="main">
+						But now it is time for bed and hopefully we can start some garden work tomorrow...
+					</p>
+
+					<!-- https://en.wikipedia.org/wiki/apr_06 -->
+					<!-- https://www.daysoftheyear.com/days/  -->
+					<p class="main" id="didyouknow">
+						<i class="fas fa-check fa-fw"></i>
+						<i class="tooltip"><i style="font-size:20px;" class="fa-solid fa-clock-rotate-left"></i><span class="tooltiptext">Today in ... is the day... Randomly picked historical events that occurred on this day.</span></i>
+						<i class="tooltip"><i style="font-size:20px;" class="fa fa-clock fa-fw"></i><span class="tooltiptext">2023-04-06 22:50:47 CET</span></i>
+						Did you know that today in 1992 is the day when the <i class="tooltip"><a href="https://en.wikipedia.org/wiki/Bosnian_War">Bosnian War</a> <i class="fas fa-link"></i><span class="tooltiptext">Read more about it on Wikipedia.</span></i> begins.
+					</p>
+				</fieldset>
+			</td>
+		</tr>
+
+		<!-- Daily Post -->	
+		<tr>
+			<td >
+				<fieldset id="05apr2023">
+					<legend>5th of April 2023</legend>
+
+					<p class="main" style="margin-bottom: 10px;">
+						<i class="fas fa-check fa-fw"></i>
+						<i class="tooltip"><i style="font-size:20px;" class="fa fa-clock fa-fw"></i><span class="tooltiptext">2023-04-05 20:05:57 CET</span></i>
+						Today a big - in the fully meaning of positiveness - day, first day of my mini-holiday. The weather to match, it was blue skies and full sun the whole day. The initial plan was to quickly going to get some garden chairs for the terrace and then get into heavy duty lawn work. What did I say about plans verses reality..? Indeed, it is never ever a match.
+					</p>
+
+					<p class="main" style="margin-bottom: 10px;">
+						Go and get. In, out and home. Yeah, right... We got the chairs and why not pick the grey ones, we said. We got them for a great price compared to what we had seen. Great! We had to put them together, very easy, but still it always brings those IKEA emotions (no, these were not from IKEA) out. All done and we placed them out around the table, inspected them, and... no, it was just not it. Completely the wrong colour and it didn't go with any of the other stuff. What to do? Luckily we could change them (but it had to be today and we had to take them completely apart again and go there). This time we picked the black ones - the safe choice - looks great though. This time around I knew how to put them together and we worked as a well oiled machine together. What a team work! It really looks great. The work on the lawn will be for Friday... 
+					</p>
+
+					<p class="main" style="margin-bottom: 10px;">
+						Another thing happening today was that J's new mobile phone was delivered today. Looks really great actually. The work of transferring from the old one to the new is rather smoothly done these days. Especially if it is from one iPhone to another. 
+					</p>
+
+					<p class="main">
+						I am interested in buying a drone and doing some initial research about that. I think maybe that the DJI Trello can be too little and the battery time is only about 13 minutes. The idea is to have it to fly up and inspect the solar panels. At least 20 minutes of battery lifetime is needed and I need a really good camera. It has to be livestreaming camera to the controller/mobile phone since I have to fly where I can't see it and 15 meters up. The <i class="tooltip"><a href="https://store.dji.com/be/product/dji-mini-2-se?gclid=EAIaIQobChMIuszb5dOT_gIVmMHVCh3oAAduEAAYASAAEgKBmvD_BwE&vid=132621&set_region=BE&from=store-nav">dji 2 mini SE</a> <i class="fas fa-link"></i><span class="tooltiptext">This one seems to be perfect for my needs... It is also below the critical 250 g which is the limit of what you can fly without any permits etc.</span></i> or possibly <i>dji mini SE</i> is probably perfect for that.
+					</p>
+
+					<!-- https://en.wikipedia.org/wiki/apr_05 -->
+					<!-- https://www.daysoftheyear.com/days/  -->
+					<p class="main" id="didyouknow">
+						<i class="fas fa-check fa-fw"></i>
+						<i class="tooltip"><i style="font-size:20px;" class="fa-solid fa-clock-rotate-left"></i><span class="tooltiptext">Today in ... is the day... Randomly picked historical events that occurred on this day.</span></i>
+						<i class="tooltip"><i style="font-size:20px;" class="fa fa-clock fa-fw"></i><span class="tooltiptext">2023-04-05 20:10:05 CET</span></i>
+						Did you know that today in 1998 is the day when  the <i class="tooltip"><a href="https://en.wikipedia.org/wiki/Akashi_Kaiky%C5%8D_Bridge">Akashi Kaikyō Bridge</a> <i class="fas fa-link"></i><span class="tooltiptext">Read more about it on Wikipedia.</span></i> in Japan opens to traffic, becoming the longest bridge span in the world.
+					</p>
+				</fieldset>
+			</td>
+		</tr>
+
+		<!-- Daily Post -->	
+		<tr>
+			<td >
+				<fieldset id="04apr2023">
+					<legend>4th of April 2023</legend>
+
+					<p class="main" style="margin-bottom: 10px;">
+						<i class="fas fa-check fa-fw"></i>
+						<i class="tooltip"><i style="font-size:20px;" class="fa fa-clock fa-fw"></i><span class="tooltiptext">2023-04-04 14:11:43 CET</span></i>
+						It is a beautiful sunny day with blue skies today, this the last working day of the week. Focus is the prepare - cancel meetings and communication etc - for the days that I have taken off. In between I can enjoy doing some outside chores to get the garden ready. We could enjoy the sun during lunch, the prelude of what to expect! <i style="font-size: 20px;" class="far fa-grin-wink fa-fw"></i>
+					</p>
+
+					<p class="main">
+						J. could sleep through the whole night (in spite the fever) and well into midday which was great. Then we did a negative Covid-19 test... so that is positive. A couple of days of recovering and then he is "back in action" again.
+					</p>
+
+					<!-- https://en.wikipedia.org/wiki/apr_04 -->
+					<!-- https://www.daysoftheyear.com/days/  -->
+					<p class="main" id="didyouknow">
+						<i class="fas fa-check fa-fw"></i>
+						<i class="tooltip"><i style="font-size:20px;" class="fa-solid fa-clock-rotate-left"></i><span class="tooltiptext">Today in ... is the day... Randomly picked historical events that occurred on this day.</span></i>
+						<i class="tooltip"><i style="font-size:20px;" class="fa fa-clock fa-fw"></i><span class="tooltiptext">2023-04-04 14:11:32 CET</span></i>
+						Did you know that today in 1975 is the day when Microsoft is founded as a partnership between <i class="tooltip"><a href="https://en.wikipedia.org/wiki/Bill_Gates">Bill Gates</a> <i class="fas fa-link"></i><span class="tooltiptext">Read more about him on Wikipedia.</span></i> and Paul Allen in Albuquerque, New Mexico.
+					</p>
+				</fieldset>
+			</td>
+		</tr>
+
+		<!-- Daily Post -->	
+		<tr>
+			<td >
+				<fieldset id="03apr2023">
+					<legend>2nd and 3rd of April 2023</legend>
+
+					<p class="main" style="margin-bottom: 10px;">
+						<i class="fas fa-check fa-fw"></i>
+						<i class="tooltip"><i style="font-size:20px;" class="fa fa-clock fa-fw"></i><span class="tooltiptext">2023-04-03 12:46:41 CET</span></i>
+						A short workweek started with cold (all the cars on the street outside were covered with a white layer of frost) weather but sunny and blue skies.
+					</p>
+					
+					<p class="main" style="margin-bottom: 10px;">
+						Yesterday was a busy but very nice day. After breakfast we drove J and K to the train station - they were going to spend a couple of days where she grew up. The area is known for amusement parks and carnivals. Once they were dropped of at the train station, H and I continued towards Brussels to go to the <i class="tooltip"><a href="https://www.plantentuinmeise.be/en/">Meise Botanic Garden</a> <i class="fas fa-link"></i><span class="tooltiptext">Read more about the very nice Botanical garden on the homepage. A lot of interesting stuff to see - both inside in the huge greenhouse and outside in the immense garden. I can really recommend it!</span></i> We met up with friend S - also J's god mother - and her boyfriend S. It's the first time we visit the garden and meet S's boyfriend S - the company and the garden was great! The garden will be even nicer when the temperature is warmer.
+					</p>
+
+					<p class="main" style="margin-bottom: 10px;">
+						We were back home again in the evening to a waiting nice homecooked dinner (fantastic leftover food - the kind that tastes even better the days after - from the day before). We were so ready for a cosy evening. J informed us that he, all of a sudden, started not to feel great - throat ache and generally not great. No matter how old your kids are getting, you will always have that feeling of how you want to take care of them. Especially if they are not close by. We certainly discussed the best approach on how he should tackle it...
+					</p>
+
+					<p class="main">
+						Only having a 2-day workweek this week - I took some Easter <i class="fa-solid fa-egg fa-lg" style="color: #f5b60a;"></i> holiday to end the week. I even did the same for next week...fantastic!
+					</p>
+
+					<p class="main" style="margin-bottom: 10px;">
+						<i class="fas fa-check fa-fw"></i>
+						<i class="tooltip"><i style="font-size:20px;" class="fa fa-clock fa-fw"></i><span class="tooltiptext">2023-04-03 20:28:46 CET</span></i>
+						The weather got better and better during the day and both of us, H's been busy working in the garden the whole day, could prepare the garden for the season. It was a challenge to focus at work today, well actually not since a lot of stuff was going that I had to deal with. Once time allowed; the annual high-pressure cleaning <i class="fa-solid fa-broom fa-lg"></i> of the terrace commenced. It's such a satisfying thing to do as you see the result at once. I also did the garden furniture's and what ever I could aim the hose at...
+					</p>
+
+					<p class="main">
+						Now we will enjoy a family TV evening with a home cooked meal together with J (who came home alone earlier today with the train) who's got a proper throat ache and feeling bad.
+					</p>
+
+					<!-- https://en.wikipedia.org/wiki/apr_03 -->
+					<!-- https://www.daysoftheyear.com/days/  -->
+					<p class="main" id="didyouknow">
+						<i class="fas fa-check fa-fw"></i>
+						<i class="tooltip"><i style="font-size:20px;" class="fa-solid fa-clock-rotate-left"></i><span class="tooltiptext">Did you know that..? I try to find an interesting historical event that occurred on this day.</span></i>
+						<i class="tooltip"><i style="font-size:20px;" class="fa fa-clock fa-fw"></i><span class="tooltiptext">2023-04-03 12:46:57 CET</span></i>
+						Did you know that today in 1888 is the day when <i class="tooltip"><a href="https://en.wikipedia.org/wiki/Jack_the_Ripper">Jack the Ripper</a> <i class="fas fa-link"></i><span class="tooltiptext">Read more about him on Wikipedia.</span></i> comitts his first of 11 unsolved brutal murders of women in or near the impoverished Whitechapel district in the East End of London.
+					</p>
+				</fieldset>
+			</td>
+		</tr>
+
+		<!-- Daily Post -->	
+		<tr>
+			<td >
+				<fieldset id="01apr2023">
+					<legend>31st of March and 1st of April 2023</legend>
+
+					<p class="main" style="margin-bottom: 10px;">
+						<i class="fas fa-check fa-fw"></i>
+						<i class="tooltip"><i style="font-size:20px;" class="fa fa-clock fa-fw"></i><span class="tooltiptext">2023-04-01 13:25:28 CET</span></i>
+						OK, I did not do an update yesterday as planned, the last day of March. I'll come back to that soon. Today it's already the 1st of April and I have to make a monthly update soon - I reckon this post will live both on the March- and as well in the April pages.
+					</p>
+					
+					<p class="main" style="margin-bottom: 10px;">
+						I am enjoying the coffee tremendously today, the first day of April. I can appreciate the slow start today after the busy work week behind me. I can take the time to sit and fiddle with stuff and doing some research while sipping coffee to the nice music that is playing in the background.
+					</p>
+
+					<p class="main" style="margin-bottom: 10px;">
+						Yesterday, the last day of March, ended very nice. Loads of stuff happened unplanned and the things that were planned changed or turned out differently. Very unpredicable, to say the least. After an eventful workday in the office in Brussels I drove home in crazy traffic. J arrived home with girlfriend K from being in Antwerp 2 days and one exam. They had a party to go to in the evening. Everything around kept changing (I spare you the details) and in the end the boys ended up here and the girls at someone elses place but met up later in the place they needed to be for the party. During the evening J's friends kept coming, my brother in law K suddenly arrived (we missed his SMS so he almost ended up in the veranda where the boys were sitting, thinking it was one of the friends arriving). It was very nice with the spontanous chat and a glass of wine. Much later than expected we could finally enjoy our homemade pasta.
+					</p>
+
+					<p class="main">
+						This morning we learned that the youth arrived around 3 in the morning, the oldies were already long time at sleep. Today we are all going to a family birthday party. Can be a very interesting, for sure very loud, evening. Night. Morning... 
+					</p>
+
+					<p class="main" style="margin-bottom: 10px;">
+						I asked ChatGPT for an April Fools' Day joke..<i class="fa-regular fa-face-grin-tongue-wink fa-lg"></i><br>
+					</p>
+
+					<p class="main">
+						<i>Sure, here's an April Fools' Day joke:<br>
+						Did you hear about the restaurant called Karma?<br>
+						There's no menu, you get what you deserve.</i></p>
+					</p>
+
+
+					<!-- https://en.wikipedia.org/wiki/apr_01 -->
+					<!-- https://www.daysoftheyear.com/days/  -->
+					<p class="main" id="didyouknow">
+						<i class="fas fa-check fa-fw"></i>
+						<i class="tooltip"><i style="font-size:20px;" class="fa-solid fa-clock-rotate-left"></i><span class="tooltiptext">Did you know that..? I try to find an interesting historical event that occurred on this day.</span></i>
+						<i class="tooltip"><i style="font-size:20px;" class="fa fa-clock fa-fw"></i><span class="tooltiptext">2023-04-01 13:49:56 CET</span></i>
+						Did you know that today in 1924 is the day when <i class="tooltip"><a href="https://en.wikipedia.org/wiki/Royal_Canadian_Air_Force">the Royal Canadian Air Force</a> <i class="fas fa-link"></i><span class="tooltiptext">Read more about it on Wikipedia.</span></i> is formed.
+					</p>
+				</fieldset>
+			</td>
+		</tr>
+
+		
+	<!-- FOOTER SPACER -->
+		<tr style="height: 120px;"><td> </td></tr>
+	</table>
+
+	<!-- Bottom Navbar -->
+	<div class="rowfooter">
+		<table style="border-style: none;">
+			<tr>
+				<td>
+					<div class="dropup">
+						<button class="dropbtn">Posts</button>
+						<!-- DROPDOWN list -->
+						<div class="dropup-content">
+							<a target="_self" href="/index.html">Today</a>
+							<a target="_self" href="/archive/index__mar2023.html">Mar 2023</a>
+							<a target="_self" href="/archive/index__feb2023.html">Feb 2023</a>
+							<a target="_self" href="/archive/index__jan2023.html">Jan 2023</a>
+							<a target="_self" href="/archive/index__dec2022.html">Dec 2022</a>
+							<abbr title="Select last entry from list above to go further back.">Continued...</abbr>
+						</div>
+					</div>
+				</td>
+
+				<td style="text-align: right; ">
+					<div class="dropup">
+						<button class="dropbtn">Stuff</button>
+						<div style="text-align: left; " class="dropup-content">
+							<a target="_self" href="https://www.mathiaspihl.com/index_stuff.html">Stuff</a>
+							<a target="_self" href="https://www.mathiaspihl.com/index_stuff.html#contact">Contact me</a>
+							<a target="_self" href="https://www.mathiaspihl.com/index_bookmarks.html">Bookmarks</a>
+							<a target="_blank" href="https://cse.google.com/cse?cx=49e449a463e53fd3d">Search</a>
+							<a target="_self" href="/index_gallery.html">The Random 7</a>
+						</div>
+					</div>
+				</td>
+
+				<!-- <td style="text-align: right; "><div class="dropup dropbtn"><a style="color: white;" href="https://www.mathiaspihl.com/index_stuff.html">Stuff</a></div</td> -->
+			</tr>
+		</table>
+	</div>
+
+
+<!-- TIPS and FUTURE POSTS
+
+	TIP: 2022-10-22 17:17:26 -- Amazon Prime
+	TIP: 2022-10-22 17:16:03 -- Details on compiling firmware on Creality
+
+	TIP: CoPilot by GitHub
+
+	TIP: AWS LAMBDA at https://aws.amazon.com/lambda/?did=ft_card&trk=ft_card and about my page https://7s2mak6mx6.execute-api.eu-west-3.amazonaws.com/home
+
+	TIP: Obsidian at https://obsidian.md
+
+	TIP: https://en.wikipedia.org/wiki/Social_cycle_theory 
+
+	TIP: https://www.bbc.com/future/article/20220127-why-adults-should-embrace-their-playfulness 
+
+	TIP: A2dismod/A2enmod activating php version for Apache2 and how I discovered it in Joomla when I HAD to upgrade it after a crash - https://www.interserver.net/tips/kb/change-php-version-apache-ubuntu/ 
+
+	TIP: ISP comparison and Namecheap is one of them https://www.youtube.com/watch?v=Oayvo5-7lRI 
+
+	TIP: 3D printer installation pic https://images2.imgbox.com/61/09/DPLkbsRp_o.jpg 
+
+	TIP: Getting Google Analytics setup for your website 
+
+	TIP: NAS, raspberry, Open Media Vault 
+
+	TIP 2021-10-01 08:50:28: Proxmox VE and virtualization  
+
+	TIP: Is FreePbx an alternative to 3cx? 
+
+	TIP: setup hotmail account with 2 step verification activated in mail client -- https://www.msoutlook.info/question/773 and https://www.howto-outlook.com/howto/accountsettings.htm#outlookcom-exchange and https://account.live.com/proofs/Manage/additional?mkt=sv-se  
+
+	TIP: Medium article on web dev setup explained in Sep 17th post 
+
+	TIP: Loopia, jma site 
+
+	TIP: Iphone guide at https://betterhumans.pub/how-to-set-up-your-iphone-for-productivity-focus-and-your-own-longevity-bb27a68cc3d8 
+
+	TIP: XML Dom pages at https://www.w3schools.com/xml/dom_examples.asp - Also see my sample test-xmldom.html 
+
+	TIP: News in Vivaldi https://vivaldi.com/sv/new/ 
+
+	TIP: Apple map car passed by 
+
+	TIP: how to view/convert HEIC files - https://www.copytrans.net/copytransheic/ 
+
+	TIP: post about privatkopiera extension 
+
+	TIP: Post about the python script to inject new posts... 
+
+	Tip: my workspace setup with GIT, VS Code, GIMP, Grammarly, Font- and Fontawesome packages. The workflow is identical on PC and Mac and similar on RPi/Linux! 
+
+	Tip on how to compress/scale images with GIMP for the web 
+
+	https://feber.se/internet/have-i-been-pwned-borjar-samarbeta-med-fbi/425549/  
+
+-->
+
+<!-- TECHIE
+	<p class="main">
+			<p class="main"></p>
+			<i class="fas fa-check"></i>
+			<i class="tooltip"><i style="font-size:20px;" class="fa fa-clock"></i><span class="tooltiptext">__TIMESTAMP__ CET</span></i>
+			<i class="tooltip"><i style="font-size:20px;" class="fas fa-laptop"></i><span class="tooltiptext">Another techie post!</span></i> 
+			__TEXT HERE__
+		</p>
+	TECHIE -->
+
+
+</body>
+
+</html>
