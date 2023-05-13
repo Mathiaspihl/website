@@ -453,7 +453,7 @@ http://www.menucool.com/tooltip/css-tooltip
   min-width: 170px;
   bottom: 40px;
   font-family: 'Inter', sans-serif;
-  font-size: 15px;
+  font-size: 16px;
   z-index: 1;
   max-height: 300px;
   overflow-y: scroll;
@@ -461,7 +461,7 @@ http://www.menucool.com/tooltip/css-tooltip
 
 .dropup-content a {
   font-family: 'Inter', sans-serif;
-  font-size: 15px;
+  font-size: 16px;
   color: black;
   padding: 5px 10px;
   text-decoration: none;
