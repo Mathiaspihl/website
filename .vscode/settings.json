@@ -7,5 +7,32 @@
         "latex",
         "plaintext",
         "html"
-    ]
+    ],
+    "macros": {
+
+        "M_commentDown": [
+            "editor.action.copyLinesDownAction",
+            "cursorUp",
+            "editor.action.addCommentLine",
+            "cursorDown"
+        ],
+        "M_ExternalPDFLink": [
+            "editor.action.clipboardCopyAction",
+            "deleteRight",
+              {"command": "type", "args": {"text": "<a title=\"[[popup text]]\" target=\"_blank\" href=\"[[URL link]]\" class=\"text-dark font-weight-bolder icon-move-right\">[[The text]]<i class=\"far fa-file-pdf text-lg ms-1\"></i></a>"}}
+          ],
+        "M_ExternalTEXTLink": [
+            "editor.action.clipboardCopyAction",
+            "deleteRight",
+              {"command": "type", "args": {"text": "<i class=\"tooltip\">[[COMPLETE LINK HERE]]<i class=\"fas fa-link\"></i><span class=\"tooltiptext\">[[TOOLTIP TEXT HERE]]</span></i>"}}
+          ],
+          "M_ExternalIMAGELink": [
+            "editor.action.clipboardCopyAction",
+            "deleteRight",
+                {"command": "type", "args": {"text": "<i class=\"tooltipimg\">[[TEXT GOES HERE]] <i class=\"fas fa-image\"></i><span class=\"tooltiptextimg\"><img width=\"400px\" src=\"[[IMAGE SOURCE]]\">[[tooltip image text]]</span></i>"}}
+            ]
+
+
+          
+    }
 }
