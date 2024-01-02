@@ -243,7 +243,11 @@ a {
     word-break: break-word;
 }
 
-
+.removelinkstyle {
+  text-decoration: none !important; 
+  background-image: none !important;
+  font-family: 'Inter', sans-serif;
+}
 
 
   .timestamp {
