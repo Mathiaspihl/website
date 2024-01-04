@@ -35,4 +35,11 @@
 
           
     },
+    "grammarly.selectors": [
+        {
+            "language": "markdown",
+            "scheme": "untitled",
+            "pattern": "Untitled-1"
+        }
+    ],
 }
