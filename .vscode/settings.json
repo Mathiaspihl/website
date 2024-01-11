@@ -11,6 +11,7 @@
     ],
     "macros": {
 
+
         "M_commentDown": [
             "editor.action.copyLinesDownAction",
             "cursorUp",
@@ -30,7 +31,7 @@
           "M_ExternalIMAGELink": [
             "editor.action.clipboardCopyAction",
             "deleteRight",
-                {"command": "type", "args": {"text": "<span class=\"tooltipimg\">[[TEXT GOES HERE]]&nbsp;<i class=\"fa-regular fa-file-image fa-lg\"></i><span class=\"tooltiptextimg\"><img width=\"400px\" src=\"[[IMAGE SOURCE]]\">[[tooltip image text]]</span></span>"}}
+                {"command": "type", "args": {"text": "<span class=\"tooltipimg\">[[TEXT GOES HERE]]&nbsp;<i class=\"fa-regular fa-file-image fa-lg\"></i><span class=\"tooltiptextimg\"><img width=\"400px\" src=\"[[IMAGE SOURCE]]\" alt=\"[[IMAGE ALT TEXT]]\">[[tooltip image text]]</span></span>"}}
             ]
 
           
