@@ -109,7 +109,7 @@ h1 {
     width: 99%;
     height: 100px;
 
-    margin-top: 10px;
+    /* margin-top: 10px; */
 
     background-size: contain;
     background-position:left;  
