@@ -55,7 +55,8 @@ html,body{
     background-image: url(https://www.mathiaspihl.com/images/coffee_bg-50-mini.png);
     /*background-position: left;*/
     background-repeat: no-repeat;
-    background-size: 100% ;
+    /* background-size: 100% ; */
+    background-size: cover;
     background-attachment: fixed;
  }
 
