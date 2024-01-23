@@ -1,0 +1,178 @@
+<!DOCTYPE HTML>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<html lang="en">
+
+<head>
+    <base href="https://www.mathiaspihl.com/" target="_blank">
+	<!-- <base href="file:///C:/Users/mathi/Documents/GitHub/website/" target="_blank"> -->
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-ZSY4FPL43Q"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-ZSY4FPL43Q');
+</script>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="//use.fontawesome.com/releases/v6.5.0/css/all.css">
+    <meta charset="UTF-8">
+    <meta name="description"
+        content="Random stuff every day ;-)">
+    <meta name="keywords"
+        content="coffee,life,tech,howto,thoughts about life,web,development,3d printing,design,writing,knowledge,daily,share">
+    <link rel="stylesheet" href="./styles.css">
+    <title>.: The Daily Page - Thanks :.</title>
+    <link rel="icon" type="image/x-icon" href="./images/Coffee-mug.png">
+
+    <script>
+
+        /*
+        USEFUL STUFF
+        ============
+
+            Javascript JSON parsers
+            -----------------------
+            https://www.tutorialrepublic.com/javascript-tutorial/javascript-json-parsing.php
+            https://www.sitepoint.com/loop-through-json-response-javascript/
+
+            Online RSS to JSON COnverter
+            https://rss2json.com/#rss_url=https%3A%2F%2Fmedium.com%2F%40mathias-pihl%2Ffeed
+            
+            Online Javascript etc Compiler
+            ------------------------------
+            https://playcode.io/new
+
+
+            To Fix [object object] issue
+            https://www.codemzy.com/blog/object-object-is-not-valid-json
+
+        */
+
+        async function fetchAndDisplayJsonData(url) {
+            try {
+              // Fetch the JSON data from the specified URL
+              const response = await fetch(url);
+          
+              
+
+              // Check if the response was successful
+              if (response.ok) {
+                // Convert the JSON data to a JavaScript object
+                const jsonData = await response.json();
+
+                // ANOTHER way of Converting JSON object to JS object
+                // let obj = JSON.parse(jsonData);
+                //const jsonData = JSON.parse(JSON.stringify(jsonData));
+
+                // Create an HTML element to wrap the content
+                const container = document.createElement('div');
+          
+                // Iterate over the properties of the JSON object
+                for (const property in jsonData) {
+                  // Create an HTML element for the property name
+                  const propertyElement = document.createElement('h3');
+                  propertyElement.textContent = property;
+                  propertyElement.style = 'color:white; background-color: black;';
+          
+                  // Create an HTML element for the property value
+                  const valueElement = document.createElement('p');
+                  valueElement.textContent = jsonData[property] + ' - ' + jsonData[property].title;
+                  valueElement.style = 'color:darkgray;';
+          
+                  // Append the property and value elements to the container
+                  container.appendChild(propertyElement);
+                  container.appendChild(valueElement);
+                }
+
+                
+          
+                // Add the container element to the HTML page
+                document.body.appendChild(container);
+              } else {
+                console.error(`Error fetching data from ${url}: ${response.statusText}`);
+              }
+            } catch (error) {
+              console.error('Error processing JSON data:', error);
+            }
+          }
+    </script>
+</head>
+
+<body>
+   
+
+    <div style="top:0;position:fixed;z-index: 1; width: 100%; height: 100px; background-color: white; opacity: 0.7;"></div>
+	<div style="bottom:0;position:fixed;z-index: 1; width: 100%; height: 50px;background-color: white; opacity: 0.7;"></div>
+
+    <!-- Row Header -->
+    <div class="rowheader-new">
+		<table>
+			<tr>
+				<td colspan="2" class="translate">Translate: <a target="_blank"
+						href="https://www-mathiaspihl-com.translate.goog/index_stuff.html?_x_tr_sl=en&_x_tr_tl=sv&_x_tr_hl=nl&_x_tr_pto=nui,elem">Swedish</a>
+					| <a target="_blank"
+						href="https://www-mathiaspihl-com.translate.goog/index_stuff.html?_x_tr_sl=en&_x_tr_tl=nl&_x_tr_hl=nl&_x_tr_pto=nui,elem">Dutch</a>|
+					<a target="_blank"
+						href="https://www-mathiaspihl-com.translate.goog/index_stuff.html?_x_tr_sl=en&_x_tr_tl=fr&_x_tr_hl=nl&_x_tr_pto=nui,elem">French</a>
+				</td>
+			</tr>
+	
+			<tr >
+				<td>
+					<h1 style="padding-left: 50px;">The Daily Update...</h1>
+				</td>
+				<td style="text-align: right; font-size: x-small;">
+					"<i>The surest sign that intelligent life exists elsewhere in the universe is that it has never tried to contact us."</i><br>-Bill Watterson
+				</td>
+			</tr>
+
+		</table>
+
+	</div>
+    <table class="rowmiddle_new" >
+        <tr>
+			<td >
+                <!-- What's this -->
+                <fieldset>
+                    <script>
+                        fetchAndDisplayJsonData('https://api.rss2json.com/v1/api.json?rss_url=https%3A%2F%2Fmedium.com%2F%40mathias-pihl%2Ffeed');
+                    </script>
+
+
+                </fieldset>
+
+            </td>
+        </tr>
+        <tr>
+            <td class="rowfooter">
+                <table class="rowfooter" style="border-style: none;">
+                    <tr>
+                        <td style="text-align: left; padding-left: 10px;">
+                            <div class="dropup">
+                                <button class="dropbtn">Navigate</button>
+                                <div class="dropup-content">
+                                    <a class="removelinkstyle" target="_self" href="./index.html">Today</a>
+                                    <a class="removelinkstyle" target="_self" href="./archive/index__15may2021.html">The first post</a>
+                                    <a class="removelinkstyle" target="_self" href="./index_bookmarks.html">Bookmarks</a>
+                                </div>
+                            </div>
+                        </td>
+
+                        <!-- <td style="text-align: right; "><div class="dropup dropbtn"><a style="color: white;" href="https://www.mathiaspihl.com/index_stuff.html">Stuff</a></div</td> -->
+                    </tr>
+                </table>
+            </td>
+        </tr>
+
+        <!-- FOOTER SPACER -->
+		<tr style="height: 120px;"><td> </td></tr>
+
+
+    </table>
+    
+</body>
+
+</html>
