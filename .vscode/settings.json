@@ -1,6 +1,5 @@
 {
     "spellright.language": [
-        "English (British)",
         "en_GB"
     ],
     "spellright.documentTypes": [
@@ -45,6 +44,14 @@
             "language": "markdown",
             "scheme": "untitled",
             "pattern": "Untitled-1"
+        },
+        {
+            "language": "plaintext",
+            "scheme": "untitled"
+        },
+        {
+            "language": "html",
+            "scheme": "file"
         }
     ],
 }
