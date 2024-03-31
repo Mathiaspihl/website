@@ -368,6 +368,13 @@ a {
   border-radius: 20px;
 }
 
+.img-myicons {
+  padding-left: 10px;
+  padding-right: 10px; 
+  display:inline-flex; 
+  align-items: center; 
+  justify-content: center;
+}
 
 /* #### TOOLTIP for IMAGES ### */
 .tooltipimg {
