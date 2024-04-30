@@ -11,6 +11,7 @@
     "macros": {
 
 
+
         "M_commentDown": [
             "editor.action.copyLinesDownAction",
             "cursorUp",
@@ -25,7 +26,7 @@
         "M_ExternalTEXTLink": [
             "editor.action.clipboardCopyAction",
             "deleteRight",
-              {"command": "type", "args": {"text": "<i class=\"tooltip\">[[COMPLETE LINK HERE]]&nbsp;<i class=\"fa-solid fa-link fa-lg\"></i><span class=\"tooltiptext\">[[TOOLTIP TEXT HERE]]</span></i>"}}
+              {"command": "type", "args": {"text": "<i class=\"tooltiponly\">[[COMPLETE LINK HERE]]&nbsp;<i class=\"fa-solid fa-link fa-lg\"></i><span class=\"tooltiptextonly\">[[TOOLTIP TEXT HERE]]</span></i>"}}
           ],
           "M_ExternalIMAGELink": [
             "editor.action.clipboardCopyAction",
@@ -35,7 +36,7 @@
         "M_InternalINFOLink": [
             "editor.action.clipboardCopyAction",
             "deleteRight",
-                {"command": "type", "args": {"text": "<i class=\"tooltip\">[[TEXT HERE]] <i class=\"fa-regular fa-circle-question\"></i><span class=\"tooltiptext\">[[TOOLTIP TEXT HERE]]</span></i>"}}
+                {"command": "type", "args": {"text": "<i class=\"tooltiponly\">[[TEXT HERE]] <i class=\"fa-regular fa-circle-question\"></i><span class=\"tooltiptextonly\">[[TOOLTIP TEXT HERE]]</span></i>"}}
             ] 
           
     },

@@ -34,7 +34,7 @@
 
 		COMPLETE TOOLTIP LINK:
 		MACRO: SHIFT+ALT+M | SHIFT+ALT+l
-			<i class="tooltip">[[LINK OR TEXT HERE]]<i class="fa-solid fa-link"></i><span class="tooltiptext">[[TOOLTIP TEXT HERE]]</span></i>
+			<i class="tooltiponly">[[LINK OR TEXT HERE]]<i class="fa-solid fa-link"></i><span class="tooltiptextonly">[[TOOLTIP TEXT HERE]]</span></i>
 		
 		COMPLETE TOOLTIP IMAGE:
 		MACRO: SHIFT+ALT+M | SHIFT+ALT+i
@@ -46,7 +46,7 @@
 		
 		COMPLETE TOOLTIP INFO:
 		MACRO: ...SHIFT+ALT+M | SHIFT+ALT+,
-			<i class="tooltip">[[TEXT HERE]] <i class="fa-regular fa-circle-question"></i><span class="tooltiptext">[[TOOLTIP TEXT HERE]]</span></i>
+			<i class="tooltiponly">[[TEXT HERE]] <i class="fa-regular fa-circle-question"></i><span class="tooltiptextonly">[[TOOLTIP TEXT HERE]]</span></i>
 		
 		
 		COMPLETE TOOLTIP2 VIDEO	
@@ -139,11 +139,13 @@
 		<tr>
 			<td >
 				<fieldset id="page_template">
-					<legend style="margin-bottom: 20px;">Title...</legend>
+					<legend style="margin-bottom: 20px;">
+						<i class="tooltiponly img-myicons"><i style="font-size:20px;" class="fa fa-clock fa-fw"></i><span class="tooltiptextonly">Tue Apr 30 2024, 4:35:21 pm CET</span></i>
+						The Title Goes Here
+					</legend>
 
 					<p class="main" style="margin-bottom: 10px;">
-						<i class="tooltip"><i style="font-size:20px;" class="fa fa-clock fa-fw"></i><span class="tooltiptext">Tue Apr 30 2024, 4:35:21 pm CET</span></i>
-						This is the content of the article...  
+						This is where the content of the article starts...  
 					</p> 
 					
 					<p class="main" style="margin-bottom: 10px;">
@@ -169,10 +171,11 @@
 			<tr>
 				<td width="33%">
 					<div class="dropup">
-						<button class="dropbtn">Posts</button>
+						<button class="dropbtn">Articles</button>
 						<!-- DROPDOWN list -->
 						<div class="dropup-content">
-							<a class="removelinkstyle" target="_self" href="/index.html">Today</a>
+							<a class="removelinkstyle" target="_self" href="#">Another article</a>
+							<a class="removelinkstyle" target="_self" href="#">And another one</a>
 						</div>
 					</div>
 				</td>
@@ -183,9 +186,10 @@
 					<div class="dropup">
 						<button class="dropbtn">Stuff</button>
 						<div style="text-align: left; " class="dropup-content">
-							<a class="removelinkstyle" target="_self" href="https://www.mathiaspihl.com/index_stuff.html">Stuff</a>
-							<a class="removelinkstyle" target="_self" href="https://www.mathiaspihl.com/index_stuff.html#contact">Contact me</a>
-							<a class="removelinkstyle" target="_self" href="https://www.mathiaspihl.com/index_bookmarks.html">Bookmarks</a>
+							<a class="removelinkstyle" target="_self" href="/index.html">Daily update</a>
+							<a class="removelinkstyle" target="_self" href="/index_stuff.html">Stuff</a>
+							<a class="removelinkstyle" target="_self" href="/index_stuff.html#contact">Contact me</a>
+							<a class="removelinkstyle" target="_self" href="/index_bookmarks.html">Bookmarks</a>
 							<a class="removelinkstyle" target="_blank" href="https://cse.google.com/cse?cx=49e449a463e53fd3d">Search</a>
 							<a class="removelinkstyle" target="_self" href="/index_gallery.html">The Random 7</a>
 						</div>
