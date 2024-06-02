@@ -15,7 +15,7 @@ fieldset {
     display: block;
     border: 1px black solid;
     width: 80%;
-    background-color: rgba(255, 255, 255, 0.6); /* Black w/opacity/see-through */
+    background-color: rgba(255, 255, 255, 0.7); /* Black w/opacity/see-through */
     margin-bottom: 20px;
     margin-left: 10%;
     margin-right: 10%;
