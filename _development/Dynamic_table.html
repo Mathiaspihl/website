@@ -1,0 +1,159 @@
+<html>
+    <head>
+        <title>Test and try-out of a dynamic table</title>
+    </head>
+    <style>
+ 
+.frame-table-scroll {
+  display: inline-block;
+  height: 200px;
+  width: 150px;
+  overflow-y: scroll;
+  z-index: 1;
+  background-color:antiquewhite;
+}
+.table-scroll thead th {
+    position: sticky;
+    z-index: 2;
+    background-color: rgb(9, 9, 9);
+    color: white;
+    padding-right: 5px;
+    top: 0;
+}
+.table-scroll tfoot td {
+    position: sticky;
+    z-index: 1;
+    background-color: rgb(9, 9, 9);
+    color: white;
+    bottom: 0;
+}
+
+table {
+    background-color: rgb(237, 237, 237);
+    border-color: black;
+    border: 1px solid #ddd;
+    padding: 2px;
+}
+
+tr:nth-child(even){background-color: #f2f2f2}
+
+    </style>
+<body>
+
+    <div class="frame-table-scroll">
+    <table class="table-scroll">
+        <thead>
+            <tr>
+              <th>First</th> <th>Second</th>
+            </tr>
+          </thead>
+          <tbody>
+        <tr>
+            <td>A</td>
+            <td>B</td>
+        </tr>
+        <tr>
+            <td>A</td>
+            <td>B</td>
+        </tr>
+        <tr>
+            <td>A</td>
+            <td>B</td>
+        </tr>
+        <tr>
+            <td>A</td>
+            <td>B</td>
+        </tr>
+        <tr>
+            <td>A</td>
+            <td>B</td>
+        </tr>
+        <tr>
+            <td>A</td>
+            <td>B</td>
+        </tr>
+        <tr>
+            <td>A</td>
+            <td>B</td>
+        </tr>
+        <tr>
+            <td>A</td>
+            <td>B</td>
+        </tr>
+        <tr>
+            <td>A</td>
+            <td>B</td>
+        </tr>
+        <tr>
+            <td>A</td>
+            <td>B</td>
+        </tr>
+        <tr>
+            <td>A</td>
+            <td>B</td>
+        </tr>
+        <tr>
+            <td>A</td>
+            <td>B</td>
+        </tr>
+        <tr>
+            <td>A</td>
+            <td>B</td>
+        </tr>
+        <tr>
+            <td>A</td>
+            <td>B</td>
+        </tr>
+        <tr>
+            <td>A</td>
+            <td>B</td>
+        </tr>
+        <tr>
+            <td>A</td>
+            <td>B</td>
+        </tr>
+        <tr>
+            <td>A</td>
+            <td>B</td>
+        </tr>
+        <tr>
+            <td>A</td>
+            <td>B</td>
+        </tr>
+        <tr>
+            <td>A</td>
+            <td>B</td>
+        </tr>
+        <tr>
+            <td>A</td>
+            <td>B</td>
+        </tr>
+        <tr>
+            <td>A</td>
+            <td>B</td>
+        </tr>
+        <tr>
+            <td>A</td>
+            <td>B</td>
+        </tr>
+        <tr>
+            <td>A</td>
+            <td>B</td>
+        </tr>
+        <tr>
+            <td>A</td>
+            <td>B</td>
+        </tr>
+    </tbody>
+    <tfoot>
+        <tr>
+          <td colspan="2">The End...</td>
+        </tr>
+      </tfoot>
+    </table>
+
+</div>
+
+
+</body>
+</html>
