@@ -48,21 +48,27 @@ background-color: rgb(218, 242, 183);
 
 }
 html,body{
-    margin:0;
-    padding:0;
-    height:100%;
-    border:none;                    /*!!!this was remarked*/
-    font-family: 'Inter', sans-serif;
-    font-size: 17px;
-    background-color: rgb(239, 250, 227);
-   /*background-image: url(https://www.mathiaspihl.com/images/coffee_bg-50-mini.png);*/
-    background-image: url(./images/background_mechanical_BG.jpg);
-    /*background-position: left;*/
-    background-repeat: no-repeat;
-    /* background-size: 100% ; */
-    background-size: cover;
-    background-attachment: fixed;
- }
+  margin:0;
+  padding:0;
+  width: 100%;
+  height:auto;
+  border:none;                    /*!!!this was remarked*/
+  font-family: 'Inter', sans-serif;
+  font-size: 17px;
+  /* background-color: rgb(239, 250, 227); */
+ /*background-image: url(https://www.mathiaspihl.com/images/coffee_bg-50-mini.png);*/
+  background-image: url(/images/background_mechanical_BG.jpg);
+  /*background-position: left;*/
+  background-repeat: no-repeat;
+  background-position: center center;
+  /* background-size: 100% ; */
+  /* background-size: contain; */
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-attachment: fixed;
+}
 
 table {
     width: 100%;
