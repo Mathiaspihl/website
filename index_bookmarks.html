@@ -82,14 +82,14 @@
 					<fieldset>
 						<legend style="font-weight: bold;" id="nav">Tools and Resources</legend> 
 						
-						<p><legend style="font-style: italic;">Navigation: <a target="_self" href="./index_bookmarks.html#apps">Applications, tools & Services</a> |
+						<p><legend style="font-style: italic;">Navigation: <a onclick="filterSelection('all')" target="_self" href="./index_bookmarks.html#apps">Applications, tools & Services</a> |
 							<a target="_self" href="./index_bookmarks.html#vscode">VS Code plugins</a> | 
 							<a target="_self" href="./index_bookmarks.html#browser">Browser Extensions</a> | 
 							<a target="_self" href="./index_bookmarks.html#3d">3D Printing & CAD</a> | 
 							<a target="_self" href="./index_bookmarks.html#drone">Drones</a> | 
 							<a target="_self" href="./index_bookmarks.html#web">Web Development</a> |
 							<a target="_self" href="./index_bookmarks.html#rpi">Raspberry Pi</a> |
-							<a target="_self" href="./index_bookmarks.html#misc">Miscellaneous</a>
+							<a onclick="filterSelection('misc')" target="_self" href="./index_bookmarks.html#misc">Miscellaneous</a>
 						</legend></p>
 
 						
@@ -316,7 +316,9 @@
 						
 					</fieldset>
 
+				<div class="filterDiv misc">
 					<fieldset id="misc">
+						
 						<legend style="font-weight: bold;">Misc</legend>
 						<p id="b_google" class="bookmark"><i class="fas fa-check fa-fw"></i><a target="_blank" href="https://news.google.com/topstories?hl=sv&gl=SE&ceid=SE:sv"> Google Nyheter</a>: My direct link to Swedish Google news</p>
                         <p class="bookmark"><i class="fas fa-check fa-fw"></i><a target="_blank" href="https://christitus.com/"> christitus.com</a>: Chris Titus home page. Good place with a lot of useful resources.</p>
@@ -342,6 +344,7 @@
 
 						<p class="endpara"><i class="tooltiponly"><a target="_self" class="removelinkstyle" href="./index_bookmarks.html#nav"><i class="fa-solid fa-arrow-up fa-bounce fa-xl" style="color: #787878;"></i></a><span class="tooltiptextonly">Go to the top of the page!</span></i></p>
 					</fieldset>
+				</div>
 			</td>
 		</tr>
 
@@ -394,6 +397,51 @@
 		</table>
 	</div>
 
+
+	<script>
+		filterSelection("all")
+		function filterSelection(c) {
+		  var x, i;
+		  x = document.getElementsByClassName("filterDiv");
+		  if (c == "all") c = "";
+		  for (i = 0; i < x.length; i++) {
+			w3RemoveClass(x[i], "show");
+			if (x[i].className.indexOf(c) > -1) w3AddClass(x[i], "show");
+		  }
+		}
+		
+		function w3AddClass(element, name) {
+		  var i, arr1, arr2;
+		  arr1 = element.className.split(" ");
+		  arr2 = name.split(" ");
+		  for (i = 0; i < arr2.length; i++) {
+			if (arr1.indexOf(arr2[i]) == -1) {element.className += " " + arr2[i];}
+		  }
+		}
+		
+		function w3RemoveClass(element, name) {
+		  var i, arr1, arr2;
+		  arr1 = element.className.split(" ");
+		  arr2 = name.split(" ");
+		  for (i = 0; i < arr2.length; i++) {
+			while (arr1.indexOf(arr2[i]) > -1) {
+			  arr1.splice(arr1.indexOf(arr2[i]), 1);     
+			}
+		  }
+		  element.className = arr1.join(" ");
+		}
+		
+		// Add active class to the current button (highlight it)
+		var btnContainer = document.getElementById("myBtnContainer");
+		var btns = btnContainer.getElementsByClassName("btn");
+		for (var i = 0; i < btns.length; i++) {
+		  btns[i].addEventListener("click", function(){
+			var current = document.getElementsByClassName("active");
+			current[0].className = current[0].className.replace(" active", "");
+			this.className += " active";
+		  });
+		}
+		</script>
 </body>
 
 </html>
