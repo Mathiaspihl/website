@@ -22,6 +22,11 @@ USEFUL LINKS:
   display: none;
 }
 
+.show {
+  display: block;
+}
+
+
 fieldset {
     display: block;
     border: 1px black solid;
