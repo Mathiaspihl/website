@@ -11,28 +11,6 @@ USEFUL LINKS:
 @import url(https://use.fontawesome.com/releases/v6.5.2/css/all.css);
 @import url(https://www.nerdfonts.com/assets/css/webfont.css);
 
-.filterDiv {
-  /*float: left;
-  width: 200px;
-  background-color: #2196F3;
-  color: #ffffff;
-  line-height: 50px;
-  text-align: center;
-  margin: 2px;*/
-  display: none;
-}
-
-.show {
-  display: block;
-}
-
-.container {
-  margin-top: 20px;
-  overflow: hidden;
-  white-space: nowrap;
-}
-
-
 fieldset {
     display: block;
     border: 1px black solid;
