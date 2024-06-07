@@ -26,6 +26,12 @@ USEFUL LINKS:
   display: block;
 }
 
+.container {
+  margin-top: 20px;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
 
 fieldset {
     display: block;
