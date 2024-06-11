@@ -380,7 +380,7 @@ a {
 
   /* Position the tooltip */
   position:absolute;
-  z-index: 9999;
+  z-index: 9999999;
 }
 
 .tooltipimg:hover .tooltiptextimg {
