@@ -11,4 +11,4 @@ Disallow: /test-text.txt
 Disallow: /googlee8060bc5ba6cf15b.html
 
 
-Sitemap: https://www.mathiaspihl.com/sitemap.xml
+Sitemap: https://archive.mathiaspihl.com/sitemap.xml
